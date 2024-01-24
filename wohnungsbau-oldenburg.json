@@ -137,12 +137,12 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Open Sans",
+      "value": "Montserrat",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
     "body-font": {
-      "value": "Inter",
+      "value": "Poppins",
       "type": "fontFamilies"
     },
     "thin": {
@@ -198,7 +198,7 @@
       "type": "letterSpacing"
     },
     "none": {
-      "value": "none",
+      "value": "As typed",
       "type": "textCase"
     },
     "uppercase": {
@@ -218,7 +218,8 @@
         "fontFamily": "{heading-font}",
         "fontWeight": "{medium}",
         "fontSize": "{h1}",
-        "letterSpacing": "{narrow}"
+        "letterSpacing": "{narrow}",
+        "textCase": "{none}"
       },
       "type": "typography",
       "description": "Heading 1, main title"
@@ -229,7 +230,7 @@
         "fontWeight": "{medium}",
         "fontSize": "{h2}",
         "letterSpacing": "{narrow}",
-        "textCase": "{uppercase}"
+        "textCase": "{none}"
       },
       "type": "typography"
     },
@@ -324,7 +325,7 @@
     "button-text-1": {
       "value": {
         "fontFamily": "{body-font}",
-        "fontWeight": "{bold}",
+        "fontWeight": "{medium}",
         "fontSize": "{body}",
         "letterSpacing": "{spacious}",
         "textCase": "As typed"
