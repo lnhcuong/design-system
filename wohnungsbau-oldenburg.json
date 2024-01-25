@@ -216,7 +216,7 @@
     "header-1": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{medium}",
+        "fontWeight": "{semi-bold}",
         "fontSize": "{h1}",
         "letterSpacing": "{narrow}",
         "textCase": "{none}"
@@ -292,14 +292,14 @@
     },
     "strong": {
       "value": {
-        "fontWeight": "{bold}"
+        "fontWeight": "{semi-bold}"
       },
       "type": "typography"
     },
     "small-body": {
       "value": {
         "fontFamily": "{body-font}",
-        "fontWeight": "{medium}",
+        "fontWeight": "{regular}",
         "fontSize": "{small}"
       },
       "type": "typography"
@@ -315,7 +315,7 @@
     "pre-title": {
       "value": {
         "fontFamily": "{body-font}",
-        "fontWeight": "{extra-bold}",
+        "fontWeight": "{bold}",
         "fontSize": "{extra-small}",
         "letterSpacing": "{spacious}",
         "textCase": "{uppercase}"
