@@ -20,12 +20,12 @@
       "value": "10%",
       "type": "opacity"
     },
-    "12%": {
-      "value": "12%",
-      "type": "opacity"
-    },
     "15%": {
       "value": "15%",
+      "type": "opacity"
+    },
+    "12%": {
+      "value": "12%",
       "type": "opacity"
     },
     "20%": {
@@ -315,7 +315,7 @@
     "pre-title": {
       "value": {
         "fontFamily": "{body-font}",
-        "fontWeight": "{bold}",
+        "fontWeight": "{semi-bold}",
         "fontSize": "{extra-small}",
         "letterSpacing": "{spacious}",
         "textCase": "{uppercase}"
@@ -551,12 +551,12 @@
         "value": "{color-palette.cloud}",
         "type": "color"
       },
-      "light-background": {
-        "value": "{color-palette.cloud}",
-        "type": "color"
-      },
       "subtle-background": {
         "value": "{color-palette.dorian}",
+        "type": "color"
+      },
+      "light-background": {
+        "value": "{color-palette.cloud}",
         "type": "color"
       },
       "background": {
