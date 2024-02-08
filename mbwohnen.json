@@ -445,6 +445,10 @@
         "value": "{semantics.neutral-emphasis}",
         "type": "color"
       },
+      "headings-on-color": {
+        "value": "{semantics.on-color}",
+        "type": "color"
+      },
       "body-text-color": {
         "value": "{semantics.neutral}",
         "type": "color"
