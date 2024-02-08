@@ -467,7 +467,7 @@
           "type": "color"
         },
         "secondary-onclick": {
-          "value": "{semantics.accent.accent-light-deemphasis}",
+          "value": "{semantics.accent.accent-extra-emphasis}",
           "type": "color"
         },
         "primary-default": {
@@ -479,7 +479,7 @@
           "type": "color"
         },
         "primary-onclick": {
-          "value": "{semantics.brand.brand-light-deemphasis}",
+          "value": "{semantics.brand.brand-extra-emphasis}",
           "type": "color"
         }
       }
@@ -759,7 +759,7 @@
           "type": "color"
         },
         "hover-background": {
-          "value": "{semantics.accent.accent-light-deemphasis}",
+          "value": "{semantics.accent.accent-emphasis}",
           "type": "color"
         },
         "on-hover": {
@@ -809,7 +809,7 @@
           "type": "color"
         },
         "invert-on-hover": {
-          "value": "{semantics.accent.accent-extra-emphasis}",
+          "value": "{semantics.accent.accent-emphasis}",
           "type": "color"
         },
         "invert-onclick-background": {
