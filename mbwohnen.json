@@ -354,7 +354,7 @@
         "fontFamily": "{heading-font}",
         "fontWeight": "{semi-bold}",
         "fontSize": "{body}",
-        "textDecoration": "{underline}"
+        "textDecoration": "none"
       },
       "type": "typography"
     },
@@ -387,55 +387,55 @@
         "value": "#fff",
         "type": "color"
       },
-      "crimson": {
-        "crimson-100": {
-          "value": "#fff4f4",
+      "ocean-blue": {
+        "ocean-blue-100": {
+          "value": "#e5eaff",
           "type": "color"
         },
-        "crimson-200": {
-          "value": "#E69E9E",
+        "ocean-blue-200": {
+          "value": "#819aff",
           "type": "color"
         },
-        "crimson-300": {
-          "value": "#D96E6E",
+        "ocean-blue-300": {
+          "value": "#355eff",
           "type": "color"
         },
-        "crimson-400": {
-          "value": "#CD3D3D",
+        "ocean-blue-400": {
+          "value": "#0336FF",
           "type": "color"
         },
-        "crimson-500": {
-          "value": "#A33232",
+        "ocean-blue-500": {
+          "value": "#022bcc",
           "type": "color"
         },
-        "crimson-600": {
-          "value": "#7f2020",
+        "ocean-blue-600": {
+          "value": "#011b7f",
           "type": "color"
         }
       },
-      "moss": {
-        "moss-100": {
-          "value": "#ececec",
+      "neon-pink": {
+        "neon-pink-100": {
+          "value": "#ffe5ef",
           "type": "color"
         },
-        "moss-200": {
-          "value": "#878885",
+        "neon-pink-200": {
+          "value": "#ff80b2",
           "type": "color"
         },
-        "moss-300": {
-          "value": "#222518",
+        "neon-pink-300": {
+          "value": "#ff3484",
           "type": "color"
         },
-        "moss-400": {
-          "value": "#0F110C",
+        "neon-pink-400": {
+          "value": "#ff0266",
           "type": "color"
         },
-        "moss-500": {
-          "value": "#0B0C08",
+        "neon-pink-500": {
+          "value": "#cc0151",
           "type": "color"
         },
-        "moss-600": {
-          "value": "#000",
+        "neon-pink-600": {
+          "value": "#660028",
           "type": "color"
         }
       }
@@ -487,45 +487,45 @@
     "semantics": {
       "brand": {
         "brand-deemphasis": {
-          "value": "{color-palette.crimson.crimson-100}",
+          "value": "{color-palette.ocean-blue.ocean-blue-100}",
           "type": "color"
         },
         "brand-light-deemphasis": {
-          "value": "{color-palette.crimson.crimson-200}",
+          "value": "{color-palette.ocean-blue.ocean-blue-200}",
           "type": "color"
         },
         "brand-default": {
-          "value": "{color-palette.crimson.crimson-400}",
+          "value": "{color-palette.ocean-blue.ocean-blue-400}",
           "type": "color"
         },
         "brand-emphasis": {
-          "value": "{color-palette.crimson.crimson-500}",
+          "value": "{color-palette.ocean-blue.ocean-blue-500}",
           "type": "color"
         },
         "brand-extra-emphasis": {
-          "value": "{color-palette.crimson.crimson-600}",
+          "value": "{color-palette.ocean-blue.ocean-blue-600}",
           "type": "color"
         }
       },
       "accent": {
         "accent-deemphasis": {
-          "value": "{color-palette.moss.moss-100}",
+          "value": "{color-palette.neon-pink.neon-pink-100}",
           "type": "color"
         },
         "accent-light-deemphasis": {
-          "value": "{color-palette.moss.moss-300}",
+          "value": "{color-palette.neon-pink.neon-pink-300}",
           "type": "color"
         },
         "accent-default": {
-          "value": "{color-palette.moss.moss-400}",
+          "value": "{color-palette.neon-pink.neon-pink-400}",
           "type": "color"
         },
         "accent-emphasis": {
-          "value": "{color-palette.moss.moss-500}",
+          "value": "{color-palette.neon-pink.neon-pink-500}",
           "type": "color"
         },
         "accent-extra-emphasis": {
-          "value": "{color-palette.moss.moss-600}",
+          "value": "{color-palette.neon-pink.neon-pink-600}",
           "type": "color"
         }
       },
