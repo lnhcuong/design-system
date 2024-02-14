@@ -137,12 +137,12 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Quicksand",
+      "value": "Montserrat Alternates",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
     "body-font": {
-      "value": "Taviraj",
+      "value": "Quicksand",
       "type": "fontFamilies"
     },
     "thin": {
@@ -284,7 +284,7 @@
     "main-body": {
       "value": {
         "fontFamily": "{body-font}",
-        "fontWeight": "{regular}",
+        "fontWeight": "{medium}",
         "fontSize": "{body}",
         "lineHeight": "140%"
       },
