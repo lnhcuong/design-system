@@ -343,7 +343,7 @@
     },
     "navigation-link": {
       "value": {
-        "fontFamily": "{body-font}",
+        "fontFamily": "{heading-font}",
         "fontWeight": "{medium}",
         "fontSize": "{small}",
         "letterSpacing": "2%"
