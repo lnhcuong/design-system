@@ -216,7 +216,7 @@
     "header-1": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{bold}",
+        "fontWeight": "{semi-bold}",
         "fontSize": "{h1}",
         "letterSpacing": "{narrow}",
         "textCase": "{none}"
@@ -227,7 +227,7 @@
     "header-2": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{bold}",
+        "fontWeight": "{semi-bold}",
         "fontSize": "{h2}",
         "letterSpacing": "{narrow}",
         "textCase": "{none}"
@@ -255,7 +255,7 @@
     "header-5": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{bold}",
+        "fontWeight": "{medium}",
         "fontSize": "{h5}"
       },
       "type": "typography"
@@ -267,7 +267,7 @@
     "header-6": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{bold}",
+        "fontWeight": "{semi-bold}",
         "fontSize": "{h6}",
         "letterSpacing": "{narrow}"
       },
