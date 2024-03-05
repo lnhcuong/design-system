@@ -137,12 +137,12 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Montserrat",
+      "value": "Exo 2",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
     "body-font": {
-      "value": "Poppins",
+      "value": "Exo",
       "type": "fontFamilies"
     },
     "thin": {
