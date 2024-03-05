@@ -367,8 +367,8 @@
         "value": "#476CC2",
         "type": "color"
       },
-      "slate": {
-        "value": "#4A4A68",
+      "bright-grey": {
+        "value": "#535455",
         "type": "color"
       },
       "light-slate": {
@@ -387,55 +387,55 @@
         "value": "#fff",
         "type": "color"
       },
-      "ocean-blue": {
-        "ocean-blue-100": {
-          "value": "#e5eaff",
+      "pacific-blue": {
+        "pacific-blue-100": {
+          "value": "#E3F6FF",
           "type": "color"
         },
-        "ocean-blue-200": {
-          "value": "#819aff",
+        "pacific-blue-200": {
+          "value": "#90DCFF",
           "type": "color"
         },
-        "ocean-blue-300": {
-          "value": "#355eff",
+        "pacific-blue-300": {
+          "value": "#3CC1FF",
           "type": "color"
         },
-        "ocean-blue-400": {
-          "value": "#0336FF",
+        "pacific-blue-400": {
+          "value": "#008CCD",
           "type": "color"
         },
-        "ocean-blue-500": {
-          "value": "#022bcc",
+        "pacific-blue-500": {
+          "value": "#004C6F",
           "type": "color"
         },
-        "ocean-blue-600": {
-          "value": "#011b7f",
+        "pacific-blue-600": {
+          "value": "#00334A",
           "type": "color"
         }
       },
-      "neon-pink": {
-        "neon-pink-100": {
-          "value": "#ffe5ef",
+      "carribean-green": {
+        "carribean-green-100": {
+          "value": "#E3FFFA",
           "type": "color"
         },
-        "neon-pink-200": {
-          "value": "#ff80b2",
+        "carribean-green-200": {
+          "value": "#90FFEB",
           "type": "color"
         },
-        "neon-pink-300": {
-          "value": "#ff3484",
+        "carribean-green-300": {
+          "value": "#05FFD1",
           "type": "color"
         },
-        "neon-pink-400": {
-          "value": "#ff0266",
+        "carribean-green-400": {
+          "value": "#00CDA8",
           "type": "color"
         },
-        "neon-pink-500": {
-          "value": "#cc0151",
+        "carribean-green-500": {
+          "value": "#009479",
           "type": "color"
         },
-        "neon-pink-600": {
-          "value": "#660028",
+        "carribean-green-600": {
+          "value": "#004A3D",
           "type": "color"
         }
       }
@@ -491,45 +491,45 @@
     "semantics": {
       "brand": {
         "brand-deemphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-100}",
+          "value": "{color-palette.pacific-blue.pacific-blue-100}",
           "type": "color"
         },
         "brand-light-deemphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-200}",
+          "value": "{color-palette.pacific-blue.pacific-blue-200}",
           "type": "color"
         },
         "brand-default": {
-          "value": "{color-palette.ocean-blue.ocean-blue-400}",
+          "value": "{color-palette.pacific-blue.pacific-blue-400}",
           "type": "color"
         },
         "brand-emphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-500}",
+          "value": "{color-palette.pacific-blue.pacific-blue-500}",
           "type": "color"
         },
         "brand-extra-emphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-600}",
+          "value": "{color-palette.pacific-blue.pacific-blue-600}",
           "type": "color"
         }
       },
       "accent": {
         "accent-deemphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-100}",
+          "value": "{color-palette.carribean-green.carribean-green-100}",
           "type": "color"
         },
         "accent-light-deemphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-300}",
+          "value": "{color-palette.carribean-green.carribean-green-300}",
           "type": "color"
         },
         "accent-default": {
-          "value": "{color-palette.neon-pink.neon-pink-400}",
+          "value": "{color-palette.carribean-green.carribean-green-400}",
           "type": "color"
         },
         "accent-emphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-500}",
+          "value": "{color-palette.carribean-green.carribean-green-500}",
           "type": "color"
         },
         "accent-extra-emphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-600}",
+          "value": "{color-palette.carribean-green.carribean-green-600}",
           "type": "color"
         }
       },
@@ -544,7 +544,7 @@
         "type": "color"
       },
       "neutral": {
-        "value": "{color-palette.slate}",
+        "value": "{color-palette.bright-grey}",
         "type": "color"
       },
       "neutral-emphasis": {
