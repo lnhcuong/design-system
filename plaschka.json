@@ -137,12 +137,12 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Montserrat",
+      "value": "Barlow",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
     "body-font": {
-      "value": "Poppins",
+      "value": "Montserrat",
       "type": "fontFamilies"
     },
     "thin": {
@@ -387,55 +387,55 @@
         "value": "#fff",
         "type": "color"
       },
-      "ocean-blue": {
-        "ocean-blue-100": {
-          "value": "#e5eaff",
+      "midnight-blue": {
+        "midnight-blue-100": {
+          "value": "#E0ECF8",
           "type": "color"
         },
-        "ocean-blue-200": {
-          "value": "#819aff",
+        "mightnight-blue-200": {
+          "value": "#458FD5",
           "type": "color"
         },
-        "ocean-blue-300": {
-          "value": "#355eff",
+        "midnight-blue-300": {
+          "value": "#1F5689",
           "type": "color"
         },
-        "ocean-blue-400": {
-          "value": "#0336FF",
+        "mightnight-blue-400": {
+          "value": "#11304C",
           "type": "color"
         },
-        "ocean-blue-500": {
-          "value": "#022bcc",
+        "midnight-blue-500": {
+          "value": "#0E263D",
           "type": "color"
         },
-        "ocean-blue-600": {
-          "value": "#011b7f",
+        "midnight-blue-600": {
+          "value": "#0B1E30",
           "type": "color"
         }
       },
-      "neon-pink": {
-        "neon-pink-100": {
-          "value": "#ffe5ef",
+      "cyprus": {
+        "cyprus-100": {
+          "value": "#DFF7F2",
           "type": "color"
         },
-        "neon-pink-200": {
-          "value": "#ff80b2",
+        "cyprus-200": {
+          "value": "#3ED0AE",
           "type": "color"
         },
-        "neon-pink-300": {
-          "value": "#ff3484",
+        "cyrpus-300": {
+          "value": "#1D7A64",
           "type": "color"
         },
-        "neon-pink-400": {
-          "value": "#ff0266",
+        "cyprus-400": {
+          "value": "#0E3A30",
           "type": "color"
         },
-        "neon-pink-500": {
-          "value": "#cc0151",
+        "cyprus-500": {
+          "value": "#0B2F27",
           "type": "color"
         },
-        "neon-pink-600": {
-          "value": "#660028",
+        "cyprus-600": {
+          "value": "#081F1A",
           "type": "color"
         }
       }
@@ -491,45 +491,45 @@
     "semantics": {
       "brand": {
         "brand-deemphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-100}",
+          "value": "{color-palette.midnight-blue.midnight-blue-100}",
           "type": "color"
         },
         "brand-light-deemphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-200}",
+          "value": "{color-palette.midnight-blue.mightnight-blue-200}",
           "type": "color"
         },
         "brand-default": {
-          "value": "{color-palette.ocean-blue.ocean-blue-400}",
+          "value": "{color-palette.midnight-blue.mightnight-blue-400}",
           "type": "color"
         },
         "brand-emphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-500}",
+          "value": "{color-palette.midnight-blue.midnight-blue-500}",
           "type": "color"
         },
         "brand-extra-emphasis": {
-          "value": "{color-palette.ocean-blue.ocean-blue-600}",
+          "value": "{color-palette.midnight-blue.midnight-blue-600}",
           "type": "color"
         }
       },
       "accent": {
         "accent-deemphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-100}",
+          "value": "{color-palette.cyprus.cyprus-100}",
           "type": "color"
         },
         "accent-light-deemphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-300}",
+          "value": "{color-palette.cyprus.cyrpus-300}",
           "type": "color"
         },
         "accent-default": {
-          "value": "{color-palette.neon-pink.neon-pink-400}",
+          "value": "{color-palette.cyprus.cyprus-400}",
           "type": "color"
         },
         "accent-emphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-500}",
+          "value": "{color-palette.cyprus.cyprus-500}",
           "type": "color"
         },
         "accent-extra-emphasis": {
-          "value": "{color-palette.neon-pink.neon-pink-600}",
+          "value": "{color-palette.cyprus.cyprus-600}",
           "type": "color"
         }
       },
