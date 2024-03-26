@@ -137,7 +137,7 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Montserrat Alternates",
+      "value": "Addington CF",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
@@ -216,7 +216,6 @@
     "header-1": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{semi-bold}",
         "fontSize": "{h1}",
         "letterSpacing": "{narrow}",
         "textCase": "{none}"
@@ -227,7 +226,6 @@
     "header-2": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{semi-bold}",
         "fontSize": "{h2}",
         "letterSpacing": "{narrow}",
         "textCase": "{none}"
@@ -237,7 +235,6 @@
     "header-3": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{bold}",
         "fontSize": "{h3}",
         "letterSpacing": "{narrow}"
       },
@@ -246,7 +243,6 @@
     "header-4": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{bold}",
         "fontSize": "{h4}",
         "letterSpacing": "{narrow}"
       },
@@ -255,7 +251,6 @@
     "header-5": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{medium}",
         "fontSize": "{h5}"
       },
       "type": "typography"
@@ -267,7 +262,6 @@
     "header-6": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{semi-bold}",
         "fontSize": "{h6}",
         "letterSpacing": "{narrow}"
       },
@@ -325,7 +319,6 @@
     "button-text-1": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{medium}",
         "fontSize": "{body}",
         "letterSpacing": "{spacious}",
         "textCase": "As typed"
@@ -344,7 +337,6 @@
     "navigation-link": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{medium}",
         "fontSize": "{small}",
         "letterSpacing": "2%"
       },
@@ -353,7 +345,6 @@
     "link-text": {
       "value": {
         "fontFamily": "{heading-font}",
-        "fontWeight": "{medium}",
         "fontSize": "{body}",
         "textDecoration": "none"
       },
