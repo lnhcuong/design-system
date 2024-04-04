@@ -137,7 +137,7 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Addington CF",
+      "value": "Cormorant",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
