@@ -160,12 +160,12 @@
       "type": "fontSizes"
     },
     "heading-font": {
-      "value": "Montserrat",
+      "value": "Syne",
       "type": "fontFamilies",
       "description": "Change this to customise heading font"
     },
     "body-font": {
-      "value": "Poppins",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "thin": {
@@ -363,14 +363,18 @@
         }
       },
       "links": {
-        "top-nav": {
-          "value": {
-            "fontFamily": "{heading-font}",
-            "fontWeight": "{semi-bold}",
-            "fontSize": "{body}",
-            "textDecoration": "none"
-          },
-          "type": "typography"
+        "navigational": {
+          "top": {
+            "regular": {
+              "value": {
+                "fontFamily": "{heading-font}",
+                "fontWeight": "{semi-bold}",
+                "fontSize": "{body}",
+                "textDecoration": "none"
+              },
+              "type": "typography"
+            }
+          }
         }
       }
     },
@@ -877,6 +881,58 @@
   },
   "master/primitives/colors": {
     "color": {
+      "ocean blue": {
+        "50": {
+          "value": "#ebf3fe",
+          "type": "color",
+          "description": "global color ocean blue of weight 50"
+        },
+        "100": {
+          "value": "#c2d8fc",
+          "type": "color",
+          "description": "global color ocean blue of weight 100"
+        },
+        "200": {
+          "value": "#a5c6fb",
+          "type": "color",
+          "description": "global color ocean blue of weight 200"
+        },
+        "300": {
+          "value": "#7cabf9",
+          "type": "color",
+          "description": "global color ocean blue of weight 300"
+        },
+        "400": {
+          "value": "#629bf8",
+          "type": "color",
+          "description": "global color ocean blue of weight 400"
+        },
+        "500": {
+          "value": "#3b82f6",
+          "type": "color",
+          "description": "global color ocean blue of weight 500"
+        },
+        "600": {
+          "value": "#3676e0",
+          "type": "color",
+          "description": "global color ocean blue of weight 600"
+        },
+        "700": {
+          "value": "#2a5caf",
+          "type": "color",
+          "description": "global color ocean blue of weight 700"
+        },
+        "800": {
+          "value": "#204887",
+          "type": "color",
+          "description": "global color ocean blue of weight 800"
+        },
+        "900": {
+          "value": "#193767",
+          "type": "color",
+          "description": "global color ocean blue of weight 900"
+        }
+      },
       "mint": {
         "50": {
           "value": "#F6FEFB",
@@ -1035,52 +1091,52 @@
       },
       "red": {
         "50": {
-          "value": "#FFFBFB",
+          "value": "#fce9e8",
           "type": "color",
           "description": "global color red of weight 50"
         },
         "100": {
-          "value": "#FFE9E5",
+          "value": "#f6bcb8",
           "type": "color",
           "description": "global color red of weight 100"
         },
         "200": {
-          "value": "#FFC7BF",
+          "value": "#f29c96",
           "type": "color",
           "description": "global color red of weight 200"
         },
         "300": {
-          "value": "#FCA69C",
+          "value": "#ec6e66",
           "type": "color",
           "description": "global color red of weight 300"
         },
         "400": {
-          "value": "#F37A73",
+          "value": "#e85248",
           "type": "color",
           "description": "global color red of weight 400"
         },
         "500": {
-          "value": "#BA5A56",
+          "value": "#e2271a",
           "type": "color",
           "description": "global color red of weight 500"
         },
         "600": {
-          "value": "#934846",
+          "value": "#ce2318",
           "type": "color",
           "description": "global color red of weight 600"
         },
         "700": {
-          "value": "#743A3A",
+          "value": "#a01c12",
           "type": "color",
           "description": "global color red of weight 700"
         },
         "800": {
-          "value": "#572D2D",
+          "value": "#7c150e",
           "type": "color",
           "description": "global color red of weight 800"
         },
         "900": {
-          "value": "#3B2020",
+          "value": "#5f100b",
           "type": "color",
           "description": "global color red of weight 900"
         }
@@ -1137,7 +1193,7 @@
           "description": "global color green of weight 900"
         }
       },
-      "neutral": {
+      "grayscale": {
         "50": {
           "value": "#FCFCFC",
           "type": "color",
@@ -1271,7 +1327,7 @@
   "master/primitives/typography": {
     "fontFamilies": {
       "heading": {
-        "value": "Inter",
+        "value": "Syne",
         "type": "fontFamilies",
         "description": "Font family for display fonts"
       },
@@ -1441,6 +1497,14 @@
         "value": "none",
         "type": "textCase",
         "description": "default text case of none"
+      },
+      "uppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      },
+      "capitalize": {
+        "value": "capitalize",
+        "type": "textCase"
       }
     },
     "textDecoration": {
@@ -1453,6 +1517,272 @@
         "value": "underline",
         "type": "textDecoration",
         "description": "Text decoration for displaying textlinks"
+      },
+      "strikethrough": {
+        "value": "line-through",
+        "type": "textDecoration"
+      }
+    }
+  },
+  "master/primitives/color-roles": {
+    "brand": {
+      "50": {
+        "value": "{color.ocean blue.50}",
+        "type": "color",
+        "description": "lightest shade of brand color"
+      },
+      "100": {
+        "value": "{color.ocean blue.100}",
+        "type": "color",
+        "description": "lighter shade of brand color"
+      },
+      "200": {
+        "value": "{color.ocean blue.200}",
+        "type": "color",
+        "description": "light shade of brand color"
+      },
+      "300": {
+        "value": "{color.ocean blue.300}",
+        "type": "color",
+        "description": "standard shade of brand color"
+      },
+      "400": {
+        "value": "{color.ocean blue.400}",
+        "type": "color",
+        "description": "more emphasis standard shade of brand color"
+      },
+      "500": {
+        "value": "{color.ocean blue.500}",
+        "type": "color",
+        "description": "even more emphasis standard shade of brand color"
+      },
+      "600": {
+        "value": "{color.ocean blue.600}",
+        "type": "color",
+        "description": "dark shade of brand color"
+      },
+      "700": {
+        "value": "{color.ocean blue.700}",
+        "type": "color",
+        "description": "darker shade of brand color"
+      },
+      "800": {
+        "value": "{color.ocean blue.800}",
+        "type": "color",
+        "description": "even darker shade of brand color"
+      },
+      "900": {
+        "value": "{color.ocean blue.900}",
+        "type": "color",
+        "description": "darkest shade of brand color"
+      }
+    },
+    "accent": {
+      "50": {
+        "value": "{color.red.50}",
+        "type": "color",
+        "description": "lightest shade of secondary color"
+      },
+      "100": {
+        "value": "{color.red.100}",
+        "type": "color",
+        "description": "lighter shade of secondary color"
+      },
+      "200": {
+        "value": "{color.red.200}",
+        "type": "color",
+        "description": "light shade of secondary color"
+      },
+      "300": {
+        "value": "{color.red.300}",
+        "type": "color",
+        "description": "standard shade of secondary color"
+      },
+      "400": {
+        "value": "{color.red.400}",
+        "type": "color",
+        "description": "more emphasis standard shade of secondary color"
+      },
+      "500": {
+        "value": "{color.red.500}",
+        "type": "color",
+        "description": "even more emphasis standard shade of secondary color"
+      },
+      "600": {
+        "value": "{color.red.600}",
+        "type": "color",
+        "description": "dark shade of secondary color"
+      },
+      "700": {
+        "value": "{color.red.700}",
+        "type": "color",
+        "description": "darker shade of secondary color"
+      },
+      "800": {
+        "value": "{color.red.800}",
+        "type": "color",
+        "description": "even darker shade of secondary color"
+      },
+      "900": {
+        "value": "{color.red.900}",
+        "type": "color",
+        "description": "darkest shade of secondary color"
+      }
+    },
+    "positive": {
+      "50": {
+        "value": "{color.green.50}",
+        "type": "color",
+        "description": "lightest shade of sucess color"
+      },
+      "100": {
+        "value": "{color.green.100}",
+        "type": "color",
+        "description": "lighter shade of sucess color"
+      },
+      "200": {
+        "value": "{color.green.200}",
+        "type": "color",
+        "description": "light shade of sucess color"
+      },
+      "300": {
+        "value": "{color.green.300}",
+        "type": "color",
+        "description": "standard shade of sucess color"
+      },
+      "400": {
+        "value": "{color.green.400}",
+        "type": "color",
+        "description": "more emphasis standard shade of sucess color"
+      },
+      "500": {
+        "value": "{color.green.500}",
+        "type": "color",
+        "description": "even more emphasis standard shade of sucess color"
+      },
+      "600": {
+        "value": "{color.green.600}",
+        "type": "color",
+        "description": "dark shade of sucess color"
+      },
+      "700": {
+        "value": "{color.green.700}",
+        "type": "color",
+        "description": "darker shade of sucess color"
+      },
+      "800": {
+        "value": "{color.green.800}",
+        "type": "color",
+        "description": "even darker shade of sucess color"
+      },
+      "900": {
+        "value": "{color.green.900}",
+        "type": "color",
+        "description": "darkest shade of sucess color"
+      }
+    },
+    "warning": {
+      "50": {
+        "value": "{color.gold.50}",
+        "type": "color",
+        "description": "lightest shade of warning color"
+      },
+      "100": {
+        "value": "{color.gold.100}",
+        "type": "color",
+        "description": "lighter shade of warning color"
+      },
+      "200": {
+        "value": "{color.gold.200}",
+        "type": "color",
+        "description": "light shade of warning color"
+      },
+      "300": {
+        "value": "{color.gold.300}",
+        "type": "color",
+        "description": "standard shade of warning color"
+      },
+      "400": {
+        "value": "{color.gold.400}",
+        "type": "color",
+        "description": "more emphasis standard shade of warning color"
+      },
+      "500": {
+        "value": "{color.gold.500}",
+        "type": "color",
+        "description": "even more emphasis standard shade of warning color"
+      },
+      "600": {
+        "value": "{color.gold.600}",
+        "type": "color",
+        "description": "dark shade of warning color"
+      },
+      "700": {
+        "value": "{color.gold.700}",
+        "type": "color",
+        "description": "darker shade of warning color"
+      },
+      "800": {
+        "value": "{color.gold.800}",
+        "type": "color",
+        "description": "even darker shade of warning color"
+      },
+      "900": {
+        "value": "{color.gold.900}",
+        "type": "color",
+        "description": "darkest shade of warning color"
+      }
+    },
+    "neutral": {
+      "50": {
+        "value": "{color.grayscale.50}",
+        "type": "color",
+        "description": "lightest shade of default color with no specific role"
+      },
+      "100": {
+        "value": "{color.grayscale.100}",
+        "type": "color",
+        "description": "lighter shade of default color with no specific role"
+      },
+      "200": {
+        "value": "{color.grayscale.200}",
+        "type": "color",
+        "description": "light shade of default color with no specific role"
+      },
+      "300": {
+        "value": "{color.grayscale.300}",
+        "type": "color",
+        "description": "standard shade of default color with no specific role"
+      },
+      "400": {
+        "value": "{color.grayscale.400}",
+        "type": "color",
+        "description": "more emphasis standard shade of default color with no specific role"
+      },
+      "500": {
+        "value": "{color.grayscale.500}",
+        "type": "color",
+        "description": "even more emphasis standard shade of default color with no specific role"
+      },
+      "600": {
+        "value": "{color.grayscale.600}",
+        "type": "color",
+        "description": "dark shade of default color with no specific role"
+      },
+      "700": {
+        "value": "{color.grayscale.700}",
+        "type": "color",
+        "description": "darker shade of default color with no specific role"
+      },
+      "800": {
+        "value": "{color.grayscale.800}",
+        "type": "color",
+        "description": "even darker shade of default color with no specific role"
+      },
+      "900": {
+        "value": "{color.grayscale.900}",
+        "type": "color",
+        "description": "darkest shade of default color with no specific role"
       }
     }
   },
@@ -1467,7 +1797,7 @@
           "textCase": "{textCase.none}"
         },
         "type": "typography",
-        "description": "Heading 1, main title"
+        "description": "Heading 1, main title, display font for highest possible emphasis"
       },
       "h2": {
         "value": {
@@ -1477,7 +1807,8 @@
           "letterSpacing": "{letterSpacing.xs}",
           "textCase": "{textCase.none}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "Heading 2, display font for high emphasis headlines"
       },
       "h3": {
         "value": {
@@ -1486,7 +1817,8 @@
           "fontSize": "{fontSize.ml}",
           "letterSpacing": "{letterSpacing.xs}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "heading 3"
       },
       "h4": {
         "value": {
@@ -1495,7 +1827,8 @@
           "fontSize": "{fontSize.md}",
           "letterSpacing": "{letterSpacing.xs}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "heading 4"
       },
       "h5": {
         "value": {
@@ -1503,7 +1836,8 @@
           "fontWeight": "{fontWeight.bold}",
           "fontSize": "{fontSize.sm}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "heading 5"
       },
       "h6": {
         "value": {
@@ -1512,11 +1846,12 @@
           "fontSize": "{fontSize.xs}",
           "letterSpacing": "{letterSpacing.xs}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "heading 6"
       }
     },
     "underline": {
-      "value": "underline",
+      "value": "{textDecoration.underline}",
       "type": "textDecoration"
     },
     "functional": {
@@ -1528,7 +1863,18 @@
             "fontSize": "{fontSize.xs}",
             "letterSpacing": "{letterSpacing.md}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "regular style for subtitles, multiple-line subtitles"
+        },
+        "short": {
+          "value": {
+            "fontFamily": "{fontFamilies.body}",
+            "fontWeight": "{fontWeight.bold}",
+            "fontSize": "{fontSize.sm}",
+            "letterSpacing": "{letterSpacing.md}"
+          },
+          "type": "typography",
+          "description": "single-line subtitles"
         }
       },
       "pre-title": {
@@ -1540,7 +1886,8 @@
             "letterSpacing": "{letterSpacing.md}",
             "textCase": "{textCase.none}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "texts preceding the title"
         }
       },
       "buttons": {
@@ -1552,7 +1899,8 @@
             "letterSpacing": "{letterSpacing.md}",
             "textCase": "{textCase.none}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "default style for button texts"
         },
         "alternate": {
           "value": {
@@ -1562,31 +1910,110 @@
             "letterSpacing": "{letterSpacing.md}",
             "textCase": "{textCase.none}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "alternate style for button texts"
         }
       },
-      "link": {
+      "links": {
         "regular": {
+          "value": {
+            "fontFamily": "{fontFamilies.body}",
+            "fontWeight": "{fontWeight.bold}",
+            "fontSize": "{fontSize.xs}",
+            "textDecoration": "{textDecoration.none}"
+          },
+          "type": "typography",
+          "description": "default for hyperlinks"
+        },
+        "hover": {
           "value": {
             "fontFamily": "{fontFamilies.body}",
             "fontWeight": "{fontWeight.bold}",
             "fontSize": "{fontSize.xs}",
             "textDecoration": "{textDecoration.underline}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "hover for hyperlinks"
+        },
+        "navigational": {
+          "top": {
+            "regular": {
+              "value": {
+                "fontFamily": "{fontFamilies.heading}",
+                "fontWeight": "{fontWeight.default}",
+                "fontSize": "{fontSize.sm}",
+                "textDecoration": "{textDecoration.none}",
+                "lineHeight": "{lineHeight.sm}",
+                "letterSpacing": "{letterSpacing.md}",
+                "textCase": "{textCase.capitalize}"
+              },
+              "type": "typography",
+              "description": "default for navigational text in top header"
+            },
+            "highlighted": {
+              "value": {
+                "fontFamily": "{fontFamilies.heading}",
+                "fontWeight": "{fontWeight.bold}",
+                "fontSize": "{fontSize.sm}",
+                "textDecoration": "{textDecoration.none}",
+                "lineHeight": "{lineHeight.sm}",
+                "letterSpacing": "{letterSpacing.md}",
+                "textCase": "{textCase.capitalize}"
+              },
+              "type": "typography",
+              "description": "selected or hovered for navigational text in top header"
+            }
+          },
+          "bottom": {
+            "regular": {
+              "value": {
+                "fontFamily": "{fontFamilies.heading}",
+                "fontWeight": "{fontWeight.default}",
+                "fontSize": "{fontSize.xxs}",
+                "textDecoration": "{textDecoration.none}",
+                "lineHeight": "{lineHeight.sm}",
+                "letterSpacing": "{letterSpacing.md}"
+              },
+              "type": "typography",
+              "description": "default for navigational text in bottom footer"
+            },
+            "highlighted": {
+              "value": {
+                "fontFamily": "{fontFamilies.heading}",
+                "fontWeight": "{fontWeight.bold}",
+                "fontSize": "{fontSize.xxs}",
+                "textDecoration": "{textDecoration.none}",
+                "lineHeight": "{lineHeight.sm}",
+                "letterSpacing": "{letterSpacing.md}"
+              },
+              "type": "typography",
+              "description": "selected or hovered for navigational text in bottom footer"
+            }
+          }
         }
       },
-      "links": {
-        "top-nav": {
+      "label": {
+        "short": {
           "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeight.bold}",
-            "fontSize": "{fontSize.sm}",
-            "textDecoration": "{textDecoration.none}",
+            "fontFamily": "{fontFamilies.body}",
+            "fontWeight": "{fontWeight.semiBold}",
+            "fontSize": "{fontSize.xs}",
+            "lineHeight": "{lineHeight.xs}",
+            "letterSpacing": "{letterSpacing.md}"
+          },
+          "type": "typography",
+          "description": "labels that are single lined"
+        },
+        "long": {
+          "value": {
+            "fontFamily": "{fontFamilies.body}",
+            "fontWeight": "{fontWeight.semiBold}",
+            "fontSize": "{fontSize.xs}",
             "lineHeight": "{lineHeight.sm}",
             "letterSpacing": "{letterSpacing.md}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "labels that are going over multiple lines"
         }
       }
     },
@@ -1596,36 +2023,356 @@
           "fontFamily": "{fontFamilies.body}",
           "fontWeight": "{fontWeight.default}",
           "fontSize": "{fontSize.xs}",
-          "lineHeight": "{lineHeight.xxs}"
+          "lineHeight": "{lineHeight.sm}",
+          "letterSpacing": "{letterSpacing.xs}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "default for paragraphs that are going over multiple lines"
       },
       "strong": {
         "value": {
-          "fontWeight": "{fontWeight.bold}",
           "fontFamily": "{fontFamilies.body}",
-          "fontSize": "{fontSize.xs}"
+          "fontWeight": "{fontWeight.bold}",
+          "fontSize": "{fontSize.xs}",
+          "lineHeight": "{lineHeight.sm}",
+          "letterSpacing": "{letterSpacing.xs}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "emphasis for part of a body paragraph or single line paragraph texts"
       },
       "small": {
         "value": {
           "fontFamily": "{fontFamilies.body}",
           "fontWeight": "{fontWeight.default}",
-          "fontSize": "{fontSize.xxs}"
+          "fontSize": "{fontSize.xxs}",
+          "lineHeight": "{lineHeight.xxs}",
+          "letterSpacing": "{letterSpacing.sm}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "small paragraph texts"
       },
       "extra-small": {
         "value": {
           "fontFamily": "{fontFamilies.body}",
           "fontWeight": "{fontWeight.default}",
-          "fontSize": "{fontSize.xxxs}"
+          "fontSize": "{fontSize.xxxs}",
+          "lineHeight": "{lineHeight.xxxs}",
+          "letterSpacing": "{letterSpacing.sm}"
         },
-        "type": "typography"
+        "type": "typography",
+        "description": "extra-small texts, e.g. for info that is optional to read"
+      }
+    },
+    "strikethrough": {
+      "value": "{textDecoration.strikethrough}",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "{textDecoration.none}",
+      "type": "textDecoration"
+    }
+  },
+  "master/alias/colors-light": {
+    "functional": {
+      "interaction": {
+        "interaction": {
+          "value": "{brand.400}",
+          "type": "color",
+          "description": "color for elements that indicates interactions"
+        },
+        "onInteraction": {
+          "value": "{brand.50}",
+          "type": "color",
+          "description": "color for elements that are placed on interactive primary color"
+        },
+        "interactionContainer": {
+          "value": "{brand.100}",
+          "type": "color",
+          "description": "background color for containers intended for interactions"
+        },
+        "onInteractionContainer": {
+          "value": "{brand.900}",
+          "type": "color",
+          "description": "color for elements that are placed on top of the primary container"
+        }
+      },
+      "information": {
+        "information": {
+          "value": "{accent.400}",
+          "type": "color",
+          "description": "color for elements that indicates information"
+        },
+        "onInformation": {
+          "value": "{accent.50}",
+          "type": "color",
+          "description": "color for elements that are placed on informative color"
+        },
+        "informationContainer": {
+          "value": "{accent.100}",
+          "type": "color",
+          "description": "background color for containers intended for informations"
+        },
+        "onInformativeContainer": {
+          "value": "{accent.900}",
+          "type": "color",
+          "description": "color for elements that are placed on top of the primary container"
+        }
+      },
+      "attention": {
+        "attention": {
+          "value": "{warning.400}",
+          "type": "color",
+          "description": "color for elements that indicates warnings/alert"
+        },
+        "onAttention": {
+          "value": "{warning.50}",
+          "type": "color",
+          "description": "color for elements that are placed on top of items that require attention"
+        },
+        "attentionContainer": {
+          "value": "{warning.100}",
+          "type": "color",
+          "description": "background color for containers intended for raising attention"
+        },
+        "onAttentionContainer": {
+          "value": "{warning.900}",
+          "type": "color",
+          "description": "color for elements that are placed on top of the attention container"
+        }
+      },
+      "success": {
+        "success": {
+          "value": "{positive.400}",
+          "type": "color",
+          "description": "color for elements that indicates success"
+        },
+        "onSuccess": {
+          "value": "{positive.50}",
+          "type": "color",
+          "description": "color for elements that are placed on top of items that indicate success"
+        },
+        "successContainer": {
+          "value": "{positive.100}",
+          "type": "color",
+          "description": "background color for containers indication success"
+        },
+        "onSuccessContainer": {
+          "value": "{positive.900}",
+          "type": "color",
+          "description": "color for elements that are placed on top of the success container"
+        }
+      }
+    },
+    "default": {
+      "background": {
+        "default": {
+          "value": "{neutral.50}",
+          "type": "color",
+          "description": "standard background color for sections or elements with no level of elevation"
+        },
+        "elevation01": {
+          "value": "{neutral.100}",
+          "type": "color",
+          "description": "background color for sections or elements with +1 level of elevation"
+        },
+        "elevation02": {
+          "value": "{neutral.200}",
+          "type": "color",
+          "description": "background color for sections or elements with +2 level of elevation"
+        },
+        "elevation03": {
+          "value": "{neutral.300}",
+          "type": "color",
+          "description": "background color for sections or elements with +3 level of elevation"
+        },
+        "inverted": {
+          "value": "{neutral.900}",
+          "type": "color",
+          "description": "inverted background color for sections or elements with no level of elevation"
+        },
+        "invertedElevation01": {
+          "value": "{neutral.800}",
+          "type": "color",
+          "description": "inverted background color for sections or elements with +1 level of elevation"
+        },
+        "invertedElevation02": {
+          "value": "{neutral.700}",
+          "type": "color",
+          "description": "inverted background color for sections or elements with +2 level of elevation"
+        },
+        "invertedElevation03": {
+          "value": "{neutral.700}",
+          "type": "color",
+          "description": "inverted background color for sections or elements with +3 level of elevation"
+        }
+      },
+      "text": {
+        "neutralEmphasis": {
+          "value": "{neutral.900}",
+          "type": "color",
+          "description": "high emphasis with neutral color for text elements"
+        },
+        "brandEmphasis": {
+          "value": "{brand.500}",
+          "type": "color",
+          "description": "high emphasis with brand color for text elements"
+        },
+        "default": {
+          "value": "{neutral.700}",
+          "type": "color",
+          "description": "default text color"
+        },
+        "subtle": {
+          "value": "{neutral.500}",
+          "type": "color",
+          "description": "color for subtle texts"
+        },
+        "inverted": {
+          "value": "{neutral.100}",
+          "type": "color",
+          "description": "inverted text color for darker backgrounds"
+        }
       }
     }
   },
+  "master/alias/borders": {
+    "xs": {
+      "value": "{2}",
+      "type": "borderRadius",
+      "description": "smaller border radius"
+    },
+    "s": {
+      "value": "{3}",
+      "type": "borderRadius",
+      "description": "small border radius"
+    },
+    "m": {
+      "value": "{5}",
+      "type": "borderRadius",
+      "description": "medium border radius"
+    },
+    "l": {
+      "value": "{8}",
+      "type": "borderRadius",
+      "description": "large border radius"
+    },
+    "xl": {
+      "value": "{11}",
+      "type": "borderRadius",
+      "description": "larger border radius"
+    },
+    "xxl": {
+      "value": "{15}",
+      "type": "borderRadius",
+      "description": "even larger border radius"
+    },
+    "extra-thin": {
+      "value": "0.75",
+      "type": "borderWidth",
+      "description": "very thin border"
+    },
+    "thin": {
+      "value": "1",
+      "type": "borderWidth",
+      "description": "thin border"
+    },
+    "regular": {
+      "value": "{1}",
+      "type": "borderWidth",
+      "description": "regular border"
+    },
+    "bold": {
+      "value": "{2}",
+      "type": "borderWidth",
+      "description": "bold border"
+    },
+    "neutral": {
+      "subtle": {
+        "value": "{neutral.200}",
+        "type": "color",
+        "description": "subtle neutral border color"
+      },
+      "medium": {
+        "value": "{neutral.400}",
+        "type": "color",
+        "description": "medium neutral border color"
+      },
+      "heavy": {
+        "value": "{neutral.800}",
+        "type": "color",
+        "description": "heavy neutral border color"
+      }
+    },
+    "interaction": {
+      "subtle": {
+        "value": "{brand.100}",
+        "type": "color",
+        "description": "subtle interaction border color"
+      },
+      "medium": {
+        "value": "{brand.200}",
+        "type": "color",
+        "description": "medium interaction border color"
+      },
+      "heavy": {
+        "value": "{brand.500}",
+        "type": "color",
+        "description": "heavy interaction border color"
+      }
+    },
+    "information": {
+      "subtle": {
+        "value": "{accent.100}",
+        "type": "color",
+        "description": "subtle information border color"
+      },
+      "medium": {
+        "value": "{accent.200}",
+        "type": "color",
+        "description": "medium information border color"
+      },
+      "heavy": {
+        "value": "{accent.500}",
+        "type": "color",
+        "description": "heavy information border color"
+      }
+    },
+    "attention": {
+      "subtle": {
+        "value": "{warning.100}",
+        "type": "color",
+        "description": "subtle attention border color"
+      },
+      "medium": {
+        "value": "{warning.200}",
+        "type": "color",
+        "description": "medium attention border color"
+      },
+      "heavy": {
+        "value": "{warning.500}",
+        "type": "color",
+        "description": "heavy attention border color"
+      }
+    },
+    "success": {
+      "subtle": {
+        "value": "{positive.100}",
+        "type": "color",
+        "description": "subtle success border color"
+      },
+      "medium": {
+        "value": "{positive.200}",
+        "type": "color",
+        "description": "medium success border color"
+      },
+      "heavy": {
+        "value": "{positive.500}",
+        "type": "color",
+        "description": "heavy success border color"
+      }
+    }
+  },
+  "master/elements/buttons": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -1633,7 +2380,11 @@
       "master/primitives/colors",
       "master/primitives/dimensions",
       "master/primitives/typography",
-      "master/alias/fonts"
+      "master/primitives/color-roles",
+      "master/alias/fonts",
+      "master/alias/colors-light",
+      "master/alias/borders",
+      "master/elements/buttons"
     ]
   }
 }
