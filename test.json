@@ -1,6 +1,6 @@
 {
-  "primitives/colors": {
-    "primitives": {
+  "global/colors": {
+    "global": {
       "colors": {
         "ocean blue": {
           "50": {
@@ -369,8 +369,8 @@
       }
     }
   },
-  "primitives/dimensions": {
-    "primitives": {
+  "global/dimensions": {
+    "global": {
       "dimensions": {
         "1": {
           "value": "2px",
@@ -460,8 +460,8 @@
       }
     }
   },
-  "primitives/typography": {
-    "primitives": {
+  "global/typography": {
+    "global": {
       "typography": {
         "fontFamilies": {
           "heading": {
@@ -684,260 +684,260 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{primitives.colors.ocean blue.50}",
+            "value": "{global.colors.ocean blue.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{primitives.colors.ocean blue.100}",
+            "value": "{global.colors.ocean blue.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{primitives.colors.ocean blue.200}",
+            "value": "{global.colors.ocean blue.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{primitives.colors.ocean blue.300}",
+            "value": "{global.colors.ocean blue.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{primitives.colors.ocean blue.400}",
+            "value": "{global.colors.ocean blue.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{primitives.colors.ocean blue.500}",
+            "value": "{global.colors.ocean blue.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{primitives.colors.ocean blue.600}",
+            "value": "{global.colors.ocean blue.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{primitives.colors.ocean blue.700}",
+            "value": "{global.colors.ocean blue.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{primitives.colors.ocean blue.800}",
+            "value": "{global.colors.ocean blue.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{primitives.colors.ocean blue.900}",
+            "value": "{global.colors.ocean blue.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
         },
         "accent": {
           "50": {
-            "value": "{primitives.colors.red.50}",
+            "value": "{global.colors.red.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{primitives.colors.red.100}",
+            "value": "{global.colors.red.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{primitives.colors.red.200}",
+            "value": "{global.colors.red.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{primitives.colors.red.300}",
+            "value": "{global.colors.red.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{primitives.colors.red.400}",
+            "value": "{global.colors.red.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{primitives.colors.red.500}",
+            "value": "{global.colors.red.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{primitives.colors.red.600}",
+            "value": "{global.colors.red.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{primitives.colors.red.700}",
+            "value": "{global.colors.red.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{primitives.colors.red.800}",
+            "value": "{global.colors.red.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{primitives.colors.red.900}",
+            "value": "{global.colors.red.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
         },
         "positive": {
           "50": {
-            "value": "{primitives.colors.green.50}",
+            "value": "{global.colors.green.50}",
             "type": "color",
             "description": "lightest shade of sucess color"
           },
           "100": {
-            "value": "{primitives.colors.green.100}",
+            "value": "{global.colors.green.100}",
             "type": "color",
             "description": "lighter shade of sucess color"
           },
           "200": {
-            "value": "{primitives.colors.green.200}",
+            "value": "{global.colors.green.200}",
             "type": "color",
             "description": "light shade of sucess color"
           },
           "300": {
-            "value": "{primitives.colors.green.300}",
+            "value": "{global.colors.green.300}",
             "type": "color",
             "description": "standard shade of sucess color"
           },
           "400": {
-            "value": "{primitives.colors.green.400}",
+            "value": "{global.colors.green.400}",
             "type": "color",
             "description": "more emphasis standard shade of sucess color"
           },
           "500": {
-            "value": "{primitives.colors.green.500}",
+            "value": "{global.colors.green.500}",
             "type": "color",
             "description": "even more emphasis standard shade of sucess color"
           },
           "600": {
-            "value": "{primitives.colors.green.600}",
+            "value": "{global.colors.green.600}",
             "type": "color",
             "description": "dark shade of sucess color"
           },
           "700": {
-            "value": "{primitives.colors.green.700}",
+            "value": "{global.colors.green.700}",
             "type": "color",
             "description": "darker shade of sucess color"
           },
           "800": {
-            "value": "{primitives.colors.green.800}",
+            "value": "{global.colors.green.800}",
             "type": "color",
             "description": "even darker shade of sucess color"
           },
           "900": {
-            "value": "{primitives.colors.green.900}",
+            "value": "{global.colors.green.900}",
             "type": "color",
             "description": "darkest shade of sucess color"
           }
         },
         "warning": {
           "50": {
-            "value": "{primitives.colors.gold.50}",
+            "value": "{global.colors.gold.50}",
             "type": "color",
             "description": "lightest shade of warning color"
           },
           "100": {
-            "value": "{primitives.colors.gold.100}",
+            "value": "{global.colors.gold.100}",
             "type": "color",
             "description": "lighter shade of warning color"
           },
           "200": {
-            "value": "{primitives.colors.gold.200}",
+            "value": "{global.colors.gold.200}",
             "type": "color",
             "description": "light shade of warning color"
           },
           "300": {
-            "value": "{primitives.colors.gold.300}",
+            "value": "{global.colors.gold.300}",
             "type": "color",
             "description": "standard shade of warning color"
           },
           "400": {
-            "value": "{primitives.colors.gold.400}",
+            "value": "{global.colors.gold.400}",
             "type": "color",
             "description": "more emphasis standard shade of warning color"
           },
           "500": {
-            "value": "{primitives.colors.gold.500}",
+            "value": "{global.colors.gold.500}",
             "type": "color",
             "description": "even more emphasis standard shade of warning color"
           },
           "600": {
-            "value": "{primitives.colors.gold.600}",
+            "value": "{global.colors.gold.600}",
             "type": "color",
             "description": "dark shade of warning color"
           },
           "700": {
-            "value": "{primitives.colors.gold.700}",
+            "value": "{global.colors.gold.700}",
             "type": "color",
             "description": "darker shade of warning color"
           },
           "800": {
-            "value": "{primitives.colors.gold.800}",
+            "value": "{global.colors.gold.800}",
             "type": "color",
             "description": "even darker shade of warning color"
           },
           "900": {
-            "value": "{primitives.colors.gold.900}",
+            "value": "{global.colors.gold.900}",
             "type": "color",
             "description": "darkest shade of warning color"
           }
         },
         "neutral": {
           "50": {
-            "value": "{primitives.colors.grayscale.50}",
+            "value": "{global.colors.grayscale.50}",
             "type": "color",
             "description": "lightest shade of default color with no specific role"
           },
           "100": {
-            "value": "{primitives.colors.grayscale.100}",
+            "value": "{global.colors.grayscale.100}",
             "type": "color",
             "description": "lighter shade of default color with no specific role"
           },
           "200": {
-            "value": "{primitives.colors.grayscale.200}",
+            "value": "{global.colors.grayscale.200}",
             "type": "color",
             "description": "light shade of default color with no specific role"
           },
           "300": {
-            "value": "{primitives.colors.grayscale.300}",
+            "value": "{global.colors.grayscale.300}",
             "type": "color",
             "description": "standard shade of default color with no specific role"
           },
           "400": {
-            "value": "{primitives.colors.grayscale.400}",
+            "value": "{global.colors.grayscale.400}",
             "type": "color",
             "description": "more emphasis standard shade of default color with no specific role"
           },
           "500": {
-            "value": "{primitives.colors.grayscale.500}",
+            "value": "{global.colors.grayscale.500}",
             "type": "color",
             "description": "even more emphasis standard shade of default color with no specific role"
           },
           "600": {
-            "value": "{primitives.colors.grayscale.600}",
+            "value": "{global.colors.grayscale.600}",
             "type": "color",
             "description": "dark shade of default color with no specific role"
           },
           "700": {
-            "value": "{primitives.colors.grayscale.700}",
+            "value": "{global.colors.grayscale.700}",
             "type": "color",
             "description": "darker shade of default color with no specific role"
           },
           "800": {
-            "value": "{primitives.colors.grayscale.800}",
+            "value": "{global.colors.grayscale.800}",
             "type": "color",
             "description": "even darker shade of default color with no specific role"
           },
           "900": {
-            "value": "{primitives.colors.grayscale.900}",
+            "value": "{global.colors.grayscale.900}",
             "type": "color",
             "description": "darkest shade of default color with no specific role"
           }
@@ -951,79 +951,79 @@
         "headings": {
           "h1": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.heading}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.xxl}",
-              "letterSpacing": "{primitives.typography.letterSpacing.sm}",
-              "textCase": "{primitives.typography.textCase.none}"
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xxl}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}",
+              "textCase": "{global.typography.textCase.none}"
             },
             "type": "typography",
             "description": "Heading 1, main title, display font for highest possible emphasis"
           },
           "h2": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.heading}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.xl}",
-              "letterSpacing": "{primitives.typography.letterSpacing.xs}",
-              "textCase": "{primitives.typography.textCase.none}"
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xl}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "textCase": "{global.typography.textCase.none}"
             },
             "type": "typography",
             "description": "Heading 2, display font for high emphasis headlines"
           },
           "h3": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.heading}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.ml}",
-              "letterSpacing": "{primitives.typography.letterSpacing.xs}"
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.ml}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "heading 3"
           },
           "h4": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.heading}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.md}",
-              "letterSpacing": "{primitives.typography.letterSpacing.xs}"
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.md}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "heading 4"
           },
           "h5": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.heading}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.sm}"
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.sm}"
             },
             "type": "typography",
             "description": "heading 5"
           },
           "h6": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.heading}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.xs}",
-              "letterSpacing": "{primitives.typography.letterSpacing.xs}"
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "heading 6"
           }
         },
         "underline": {
-          "value": "{primitives.typography.textDecoration.underline}",
+          "value": "{global.typography.textDecoration.underline}",
           "type": "textDecoration"
         },
         "functional": {
           "pre-title": {
             "regular": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.semiBold}",
-                "fontSize": "{primitives.typography.fontSize.xxs}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}",
-                "textCase": "{primitives.typography.textCase.none}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "textCase": "{global.typography.textCase.none}"
               },
               "type": "typography",
               "description": "texts preceding the title"
@@ -1032,20 +1032,20 @@
           "subtitle": {
             "regular": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.bold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
               "description": "regular style for subtitles, multiple-line subtitles"
             },
             "short": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.bold}",
-                "fontSize": "{primitives.typography.fontSize.sm}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontSize": "{global.typography.fontSize.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
               "description": "single-line subtitles"
@@ -1054,22 +1054,22 @@
           "buttons": {
             "main": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.bold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}",
-                "textCase": "{primitives.typography.textCase.none}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontSize": "{global.typography.fontSize.xs}",
+                "letterSpacing": "{global.typography.letterSpacing.lg}",
+                "textCase": "{global.typography.textCase.none}"
               },
               "type": "typography",
               "description": "default style for button texts"
             },
             "alternate": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.heading}",
-                "fontWeight": "{primitives.typography.fontWeight.bold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}",
-                "textCase": "{primitives.typography.textCase.none}"
+                "fontFamily": "{global.typography.fontFamilies.heading}",
+                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontSize": "{global.typography.fontSize.xs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "textCase": "{global.typography.textCase.none}"
               },
               "type": "typography",
               "description": "alternate style for button texts"
@@ -1078,20 +1078,20 @@
           "links": {
             "regular": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.bold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "textDecoration": "{primitives.typography.textDecoration.none}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontSize": "{global.typography.fontSize.xs}",
+                "textDecoration": "{global.typography.textDecoration.none}"
               },
               "type": "typography",
               "description": "default for hyperlinks"
             },
             "hover": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.bold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "textDecoration": "{primitives.typography.textDecoration.underline}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontSize": "{global.typography.fontSize.xs}",
+                "textDecoration": "{global.typography.textDecoration.underline}"
               },
               "type": "typography",
               "description": "hover for hyperlinks"
@@ -1100,26 +1100,26 @@
               "top": {
                 "regular": {
                   "value": {
-                    "fontFamily": "{primitives.typography.fontFamilies.heading}",
-                    "fontWeight": "{primitives.typography.fontWeight.default}",
-                    "fontSize": "{primitives.typography.fontSize.sm}",
-                    "textDecoration": "{primitives.typography.textDecoration.none}",
-                    "lineHeight": "{primitives.typography.lineHeight.sm}",
-                    "letterSpacing": "{primitives.typography.letterSpacing.md}",
-                    "textCase": "{primitives.typography.textCase.capitalize}"
+                    "fontFamily": "{global.typography.fontFamilies.heading}",
+                    "fontWeight": "{global.typography.fontWeight.default}",
+                    "fontSize": "{global.typography.fontSize.sm}",
+                    "textDecoration": "{global.typography.textDecoration.none}",
+                    "lineHeight": "{global.typography.lineHeight.sm}",
+                    "letterSpacing": "{global.typography.letterSpacing.md}",
+                    "textCase": "{global.typography.textCase.capitalize}"
                   },
                   "type": "typography",
                   "description": "default for navigational text in top header"
                 },
-                "highlighted": {
+                "focused": {
                   "value": {
-                    "fontFamily": "{primitives.typography.fontFamilies.heading}",
-                    "fontWeight": "{primitives.typography.fontWeight.bold}",
-                    "fontSize": "{primitives.typography.fontSize.sm}",
-                    "textDecoration": "{primitives.typography.textDecoration.none}",
-                    "lineHeight": "{primitives.typography.lineHeight.sm}",
-                    "letterSpacing": "{primitives.typography.letterSpacing.md}",
-                    "textCase": "{primitives.typography.textCase.capitalize}"
+                    "fontFamily": "{global.typography.fontFamilies.heading}",
+                    "fontWeight": "{global.typography.fontWeight.semiBold}",
+                    "fontSize": "{global.typography.fontSize.sm}",
+                    "textDecoration": "{global.typography.textDecoration.none}",
+                    "lineHeight": "{global.typography.lineHeight.sm}",
+                    "letterSpacing": "{global.typography.letterSpacing.xs}",
+                    "textCase": "{global.typography.textCase.capitalize}"
                   },
                   "type": "typography",
                   "description": "selected or hovered for navigational text in top header"
@@ -1128,24 +1128,24 @@
               "bottom": {
                 "regular": {
                   "value": {
-                    "fontFamily": "{primitives.typography.fontFamilies.heading}",
-                    "fontWeight": "{primitives.typography.fontWeight.default}",
-                    "fontSize": "{primitives.typography.fontSize.xxs}",
-                    "textDecoration": "{primitives.typography.textDecoration.none}",
-                    "lineHeight": "{primitives.typography.lineHeight.sm}",
-                    "letterSpacing": "{primitives.typography.letterSpacing.md}"
+                    "fontFamily": "{global.typography.fontFamilies.body}",
+                    "fontWeight": "{global.typography.fontWeight.default}",
+                    "fontSize": "{global.typography.fontSize.xxs}",
+                    "textDecoration": "{global.typography.textDecoration.none}",
+                    "lineHeight": "{global.typography.lineHeight.sm}",
+                    "letterSpacing": "{global.typography.letterSpacing.md}"
                   },
                   "type": "typography",
                   "description": "default for navigational text in bottom footer"
                 },
-                "highlighted": {
+                "focused": {
                   "value": {
-                    "fontFamily": "{primitives.typography.fontFamilies.heading}",
-                    "fontWeight": "{primitives.typography.fontWeight.bold}",
-                    "fontSize": "{primitives.typography.fontSize.xxs}",
-                    "textDecoration": "{primitives.typography.textDecoration.none}",
-                    "lineHeight": "{primitives.typography.lineHeight.sm}",
-                    "letterSpacing": "{primitives.typography.letterSpacing.md}"
+                    "fontFamily": "{global.typography.fontFamilies.body}",
+                    "fontWeight": "{global.typography.fontWeight.semiBold}",
+                    "fontSize": "{global.typography.fontSize.xxs}",
+                    "textDecoration": "{global.typography.textDecoration.none}",
+                    "lineHeight": "{global.typography.lineHeight.sm}",
+                    "letterSpacing": "{global.typography.letterSpacing.md}"
                   },
                   "type": "typography",
                   "description": "selected or hovered for navigational text in bottom footer"
@@ -1156,22 +1156,22 @@
           "label": {
             "short": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.semiBold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "lineHeight": "{primitives.typography.lineHeight.xs}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "lineHeight": "{global.typography.lineHeight.xxs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
               "description": "labels that are single lined"
             },
             "long": {
               "value": {
-                "fontFamily": "{primitives.typography.fontFamilies.body}",
-                "fontWeight": "{primitives.typography.fontWeight.semiBold}",
-                "fontSize": "{primitives.typography.fontSize.xs}",
-                "lineHeight": "{primitives.typography.lineHeight.sm}",
-                "letterSpacing": "{primitives.typography.letterSpacing.md}"
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "lineHeight": "{global.typography.lineHeight.xxxs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
               "description": "labels that are going over multiple lines"
@@ -1181,55 +1181,77 @@
         "body": {
           "regular": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.body}",
-              "fontWeight": "{primitives.typography.fontWeight.default}",
-              "fontSize": "{primitives.typography.fontSize.xs}",
-              "lineHeight": "{primitives.typography.lineHeight.sm}",
-              "letterSpacing": "{primitives.typography.letterSpacing.xs}"
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "lineHeight": "{global.typography.lineHeight.sm}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "default for paragraphs that are going over multiple lines"
           },
           "strong": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.body}",
-              "fontWeight": "{primitives.typography.fontWeight.bold}",
-              "fontSize": "{primitives.typography.fontSize.xs}",
-              "lineHeight": "{primitives.typography.lineHeight.sm}",
-              "letterSpacing": "{primitives.typography.letterSpacing.xs}"
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "lineHeight": "{global.typography.lineHeight.sm}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "emphasis for part of a body paragraph or single line paragraph texts"
           },
-          "small": {
+          "sm": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.body}",
-              "fontWeight": "{primitives.typography.fontWeight.default}",
-              "fontSize": "{primitives.typography.fontSize.xxs}",
-              "lineHeight": "{primitives.typography.lineHeight.xxs}",
-              "letterSpacing": "{primitives.typography.letterSpacing.sm}"
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
             "description": "small paragraph texts"
           },
-          "extra-small": {
+          "strongSm": {
             "value": {
-              "fontFamily": "{primitives.typography.fontFamilies.body}",
-              "fontWeight": "{primitives.typography.fontWeight.default}",
-              "fontSize": "{primitives.typography.fontSize.xxxs}",
-              "lineHeight": "{primitives.typography.lineHeight.xxxs}",
-              "letterSpacing": "{primitives.typography.letterSpacing.sm}"
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}"
+            },
+            "type": "typography",
+            "description": "emphasis for part of a small body paragraph or single line small paragraph texts"
+          },
+          "xs": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontSize": "{global.typography.fontSize.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
             "description": "extra-small texts, e.g. for info that is optional to read"
+          },
+          "strongXs": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}"
+            },
+            "type": "typography",
+            "description": "emphasis for part of an extra-small body paragraph or single line extra-small texts"
           }
         },
         "strikethrough": {
-          "value": "{primitives.typography.textDecoration.strikethrough}",
+          "value": "{global.typography.textDecoration.strikethrough}",
           "type": "textDecoration"
         },
         "none": {
-          "value": "{primitives.typography.textDecoration.none}",
+          "value": "{global.typography.textDecoration.none}",
           "type": "textDecoration"
         }
       }
@@ -1241,21 +1263,26 @@
         "functional": {
           "interaction": {
             "default": {
-              "value": "{alias.color-roles.brand.400}",
+              "value": "{alias.color-roles.brand.500}",
               "type": "color",
               "description": "color for elements that indicates interactions"
             },
-            "onInteraction": {
+            "onDefault": {
               "value": "{alias.color-roles.brand.50}",
               "type": "color",
               "description": "color for elements that are placed on interactive primary color"
             },
-            "interactionContainer": {
-              "value": "{alias.color-roles.brand.100}",
+            "hover": {
+              "value": "{alias.color-roles.brand.700}",
+              "type": "color",
+              "description": "hover color for elements that indicates interactions"
+            },
+            "container": {
+              "value": "{alias.color-roles.brand.50}",
               "type": "color",
               "description": "background color for containers intended for interactions"
             },
-            "onInteractionContainer": {
+            "onContainer": {
               "value": "{alias.color-roles.brand.900}",
               "type": "color",
               "description": "color for elements that are placed on top of the primary container"
@@ -1267,20 +1294,25 @@
               "type": "color",
               "description": "color for elements that indicates information"
             },
-            "onInformation": {
+            "onDefault": {
               "value": "{alias.color-roles.accent.50}",
               "type": "color",
-              "description": "color for elements that are placed on informative color"
+              "description": "color for elements that are placed on information elements"
             },
-            "informationContainer": {
-              "value": "{alias.color-roles.accent.100}",
+            "hover": {
+              "value": "{alias.color-roles.accent.600}",
               "type": "color",
-              "description": "background color for containers intended for informations"
+              "description": "hover color for elements that indicates information"
             },
-            "onInformativeContainer": {
+            "container": {
+              "value": "{alias.color-roles.accent.50}",
+              "type": "color",
+              "description": "background color for containers intended for information"
+            },
+            "onContainer": {
               "value": "{alias.color-roles.accent.900}",
               "type": "color",
-              "description": "color for elements that are placed on top of the primary container"
+              "description": "color for elements that are placed on top of the information container"
             }
           },
           "attention": {
@@ -1289,39 +1321,49 @@
               "type": "color",
               "description": "color for elements that indicates warnings/alert"
             },
-            "onAttention": {
+            "onDefault": {
               "value": "{alias.color-roles.warning.50}",
               "type": "color",
               "description": "color for elements that are placed on top of items that require attention"
             },
-            "attentionContainer": {
-              "value": "{alias.color-roles.warning.100}",
+            "hover": {
+              "value": "{alias.color-roles.warning.600}",
+              "type": "color",
+              "description": "hover color for elements that requires attention"
+            },
+            "container": {
+              "value": "{alias.color-roles.warning.50}",
               "type": "color",
               "description": "background color for containers intended for raising attention"
             },
-            "onAttentionContainer": {
+            "onContainer": {
               "value": "{alias.color-roles.warning.900}",
               "type": "color",
               "description": "color for elements that are placed on top of the attention container"
             }
           },
-          "successful": {
+          "success": {
             "default": {
               "value": "{alias.color-roles.positive.400}",
               "type": "color",
               "description": "color for elements that indicates success"
             },
-            "onSuccess": {
+            "onDefault": {
               "value": "{alias.color-roles.positive.50}",
               "type": "color",
               "description": "color for elements that are placed on top of items that indicate success"
             },
-            "successContainer": {
-              "value": "{alias.color-roles.positive.100}",
+            "hover": {
+              "value": "{alias.color-roles.positive.500}",
+              "type": "color",
+              "description": "hover color for elements that indicates success"
+            },
+            "container": {
+              "value": "{alias.color-roles.positive.50}",
               "type": "color",
               "description": "background color for containers indication success"
             },
-            "onSuccessContainer": {
+            "onContainer": {
               "value": "{alias.color-roles.positive.900}",
               "type": "color",
               "description": "color for elements that are placed on top of the success container"
@@ -1371,7 +1413,7 @@
               "description": "inverted background color for sections or elements with +3 level of elevation"
             }
           },
-          "text": {
+          "onBackground": {
             "neutralEmphasis": {
               "value": "{alias.color-roles.neutral.900}",
               "type": "color",
@@ -1382,6 +1424,11 @@
               "type": "color",
               "description": "high emphasis with brand color for text elements"
             },
+            "invertedEmphasis": {
+              "value": "{alias.color-roles.neutral.50}",
+              "type": "color",
+              "description": "inverted high emphasis with neutral color for text elements"
+            },
             "default": {
               "value": "{alias.color-roles.neutral.700}",
               "type": "color",
@@ -1391,6 +1438,11 @@
               "value": "{alias.color-roles.neutral.500}",
               "type": "color",
               "description": "color for subtle texts"
+            },
+            "faint": {
+              "value": "{alias.color-roles.neutral.300}",
+              "type": "color",
+              "description": "color for faint texts"
             },
             "inverted": {
               "value": "{alias.color-roles.neutral.100}",
@@ -1407,32 +1459,32 @@
       "borders": {
         "borderRadius": {
           "xs": {
-            "value": "{primitives.dimensions.2}",
+            "value": "{global.dimensions.2}",
             "type": "borderRadius",
             "description": "smaller border radius"
           },
           "sm": {
-            "value": "{primitives.dimensions.3}",
+            "value": "{global.dimensions.3}",
             "type": "borderRadius",
             "description": "small border radius"
           },
           "md": {
-            "value": "{primitives.dimensions.5}",
+            "value": "{global.dimensions.5}",
             "type": "borderRadius",
             "description": "medium border radius"
           },
           "lg": {
-            "value": "{primitives.dimensions.8}",
+            "value": "{global.dimensions.8}",
             "type": "borderRadius",
             "description": "large border radius"
           },
           "xl": {
-            "value": "{primitives.dimensions.11}",
+            "value": "{global.dimensions.11}",
             "type": "borderRadius",
             "description": "larger border radius"
           },
           "xxl": {
-            "value": "{primitives.dimensions.15}",
+            "value": "{global.dimensions.15}",
             "type": "borderRadius",
             "description": "even larger border radius"
           }
@@ -1449,12 +1501,12 @@
             "description": "thin border"
           },
           "regular": {
-            "value": "{primitives.dimensions.1}",
+            "value": "{global.dimensions.1}",
             "type": "borderWidth",
             "description": "regular border"
           },
           "bold": {
-            "value": "{primitives.dimensions.2}",
+            "value": "{global.dimensions.2}",
             "type": "borderWidth",
             "description": "bold border"
           }
@@ -1553,232 +1605,469 @@
     "alias": {
       "spacings": {
         "xxxs": {
-          "value": "{primitives.dimensions.2}",
+          "value": "{global.dimensions.2}",
           "type": "spacing",
           "description": "extra extra extra small spacing"
         },
         "xxs": {
-          "value": "{primitives.dimensions.3}",
+          "value": "{global.dimensions.3}",
           "type": "spacing",
           "description": "extra extra small spacing"
         },
         "xs": {
-          "value": "{primitives.dimensions.5}",
+          "value": "{global.dimensions.5}",
           "type": "spacing",
           "description": "extra small spacing"
         },
         "sm": {
-          "value": "{primitives.dimensions.6}",
+          "value": "{global.dimensions.6}",
           "type": "spacing",
           "description": "small spacing"
         },
         "md": {
-          "value": "{primitives.dimensions.7}",
+          "value": "{global.dimensions.7}",
           "type": "spacing",
           "description": "medium spacing"
         },
         "ml": {
-          "value": "{primitives.dimensions.8}",
+          "value": "{global.dimensions.8}",
           "type": "spacing",
           "description": "medium large spacing"
         },
         "lg": {
-          "value": "{primitives.dimensions.10}",
+          "value": "{global.dimensions.10}",
           "type": "spacing",
           "description": "large spacing"
         },
         "xl": {
-          "value": "{primitives.dimensions.12}",
+          "value": "{global.dimensions.12}",
           "type": "spacing",
           "description": "extra large spacing"
         },
         "xxl": {
-          "value": "{primitives.dimensions.15}",
+          "value": "{global.dimensions.15}",
           "type": "spacing",
           "description": "extra extra large spacing"
         },
         "xxxl": {
-          "value": "{primitives.dimensions.17}",
+          "value": "{global.dimensions.17}",
           "type": "spacing",
           "description": "extra extra extra large spacing"
         }
       }
     }
   },
-  "master/elements/buttons": {},
+  "elements/buttons/btnColors/primary": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "primary": {
+            "default": {
+              "value": "{alias.colors-light.functional.interaction.default}",
+              "type": "color",
+              "description": "default color for primary buttons"
+            },
+            "onDefault": {
+              "value": "{alias.colors-light.functional.interaction.onDefault}",
+              "type": "color",
+              "description": "default color for elements on primary buttons"
+            },
+            "hover": {
+              "value": "{alias.colors-light.functional.interaction.hover}",
+              "type": "color",
+              "description": "hover color for primary buttons"
+            },
+            "onHover": {
+              "value": "{alias.colors-light.functional.interaction.onDefault}",
+              "type": "color",
+              "description": "default color for elements on hovered primary buttons"
+            },
+            "onClick": {
+              "value": "{alias.colors-light.functional.interaction.container}",
+              "type": "color",
+              "description": "on click color for primary buttons"
+            },
+            "onOnClick": {
+              "value": "{alias.colors-light.functional.interaction.onContainer}",
+              "type": "color",
+              "description": "color for elements on top of on click primary buttons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/invertPrimary": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "invertPrimary": {
+            "default": {
+              "value": "{alias.colors-light.functional.interaction.container}",
+              "type": "color",
+              "description": "invert color for primary buttons"
+            },
+            "onDefault": {
+              "value": "{alias.colors-light.functional.interaction.default}",
+              "type": "color",
+              "description": "invert color for elements on inverted primary buttons"
+            },
+            "hover": {
+              "value": "{alias.colors-light.functional.interaction.default}",
+              "type": "color",
+              "description": "invert hover color for primary buttons"
+            },
+            "onHover": {
+              "value": "{alias.colors-light.functional.interaction.onDefault}",
+              "type": "color",
+              "description": "invert color for elements on hovered primary buttons"
+            },
+            "onClick": {
+              "value": "{alias.colors-light.functional.interaction.hover}",
+              "type": "color",
+              "description": "invert on click color for primary buttons"
+            },
+            "onOnClick": {
+              "value": "{alias.colors-light.functional.interaction.onDefault}",
+              "type": "color",
+              "description": "invert color for elements on top of inverted on click primary buttons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/secondary": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "secondary": {
+            "default": {
+              "value": "{alias.colors-light.functional.information.default}",
+              "type": "color",
+              "description": "default color for secondary buttons"
+            },
+            "onDefault": {
+              "value": "{alias.colors-light.functional.information.onDefault}",
+              "type": "color",
+              "description": "default color for elements on secondary buttons"
+            },
+            "hover": {
+              "value": "{alias.colors-light.functional.information.hover}",
+              "type": "color",
+              "description": "hover color for secondary buttons"
+            },
+            "onHover": {
+              "value": "{alias.colors-light.functional.information.onDefault}",
+              "type": "color",
+              "description": "default color for elements on hovered secondary buttons"
+            },
+            "onClick": {
+              "value": "{alias.colors-light.functional.information.container}",
+              "type": "color",
+              "description": "on click color for secondary buttons"
+            },
+            "onOnClick": {
+              "value": "{alias.colors-light.functional.information.onContainer}",
+              "type": "color",
+              "description": "color for elements on top of on click secondary buttons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/invertSecondary": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "invertSecondary": {
+            "default": {
+              "value": "{alias.colors-light.functional.information.container}",
+              "type": "color",
+              "description": "invert color for inverted secondary buttons"
+            },
+            "onDefault": {
+              "value": "{alias.colors-light.functional.information.default}",
+              "type": "color",
+              "description": "invert color for elements on inverted secondary buttons"
+            },
+            "hover": {
+              "value": "{alias.colors-light.functional.information.default}",
+              "type": "color",
+              "description": "invert hover color for inverted secondary buttons"
+            },
+            "onHover": {
+              "value": "{alias.colors-light.functional.information.onDefault}",
+              "type": "color",
+              "description": "invert color for elements on hovered inverted secondary buttons"
+            },
+            "onClick": {
+              "value": "{alias.colors-light.functional.information.hover}",
+              "type": "color",
+              "description": "invert on click color for inverted secondary buttons"
+            },
+            "onOnClick": {
+              "value": "{alias.colors-light.functional.information.onDefault}",
+              "type": "color",
+              "description": "invert color for elements on top of on click inverted secondary buttons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/disabled": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "disabled": {
+            "default": {
+              "value": "{alias.colors-light.neutral.background.elevation01}",
+              "type": "color",
+              "description": "background color for disabled buttons"
+            },
+            "onDisabled": {
+              "value": "{alias.colors-light.neutral.onBackground.faint}",
+              "type": "color",
+              "description": "color for elements on disabled buttons"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnSizes": {
+    "elements": {
+      "buttons": {
+        "btnSizes": {
+          "iconOnly": {
+            "largeSize": {
+              "value": "{global.dimensions.13}",
+              "type": "sizing",
+              "description": "large size for buttons with only icons"
+            }
+          }
+        },
+        "btnTypes": {
+          "default": {
+            "largeSize": {
+              "value": "{alias.spacings.sm} {alias.spacings.lg}",
+              "type": "spacing",
+              "description": "paddings for buttons with only icon"
+            }
+          },
+          "iconLeft": {
+            "largeSize": {
+              "value": "{alias.spacings.sm} {alias.spacings.lg} {alias.spacings.sm} {alias.spacings.ml}",
+              "type": "spacing",
+              "description": "paddings for buttons with left icon"
+            }
+          },
+          "iconRight": {
+            "largeSize": {
+              "value": "{alias.spacings.sm} {alias.spacings.ml} {alias.spacings.sm} {alias.spacings.lg}",
+              "type": "spacing",
+              "description": "paddings for buttons with right icon"
+            }
+          }
+        },
+        "bttnBorders": {
+          "largeSize": {
+            "value": "{alias.borders.borderRadius.lg}",
+            "type": "borderRadius",
+            "description": "radius for large buttons"
+          }
+        },
+        "btnGaps": {
+          "defaultGap": {
+            "value": "{alias.spacings.xxs}",
+            "type": "spacing",
+            "description": "default gap for elements on buttons"
+          },
+          "hoverGap": {
+            "value": "{alias.spacings.md}",
+            "type": "spacing",
+            "description": "hover gap for elements on buttons"
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "b2f728f2c1584ea9fb10b2060b16a307bddb5f33",
       "name": "Light",
       "$figmaStyleReferences": {
-        "primitives.colors.ocean blue.50": "S:a7052790c8858bf9cf88d3dd881c6cdedc17bab0,",
-        "primitives.colors.ocean blue.100": "S:adc43aa9a370dbe8afdba123e7f87a5459a7962a,",
-        "primitives.colors.ocean blue.200": "S:83aa94224da5a603384cf7c32787164a61e432bf,",
-        "primitives.colors.ocean blue.300": "S:070aab53031e403ba5c15a56a79b3fcc43d15275,",
-        "primitives.colors.ocean blue.400": "S:cdcb649fcdf0f6fca2ae3b12d6a0b052698823c2,",
-        "primitives.colors.ocean blue.500": "S:170bb58afe4ebf7b7c616b7c05148bcacc1d1c70,",
-        "primitives.colors.ocean blue.600": "S:ee714946155941ec4bae4a4e69041c933de177f8,",
-        "primitives.colors.ocean blue.700": "S:ae6778a3c1b11edc58d37cbcd4a75dece3abda47,",
-        "primitives.colors.ocean blue.800": "S:b3d2a9b7f0ec3bf964a5989c8340c4a7f38f3b1f,",
-        "primitives.colors.ocean blue.900": "S:301b8386b64e06bd859f131510b1abdec57f57de,",
-        "primitives.colors.mint.50": "S:a640ac054993f2611ae48ab51e506e56724d7cd3,",
-        "primitives.colors.mint.100": "S:04257505b37b1b5b79e30b12c31ad4040b2f2278,",
-        "primitives.colors.mint.200": "S:32cf1a40e30ef84781b1099118f7587d97c9727f,",
-        "primitives.colors.mint.300": "S:e62c155c4c36f575421f3c5d6cffecab6f7a53d4,",
-        "primitives.colors.mint.400": "S:50dd6a4ad31a6bbf73d257a0210ae5d12b736c54,",
-        "primitives.colors.mint.500": "S:1d334b8b203a4eedd012b2486f4e8c57ea4d954f,",
-        "primitives.colors.mint.600": "S:f425b32d076e624ee7e7c544bbd735bccf4427eb,",
-        "primitives.colors.mint.700": "S:32b9c011273ded910d0b22d03ad3de93b5bdcb47,",
-        "primitives.colors.mint.800": "S:361d5603e77dce013e1716702cb568222810fd3b,",
-        "primitives.colors.mint.900": "S:d44a8964771c80bc9a18e3817a5eb5391059ef93,",
-        "primitives.colors.violet.50": "S:195aad3959e22151021350f516c8d9e3e2285eb4,",
-        "primitives.colors.violet.100": "S:44f16a9aa9e711921ecf93497f2bda8c33f1ea5e,",
-        "primitives.colors.violet.200": "S:f28f901338868a4331b9fe46386fc39a2afcc134,",
-        "primitives.colors.violet.300": "S:aae8367c9d32806ed56857803651a9335f3dedab,",
-        "primitives.colors.violet.400": "S:fe8f1e2d8ff1d94e7383756b30aa2fb028a4c298,",
-        "primitives.colors.violet.500": "S:8f9354d8def15478e878b1c8fea000025a98ab21,",
-        "primitives.colors.violet.600": "S:cb013f29daa8bb7178326f701408adcfe5f2e899,",
-        "primitives.colors.violet.700": "S:0dcbb84b520520fc2bc28628dd18430e5ce300d8,",
-        "primitives.colors.violet.800": "S:d5d03c9f4a69f31a776e55c90c76924e231ff4cc,",
-        "primitives.colors.violet.900": "S:75c14b969445a288ab000e14a513f0f0c73b0977,",
-        "primitives.colors.gold.50": "S:059384daab96ab350f9c187e3f3fa8ced43df948,",
-        "primitives.colors.gold.100": "S:3b9420e86121d9366e10ff9f86c93891b0f2e3ed,",
-        "primitives.colors.gold.200": "S:7b35d84a6166a61dfe3d6d282884ac3baa449266,",
-        "primitives.colors.gold.300": "S:7d421aede0c74d12bf04170165d134ccc5e23bc8,",
-        "primitives.colors.gold.400": "S:b3fb0bf491c4cd7651dc7077921e4cbaa795e966,",
-        "primitives.colors.gold.500": "S:7c93a0adf8d269ee41052959b35b015b9415bab1,",
-        "primitives.colors.gold.600": "S:68bd49ed4eac024c5d88f7f4da86ab10f15115be,",
-        "primitives.colors.gold.700": "S:780769fd575d6ca5d5c4952112d7156204ab1040,",
-        "primitives.colors.gold.800": "S:07f2bf37d025920e57f4df9200eb72899efa685d,",
-        "primitives.colors.gold.900": "S:287e4b8e8f53a04035e1ba4f114883f6e04509cb,",
-        "primitives.colors.red.50": "S:c510e90ebcb85064a1c6f3312d3328e36e5b7308,",
-        "primitives.colors.red.100": "S:6b2664870ed0b938e9603ffede2a9286d000aeec,",
-        "primitives.colors.red.200": "S:e41286e4b19b9d83bc4d9b3a89270f26f3446a1a,",
-        "primitives.colors.red.300": "S:93230eb86dae5ae33b652c26d285f0dfc569cbff,",
-        "primitives.colors.red.400": "S:b948baea67e5fe8b02c86f56afd3e033f6178bb7,",
-        "primitives.colors.red.500": "S:b77c9bdd9ea5024212db953d93f0e47bcf8961d4,",
-        "primitives.colors.red.600": "S:d3277b62814ecc838c0744eb3d25a222069bfe45,",
-        "primitives.colors.red.700": "S:a719efcba07b0cb76a6502867b84acb3c4209818,",
-        "primitives.colors.red.800": "S:21bcb70430a3bb163bef1b270dc8e4c3ba95299a,",
-        "primitives.colors.red.900": "S:b149824047eee5c93320c6cfa8337b5b84b2c418,",
-        "primitives.colors.green.50": "S:bfebd7abdfaf95912d1eefb46b9cb1e59c893dda,",
-        "primitives.colors.green.100": "S:4fd3450ad21e96edd04a7fc0b9b675ad42bb1c4a,",
-        "primitives.colors.green.200": "S:f74ba1e775a1c2180b38baab3998fe5d90d0f87c,",
-        "primitives.colors.green.300": "S:420a990e9aeb92c98604961d21c4884040fc0ee0,",
-        "primitives.colors.green.400": "S:c10f13304693d109e5395a7753561d1a5e8f8fc4,",
-        "primitives.colors.green.500": "S:20377b0ea69ca6faa81bf4e98e5f2d2910b5e9e2,",
-        "primitives.colors.green.600": "S:d7763d1f1d030128a695cc3cf370965621855bfd,",
-        "primitives.colors.green.700": "S:ab3a3787277b47a44fccdeb877860820b3ee4cf9,",
-        "primitives.colors.green.800": "S:529e9f8e6602e9b362f0c876b7b10d41ad0c922a,",
-        "primitives.colors.green.900": "S:043694f8adefd87a57f14072cf039a130fccb795,",
-        "primitives.colors.grayscale.50": "S:069ae980b3aa4afaf7763c4e3f1d3746ce700a46,",
-        "primitives.colors.grayscale.100": "S:6195302ee381000cfc69ee5da502b405c5f51c73,",
-        "primitives.colors.grayscale.200": "S:41eb73a1c9b40f7b623963a2c6539e1612916124,",
-        "primitives.colors.grayscale.300": "S:0ca9ddc2aaf1591325ec0d844f3e97539f6b6761,",
-        "primitives.colors.grayscale.400": "S:245f5c6e092faea219ef1a8bf2e0ee38cfe7145d,",
-        "primitives.colors.grayscale.500": "S:a51bc733fd32c38bf3129d9b1c96125df3c71ff1,",
-        "primitives.colors.grayscale.600": "S:1c0d07e43d624ef4ca89d144e489817b8a89a6bb,",
-        "primitives.colors.grayscale.700": "S:e13b3c378177e1d102d4a412dba92193b4ca1207,",
-        "primitives.colors.grayscale.800": "S:8ff521fa5782e064a3abdceff3ea2cb104d19193,",
-        "primitives.colors.grayscale.900": "S:0b8f7b0c3070c317cce3d58abd05d2304eedbcc6,"
+        "global.colors.ocean blue.50": "S:a7052790c8858bf9cf88d3dd881c6cdedc17bab0,",
+        "global.colors.ocean blue.100": "S:adc43aa9a370dbe8afdba123e7f87a5459a7962a,",
+        "global.colors.ocean blue.200": "S:83aa94224da5a603384cf7c32787164a61e432bf,",
+        "global.colors.ocean blue.300": "S:070aab53031e403ba5c15a56a79b3fcc43d15275,",
+        "global.colors.ocean blue.400": "S:cdcb649fcdf0f6fca2ae3b12d6a0b052698823c2,",
+        "global.colors.ocean blue.500": "S:170bb58afe4ebf7b7c616b7c05148bcacc1d1c70,",
+        "global.colors.ocean blue.600": "S:ee714946155941ec4bae4a4e69041c933de177f8,",
+        "global.colors.ocean blue.700": "S:ae6778a3c1b11edc58d37cbcd4a75dece3abda47,",
+        "global.colors.ocean blue.800": "S:b3d2a9b7f0ec3bf964a5989c8340c4a7f38f3b1f,",
+        "global.colors.ocean blue.900": "S:301b8386b64e06bd859f131510b1abdec57f57de,",
+        "global.colors.mint.50": "S:a640ac054993f2611ae48ab51e506e56724d7cd3,",
+        "global.colors.mint.100": "S:04257505b37b1b5b79e30b12c31ad4040b2f2278,",
+        "global.colors.mint.200": "S:32cf1a40e30ef84781b1099118f7587d97c9727f,",
+        "global.colors.mint.300": "S:e62c155c4c36f575421f3c5d6cffecab6f7a53d4,",
+        "global.colors.mint.400": "S:50dd6a4ad31a6bbf73d257a0210ae5d12b736c54,",
+        "global.colors.mint.500": "S:1d334b8b203a4eedd012b2486f4e8c57ea4d954f,",
+        "global.colors.mint.600": "S:f425b32d076e624ee7e7c544bbd735bccf4427eb,",
+        "global.colors.mint.700": "S:32b9c011273ded910d0b22d03ad3de93b5bdcb47,",
+        "global.colors.mint.800": "S:361d5603e77dce013e1716702cb568222810fd3b,",
+        "global.colors.mint.900": "S:d44a8964771c80bc9a18e3817a5eb5391059ef93,",
+        "global.colors.violet.50": "S:195aad3959e22151021350f516c8d9e3e2285eb4,",
+        "global.colors.violet.100": "S:44f16a9aa9e711921ecf93497f2bda8c33f1ea5e,",
+        "global.colors.violet.200": "S:f28f901338868a4331b9fe46386fc39a2afcc134,",
+        "global.colors.violet.300": "S:aae8367c9d32806ed56857803651a9335f3dedab,",
+        "global.colors.violet.400": "S:fe8f1e2d8ff1d94e7383756b30aa2fb028a4c298,",
+        "global.colors.violet.500": "S:8f9354d8def15478e878b1c8fea000025a98ab21,",
+        "global.colors.violet.600": "S:cb013f29daa8bb7178326f701408adcfe5f2e899,",
+        "global.colors.violet.700": "S:0dcbb84b520520fc2bc28628dd18430e5ce300d8,",
+        "global.colors.violet.800": "S:d5d03c9f4a69f31a776e55c90c76924e231ff4cc,",
+        "global.colors.violet.900": "S:75c14b969445a288ab000e14a513f0f0c73b0977,",
+        "global.colors.gold.50": "S:059384daab96ab350f9c187e3f3fa8ced43df948,",
+        "global.colors.gold.100": "S:3b9420e86121d9366e10ff9f86c93891b0f2e3ed,",
+        "global.colors.gold.200": "S:7b35d84a6166a61dfe3d6d282884ac3baa449266,",
+        "global.colors.gold.300": "S:7d421aede0c74d12bf04170165d134ccc5e23bc8,",
+        "global.colors.gold.400": "S:b3fb0bf491c4cd7651dc7077921e4cbaa795e966,",
+        "global.colors.gold.500": "S:7c93a0adf8d269ee41052959b35b015b9415bab1,",
+        "global.colors.gold.600": "S:68bd49ed4eac024c5d88f7f4da86ab10f15115be,",
+        "global.colors.gold.700": "S:780769fd575d6ca5d5c4952112d7156204ab1040,",
+        "global.colors.gold.800": "S:07f2bf37d025920e57f4df9200eb72899efa685d,",
+        "global.colors.gold.900": "S:287e4b8e8f53a04035e1ba4f114883f6e04509cb,",
+        "global.colors.red.50": "S:c510e90ebcb85064a1c6f3312d3328e36e5b7308,",
+        "global.colors.red.100": "S:6b2664870ed0b938e9603ffede2a9286d000aeec,",
+        "global.colors.red.200": "S:e41286e4b19b9d83bc4d9b3a89270f26f3446a1a,",
+        "global.colors.red.300": "S:93230eb86dae5ae33b652c26d285f0dfc569cbff,",
+        "global.colors.red.400": "S:b948baea67e5fe8b02c86f56afd3e033f6178bb7,",
+        "global.colors.red.500": "S:b77c9bdd9ea5024212db953d93f0e47bcf8961d4,",
+        "global.colors.red.600": "S:d3277b62814ecc838c0744eb3d25a222069bfe45,",
+        "global.colors.red.700": "S:a719efcba07b0cb76a6502867b84acb3c4209818,",
+        "global.colors.red.800": "S:21bcb70430a3bb163bef1b270dc8e4c3ba95299a,",
+        "global.colors.red.900": "S:b149824047eee5c93320c6cfa8337b5b84b2c418,",
+        "global.colors.green.50": "S:bfebd7abdfaf95912d1eefb46b9cb1e59c893dda,",
+        "global.colors.green.100": "S:4fd3450ad21e96edd04a7fc0b9b675ad42bb1c4a,",
+        "global.colors.green.200": "S:f74ba1e775a1c2180b38baab3998fe5d90d0f87c,",
+        "global.colors.green.300": "S:420a990e9aeb92c98604961d21c4884040fc0ee0,",
+        "global.colors.green.400": "S:c10f13304693d109e5395a7753561d1a5e8f8fc4,",
+        "global.colors.green.500": "S:20377b0ea69ca6faa81bf4e98e5f2d2910b5e9e2,",
+        "global.colors.green.600": "S:d7763d1f1d030128a695cc3cf370965621855bfd,",
+        "global.colors.green.700": "S:ab3a3787277b47a44fccdeb877860820b3ee4cf9,",
+        "global.colors.green.800": "S:529e9f8e6602e9b362f0c876b7b10d41ad0c922a,",
+        "global.colors.green.900": "S:043694f8adefd87a57f14072cf039a130fccb795,",
+        "global.colors.grayscale.50": "S:069ae980b3aa4afaf7763c4e3f1d3746ce700a46,",
+        "global.colors.grayscale.100": "S:6195302ee381000cfc69ee5da502b405c5f51c73,",
+        "global.colors.grayscale.200": "S:41eb73a1c9b40f7b623963a2c6539e1612916124,",
+        "global.colors.grayscale.300": "S:0ca9ddc2aaf1591325ec0d844f3e97539f6b6761,",
+        "global.colors.grayscale.400": "S:245f5c6e092faea219ef1a8bf2e0ee38cfe7145d,",
+        "global.colors.grayscale.500": "S:a51bc733fd32c38bf3129d9b1c96125df3c71ff1,",
+        "global.colors.grayscale.600": "S:1c0d07e43d624ef4ca89d144e489817b8a89a6bb,",
+        "global.colors.grayscale.700": "S:e13b3c378177e1d102d4a412dba92193b4ca1207,",
+        "global.colors.grayscale.800": "S:8ff521fa5782e064a3abdceff3ea2cb104d19193,",
+        "global.colors.grayscale.900": "S:0b8f7b0c3070c317cce3d58abd05d2304eedbcc6,"
       },
       "selectedTokenSets": {
-        "primitives/colors": "enabled",
-        "primitives/dimensions": "enabled",
-        "primitives/typography": "enabled"
+        "global/colors": "enabled",
+        "global/dimensions": "enabled",
+        "global/typography": "enabled",
+        "elements/buttons/btnColors/invertSecondary": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
       "$figmaVariableReferences": {
-        "primitives.dimensions.1": "9bd562db7128075a386f81d5ac889968c23eee40",
-        "primitives.dimensions.2": "f353908ce067fe2709b7328eb63292790edbedea",
-        "primitives.dimensions.3": "8dfef297edec910f32a3b0a7b2499361c1ed9f91",
-        "primitives.dimensions.4": "1ccf893c747c6abf7274a2de47a0ae987d8d5e0d",
-        "primitives.dimensions.5": "2205c3bb6950cfbe8a16729b0067d76f49bb1852",
-        "primitives.dimensions.6": "2837e682a5b671134e733a07199c9acfb943ee41",
-        "primitives.dimensions.7": "c4624a0bcc26f84dca142597c40ee1d80af28dfe",
-        "primitives.dimensions.8": "4614a9db423b32b1008ddfc779a84e3457972557",
-        "primitives.dimensions.9": "5818e92364e19845a294b383ab95ce4168f8cfed",
-        "primitives.dimensions.10": "77b784564bf8ead01ac19a391100f3d02537e841",
-        "primitives.dimensions.11": "4be1532b7eac9b3645fac0eca962a840c8de2608",
-        "primitives.dimensions.12": "f2eade9bb5c9a6dc2e7dcd7fc37ce5adc0ce6919",
-        "primitives.dimensions.13": "e26a4a6907662bf41b5c9436ea27030886f93b8e",
-        "primitives.dimensions.14": "08dda68f44a763bf7525cefec9808ad883b1e51d",
-        "primitives.dimensions.15": "5da332e855a2cb814cc2c8b85b398bab3e64d1bd",
-        "primitives.dimensions.16": "08f8a56f135174c541a153bade6b11b6c19117bd",
-        "primitives.dimensions.17": "5e0885cc8e6bf661ea7346a67b75df5bdd38e65f",
-        "primitives.colors.ocean blue.50": "03fc5bc5bdda0b5ba22c40c660daaf408d5f1ed5",
-        "primitives.colors.ocean blue.100": "a2d585215b634e047c2b1b08cbd14a9095458a2f",
-        "primitives.colors.ocean blue.200": "a9eb13866044498585e20dc5f0d9a547be2bba29",
-        "primitives.colors.ocean blue.300": "8341dc22df0feaff249d8985329056c7c38d5bd8",
-        "primitives.colors.ocean blue.400": "91ec64b8bfb6e13a925d5392e90df73415d9a6c0",
-        "primitives.colors.ocean blue.500": "2cc599c9ec9714b92ce50577ac398c815e411a8f",
-        "primitives.colors.ocean blue.600": "b3546b2d837543ba668beff19df4794dc5880296",
-        "primitives.colors.ocean blue.700": "d2315098d4bb19986c3486fc37bc03bc3eced648",
-        "primitives.colors.ocean blue.800": "738ca7486cf674978ba23714a216ac28c70a6a6f",
-        "primitives.colors.ocean blue.900": "ef1663b4e5140394d24b19259846fed257ed11f6",
-        "primitives.colors.mint.50": "7259b03029e2967ad70c36c6de765aa8a4d2b081",
-        "primitives.colors.mint.100": "2c9ed580b98c05bbf5d9848c10979ed23f43a313",
-        "primitives.colors.mint.200": "2854bc6d220d8a66eee4f530c999d3abe2aadae2",
-        "primitives.colors.mint.300": "fae2a6390c8f1793e85ed68f2ca545f9ca019608",
-        "primitives.colors.mint.400": "bfa6841162001feb13917eed8477521e1138d1a8",
-        "primitives.colors.mint.500": "3f2bd85a44ee3b2a192d06f5178d3934ba817db8",
-        "primitives.colors.mint.600": "d84c1af54af485a27476ab4d2f72974a17c5bfe2",
-        "primitives.colors.mint.700": "3042f09e1985dd28c2df1ba199358349d1c0173b",
-        "primitives.colors.mint.800": "2e015847ac1d4912726916b9dd787cbc969a9890",
-        "primitives.colors.mint.900": "982571147291f21966ae26c32d1a102efcbd2006",
-        "primitives.colors.violet.50": "e590c79e1a303d016cdea9c53b4aef1525824382",
-        "primitives.colors.violet.100": "2adbd4361acbb62144229d5292148bd86f9aa611",
-        "primitives.colors.violet.200": "0f158358f047a94444aefb9e98e6f599c424de46",
-        "primitives.colors.violet.300": "d30202b904e6e86263f360fac62a6b8a40e3b0d0",
-        "primitives.colors.violet.400": "b27387991354a8b0924a69901ee2d15f25feefe4",
-        "primitives.colors.violet.500": "dd94ae7992eebbf884192e6dbaa792b5785d35ac",
-        "primitives.colors.violet.600": "6670975fe10825220a1d8d51fca9971c86efe6e8",
-        "primitives.colors.violet.700": "5e60f9b293369845f48e523684f2e718064aa3b6",
-        "primitives.colors.violet.800": "c41b08cdb95da2be3e6cf06ac4971196df015bc0",
-        "primitives.colors.violet.900": "fdbea5848e1b7080ac49160d5940cd229ed12f50",
-        "primitives.colors.gold.50": "2ae0498c0b68f97be13a0f6dcc09971e16d88ecf",
-        "primitives.colors.gold.100": "dd309cd829dab56d206ed44b97dd4ee21ea20706",
-        "primitives.colors.gold.200": "7ae1a5b242521a35c080a63334998bde39236c6a",
-        "primitives.colors.gold.300": "4712cee97527544ab14f581d0c881d6c2f4fb628",
-        "primitives.colors.gold.400": "bf17927ab3f788ab29eb0ae5114cb3887f77beb9",
-        "primitives.colors.gold.500": "f19b94618ebe8f0d148b7adebb60d49258882906",
-        "primitives.colors.gold.600": "0ebcd08c582bc089ef5140e9a74596de9d4f1b4c",
-        "primitives.colors.gold.700": "0f303c058b79a855f01481c98c27e9c53e5d0a38",
-        "primitives.colors.gold.800": "8a6c7ce59a70160b6364cc70962d95a7fe5a4736",
-        "primitives.colors.gold.900": "5493f41ff24a8016ff0a9c49a7c8205b122fee62",
-        "primitives.colors.red.50": "a404d37c56a9752fbc815cf5303af717ed79cc61",
-        "primitives.colors.red.100": "258ec84c03929dcdf8500115ee6652154e49d677",
-        "primitives.colors.red.200": "cbdc753edab73c679e8cb740a727debd9f5dd583",
-        "primitives.colors.red.300": "c2cf0edace23624e9adb951d55f0afafd623613a",
-        "primitives.colors.red.400": "8d44d32a1152e48f173cf21706514a8c904d79c9",
-        "primitives.colors.red.500": "f6bb7bcd6e4e7276c0f048e64d703e09f7d38b83",
-        "primitives.colors.red.600": "df5fb79f31517756527f418d2c4673a64ef656be",
-        "primitives.colors.red.700": "2684965db4565e7e1ca22b1fbc421477670083d8",
-        "primitives.colors.red.800": "8bf4728e7a0b955d3d0162a7ee526cd7dbeac7a2",
-        "primitives.colors.red.900": "6a52850315da4f9995604b81748a7df99bc191c4",
-        "primitives.colors.green.50": "ea0141057a5d3a011d01c730973b6f49d817909e",
-        "primitives.colors.green.100": "ae0cc307e1bb125878ec4792fad35455ee14d29f",
-        "primitives.colors.green.200": "2f4c90a129045677a96092de2dfdfbd820e920a1",
-        "primitives.colors.green.300": "e84b21155a27ee27a77b47fb548bbf06bac1bd69",
-        "primitives.colors.green.400": "8bde097f02610f4c1a936efcc1ca9a0320d16a58",
-        "primitives.colors.green.500": "cd22181a09f9f4baba3f9ce38e58e06f09010880",
-        "primitives.colors.green.600": "1712a0b401dbcba96563464ca7abcdc05556e1b6",
-        "primitives.colors.green.700": "57ef932896f5df574dd6f431edd50c7d9772fc74",
-        "primitives.colors.green.800": "ac9c07c6c2cf7a17853fb0df2c8ce7926e776e1f",
-        "primitives.colors.green.900": "f7595f0c5b7d8236c6a5e6aecb3b6a4fefcda4c7",
-        "primitives.colors.grayscale.50": "51763570ec12fbf919c64c104335956be3d993b9",
-        "primitives.colors.grayscale.100": "220c68a7c05cf018fca848acda9d493b37b6fbd8",
-        "primitives.colors.grayscale.200": "263b8bb00211aea92e3b077397b6f70449808705",
-        "primitives.colors.grayscale.300": "f12522df9550ba6853671bf4d1f135301c7212d2",
-        "primitives.colors.grayscale.400": "6d8316c862b60ccf48ec4cd5d74c78e2003f1ef9",
-        "primitives.colors.grayscale.500": "6e933fab59111e05f46dfedd8c5e97c866bcc4e6",
-        "primitives.colors.grayscale.600": "8efc7a1114eb4b75b84014b1e864bf6f30315142",
-        "primitives.colors.grayscale.700": "789f7d4a8a79f864940f7cab8a8eb27a6fb33d95",
-        "primitives.colors.grayscale.800": "05b6c3b7ed8be456eaba05e174b372a1b212dd75",
-        "primitives.colors.grayscale.900": "25ebf6ed0edf27c512a71252ac483e229d0582db"
+        "global.dimensions.1": "9bd562db7128075a386f81d5ac889968c23eee40",
+        "global.dimensions.2": "f353908ce067fe2709b7328eb63292790edbedea",
+        "global.dimensions.3": "8dfef297edec910f32a3b0a7b2499361c1ed9f91",
+        "global.dimensions.4": "1ccf893c747c6abf7274a2de47a0ae987d8d5e0d",
+        "global.dimensions.5": "2205c3bb6950cfbe8a16729b0067d76f49bb1852",
+        "global.dimensions.6": "2837e682a5b671134e733a07199c9acfb943ee41",
+        "global.dimensions.7": "c4624a0bcc26f84dca142597c40ee1d80af28dfe",
+        "global.dimensions.8": "4614a9db423b32b1008ddfc779a84e3457972557",
+        "global.dimensions.9": "5818e92364e19845a294b383ab95ce4168f8cfed",
+        "global.dimensions.10": "77b784564bf8ead01ac19a391100f3d02537e841",
+        "global.dimensions.11": "4be1532b7eac9b3645fac0eca962a840c8de2608",
+        "global.dimensions.12": "f2eade9bb5c9a6dc2e7dcd7fc37ce5adc0ce6919",
+        "global.dimensions.13": "e26a4a6907662bf41b5c9436ea27030886f93b8e",
+        "global.dimensions.14": "08dda68f44a763bf7525cefec9808ad883b1e51d",
+        "global.dimensions.15": "5da332e855a2cb814cc2c8b85b398bab3e64d1bd",
+        "global.dimensions.16": "08f8a56f135174c541a153bade6b11b6c19117bd",
+        "global.dimensions.17": "5e0885cc8e6bf661ea7346a67b75df5bdd38e65f",
+        "global.colors.ocean blue.50": "03fc5bc5bdda0b5ba22c40c660daaf408d5f1ed5",
+        "global.colors.ocean blue.100": "a2d585215b634e047c2b1b08cbd14a9095458a2f",
+        "global.colors.ocean blue.200": "a9eb13866044498585e20dc5f0d9a547be2bba29",
+        "global.colors.ocean blue.300": "8341dc22df0feaff249d8985329056c7c38d5bd8",
+        "global.colors.ocean blue.400": "91ec64b8bfb6e13a925d5392e90df73415d9a6c0",
+        "global.colors.ocean blue.500": "2cc599c9ec9714b92ce50577ac398c815e411a8f",
+        "global.colors.ocean blue.600": "b3546b2d837543ba668beff19df4794dc5880296",
+        "global.colors.ocean blue.700": "d2315098d4bb19986c3486fc37bc03bc3eced648",
+        "global.colors.ocean blue.800": "738ca7486cf674978ba23714a216ac28c70a6a6f",
+        "global.colors.ocean blue.900": "ef1663b4e5140394d24b19259846fed257ed11f6",
+        "global.colors.mint.50": "7259b03029e2967ad70c36c6de765aa8a4d2b081",
+        "global.colors.mint.100": "2c9ed580b98c05bbf5d9848c10979ed23f43a313",
+        "global.colors.mint.200": "2854bc6d220d8a66eee4f530c999d3abe2aadae2",
+        "global.colors.mint.300": "fae2a6390c8f1793e85ed68f2ca545f9ca019608",
+        "global.colors.mint.400": "bfa6841162001feb13917eed8477521e1138d1a8",
+        "global.colors.mint.500": "3f2bd85a44ee3b2a192d06f5178d3934ba817db8",
+        "global.colors.mint.600": "d84c1af54af485a27476ab4d2f72974a17c5bfe2",
+        "global.colors.mint.700": "3042f09e1985dd28c2df1ba199358349d1c0173b",
+        "global.colors.mint.800": "2e015847ac1d4912726916b9dd787cbc969a9890",
+        "global.colors.mint.900": "982571147291f21966ae26c32d1a102efcbd2006",
+        "global.colors.violet.50": "e590c79e1a303d016cdea9c53b4aef1525824382",
+        "global.colors.violet.100": "2adbd4361acbb62144229d5292148bd86f9aa611",
+        "global.colors.violet.200": "0f158358f047a94444aefb9e98e6f599c424de46",
+        "global.colors.violet.300": "d30202b904e6e86263f360fac62a6b8a40e3b0d0",
+        "global.colors.violet.400": "b27387991354a8b0924a69901ee2d15f25feefe4",
+        "global.colors.violet.500": "dd94ae7992eebbf884192e6dbaa792b5785d35ac",
+        "global.colors.violet.600": "6670975fe10825220a1d8d51fca9971c86efe6e8",
+        "global.colors.violet.700": "5e60f9b293369845f48e523684f2e718064aa3b6",
+        "global.colors.violet.800": "c41b08cdb95da2be3e6cf06ac4971196df015bc0",
+        "global.colors.violet.900": "fdbea5848e1b7080ac49160d5940cd229ed12f50",
+        "global.colors.gold.50": "2ae0498c0b68f97be13a0f6dcc09971e16d88ecf",
+        "global.colors.gold.100": "dd309cd829dab56d206ed44b97dd4ee21ea20706",
+        "global.colors.gold.200": "7ae1a5b242521a35c080a63334998bde39236c6a",
+        "global.colors.gold.300": "4712cee97527544ab14f581d0c881d6c2f4fb628",
+        "global.colors.gold.400": "bf17927ab3f788ab29eb0ae5114cb3887f77beb9",
+        "global.colors.gold.500": "f19b94618ebe8f0d148b7adebb60d49258882906",
+        "global.colors.gold.600": "0ebcd08c582bc089ef5140e9a74596de9d4f1b4c",
+        "global.colors.gold.700": "0f303c058b79a855f01481c98c27e9c53e5d0a38",
+        "global.colors.gold.800": "8a6c7ce59a70160b6364cc70962d95a7fe5a4736",
+        "global.colors.gold.900": "5493f41ff24a8016ff0a9c49a7c8205b122fee62",
+        "global.colors.red.50": "a404d37c56a9752fbc815cf5303af717ed79cc61",
+        "global.colors.red.100": "258ec84c03929dcdf8500115ee6652154e49d677",
+        "global.colors.red.200": "cbdc753edab73c679e8cb740a727debd9f5dd583",
+        "global.colors.red.300": "c2cf0edace23624e9adb951d55f0afafd623613a",
+        "global.colors.red.400": "8d44d32a1152e48f173cf21706514a8c904d79c9",
+        "global.colors.red.500": "f6bb7bcd6e4e7276c0f048e64d703e09f7d38b83",
+        "global.colors.red.600": "df5fb79f31517756527f418d2c4673a64ef656be",
+        "global.colors.red.700": "2684965db4565e7e1ca22b1fbc421477670083d8",
+        "global.colors.red.800": "8bf4728e7a0b955d3d0162a7ee526cd7dbeac7a2",
+        "global.colors.red.900": "6a52850315da4f9995604b81748a7df99bc191c4",
+        "global.colors.green.50": "ea0141057a5d3a011d01c730973b6f49d817909e",
+        "global.colors.green.100": "ae0cc307e1bb125878ec4792fad35455ee14d29f",
+        "global.colors.green.200": "2f4c90a129045677a96092de2dfdfbd820e920a1",
+        "global.colors.green.300": "e84b21155a27ee27a77b47fb548bbf06bac1bd69",
+        "global.colors.green.400": "8bde097f02610f4c1a936efcc1ca9a0320d16a58",
+        "global.colors.green.500": "cd22181a09f9f4baba3f9ce38e58e06f09010880",
+        "global.colors.green.600": "1712a0b401dbcba96563464ca7abcdc05556e1b6",
+        "global.colors.green.700": "57ef932896f5df574dd6f431edd50c7d9772fc74",
+        "global.colors.green.800": "ac9c07c6c2cf7a17853fb0df2c8ce7926e776e1f",
+        "global.colors.green.900": "f7595f0c5b7d8236c6a5e6aecb3b6a4fefcda4c7",
+        "global.colors.grayscale.50": "51763570ec12fbf919c64c104335956be3d993b9",
+        "global.colors.grayscale.100": "220c68a7c05cf018fca848acda9d493b37b6fbd8",
+        "global.colors.grayscale.200": "263b8bb00211aea92e3b077397b6f70449808705",
+        "global.colors.grayscale.300": "f12522df9550ba6853671bf4d1f135301c7212d2",
+        "global.colors.grayscale.400": "6d8316c862b60ccf48ec4cd5d74c78e2003f1ef9",
+        "global.colors.grayscale.500": "6e933fab59111e05f46dfedd8c5e97c866bcc4e6",
+        "global.colors.grayscale.600": "8efc7a1114eb4b75b84014b1e864bf6f30315142",
+        "global.colors.grayscale.700": "789f7d4a8a79f864940f7cab8a8eb27a6fb33d95",
+        "global.colors.grayscale.800": "05b6c3b7ed8be456eaba05e174b372a1b212dd75",
+        "global.colors.grayscale.900": "25ebf6ed0edf27c512a71252ac483e229d0582db"
       },
-      "group": "Primitives"
+      "group": "Global"
     },
     {
       "id": "c44c1c37b05c6520b221be9ea89591848492068b",
@@ -1798,15 +2087,11 @@
         "alias.fonts.functional.links.regular": "S:7c3df2bea2138d35fdec59206e0208c5f126d1cb,",
         "alias.fonts.functional.links.hover": "S:f4f2578752597d60b419a5bd381a42b4bd12d498,",
         "alias.fonts.functional.links.navigational.top.regular": "S:9944a115c6e6bf45a4666ec3eff21af473e27fa3,",
-        "alias.fonts.functional.links.navigational.top.highlighted": "S:e4555b5ef1f50824d935609dfd4ad51f93a32717,",
         "alias.fonts.functional.links.navigational.bottom.regular": "S:27cebea808223c87493e9e090d05f7a7adffdd92,",
-        "alias.fonts.functional.links.navigational.bottom.highlighted": "S:62be9f7ca28eda2a58c28b4b223f145858ed1aab,",
         "alias.fonts.functional.label.short": "S:8c816a322dcc414f8a7760fe87131c4dabf8c1cc,",
         "alias.fonts.functional.label.long": "S:f0f1b96983de998cfcafd641db1660aae5612489,",
         "alias.fonts.body.regular": "S:5dbda1fc3e225c0f0d95608e2b5b5164932fe97d,",
         "alias.fonts.body.strong": "S:84479e60a2d03ad78ec97e284c7cef931650315c,",
-        "alias.fonts.body.small": "S:a9166ae80d6d89fdafbd23ffaffe32a3c6d950e0,",
-        "alias.fonts.body.extra-small": "S:03a99cdb85eb8fa64aeb408d3f5490e1f3e78c04,",
         "alias.color-roles.accent.50": "S:95b743a1a746e1cf6dd04d826698024cc834cf8d,",
         "alias.color-roles.accent.100": "S:9b7605af55472fa8176d04313e6d01c2c8ac4329,",
         "alias.color-roles.accent.200": "S:ca8ef433ba0730bb6bd234c0551fafe7085c2eab,",
@@ -1847,21 +2132,8 @@
         "alias.color-roles.neutral.700": "S:12ef7176c270486217778303e3065ca0f4a551e9,",
         "alias.color-roles.neutral.800": "S:477c05eb615e746e18c8d0af42cad2d693a5be55,",
         "alias.color-roles.neutral.900": "S:399f8989ef4afa2140a2bfceef414376511cfac6,",
-        "alias.colors-light.functional.information.onInformation": "S:40c18ce48cfcf4da75264f2e71794365b09e45f5,",
-        "alias.colors-light.functional.information.informationContainer": "S:71ec60232942b8561275d10561af5a75c13f0a77,",
-        "alias.colors-light.functional.information.onInformativeContainer": "S:391e0e57735acb639315c57f62fe5d559148311f,",
         "alias.colors-light.functional.information.default": "S:61899970fd37e2620fd2844bebe90a6634baf8c0,",
-        "alias.colors-light.functional.interaction.onInteraction": "S:b988d7df0ebe493a1a4b30c16f513a020e9edc1a,",
-        "alias.colors-light.functional.interaction.interactionContainer": "S:d6f1286bb22e4f93fb99d5f93a6362f27881b89a,",
-        "alias.colors-light.functional.interaction.onInteractionContainer": "S:8276571d9339b22e8a71ba57b3db1a32d6274af7,",
         "alias.colors-light.functional.interaction.default": "S:333708cdad833c6bf6c7348490da6e466455508e,",
-        "alias.colors-light.functional.successful.onSuccess": "S:34d6ab3bdd69172bfdd7b1cefe63bf84267c7711,",
-        "alias.colors-light.functional.successful.successContainer": "S:18803bb90ae9ded5f89974b7fa8947658b0f261a,",
-        "alias.colors-light.functional.successful.onSuccessContainer": "S:6d925dcda2ea3dc9e121191ed2f9371f1b6de56f,",
-        "alias.colors-light.functional.successful.default": "S:880b88d20fcee506a1afc2a36dd3d736d41148bb,",
-        "alias.colors-light.functional.attention.onAttention": "S:50cfee4f801a4996a304455ea335fa412c5601a6,",
-        "alias.colors-light.functional.attention.attentionContainer": "S:13d3982eac30c26b44c69545c640eb55b3d3acd9,",
-        "alias.colors-light.functional.attention.onAttentionContainer": "S:b1af50fb26fad0465fbb683630625a5b0519a837,",
         "alias.colors-light.functional.attention.default": "S:319a04ad79931acd333ebea70d40e3b5d5b01f5b,",
         "alias.colors-light.neutral.background.default": "S:21d06e32ae59b5f64e17274f4e48d3f657376dd9,",
         "alias.colors-light.neutral.background.elevation01": "S:2e817efc854a9253fb5f0eef71cc4f36f0e33ead,",
@@ -1871,11 +2143,6 @@
         "alias.colors-light.neutral.background.invertedElevation01": "S:2946b98406d5469a793f0e0e76f625d5f7ecd221,",
         "alias.colors-light.neutral.background.invertedElevation02": "S:47b7235a1ddcea359048d622c24c694da8808626,",
         "alias.colors-light.neutral.background.invertedElevation03": "S:849a36764b4b028bbf5f2be17f88a52643b27479,",
-        "alias.colors-light.neutral.text.neutralEmphasis": "S:9d89d9e4e054f2bb3aab8d05492810ae54fa6cad,",
-        "alias.colors-light.neutral.text.brandEmphasis": "S:7f26a29e35a71244fa70ed1072407e906957a259,",
-        "alias.colors-light.neutral.text.default": "S:ddc661aa9391bb1023b1bd6291e779f118ce7de5,",
-        "alias.colors-light.neutral.text.subtle": "S:350990173f21ce949571328fb3f7c4f3983265a4,",
-        "alias.colors-light.neutral.text.inverted": "S:d16c1a61a29e6ad823e03dc70303b866fbe3f6e0,",
         "alias.color-roles.brand.50": "S:03ba760616a32010901485b1480e8743b82f09f3,",
         "alias.color-roles.brand.100": "S:e34558b610ba9bec9c8b7aa8c0ffb29452ce521a,",
         "alias.color-roles.brand.200": "S:922af39312a692d48e264bc76aba468ef936d7ea,",
@@ -1900,14 +2167,45 @@
         "alias.borders.borderColor.attention.heavy": "S:a2dca3043f5271f887d7ae0905da9a4ffcacdc30,",
         "alias.borders.borderColor.success.subtle": "S:8bef533b79d6172c921351d4e398fc83bf28b217,",
         "alias.borders.borderColor.success.medium": "S:40ce404a60ebdc1a9d529c9c708eafc7b4c85960,",
-        "alias.borders.borderColor.success.heavy": "S:f3a9713923b1b34a49126e3ef2b289f72489f46b,"
+        "alias.borders.borderColor.success.heavy": "S:f3a9713923b1b34a49126e3ef2b289f72489f46b,",
+        "alias.colors-light.functional.success.default": "S:880b88d20fcee506a1afc2a36dd3d736d41148bb,",
+        "alias.fonts.functional.links.navigational.top.focused": "S:e4555b5ef1f50824d935609dfd4ad51f93a32717,",
+        "alias.fonts.functional.links.navigational.bottom.focused": "S:62be9f7ca28eda2a58c28b4b223f145858ed1aab,",
+        "alias.fonts.body.xs": "S:03a99cdb85eb8fa64aeb408d3f5490e1f3e78c04,",
+        "alias.fonts.body.sm": "S:a9166ae80d6d89fdafbd23ffaffe32a3c6d950e0,",
+        "alias.colors-light.functional.interaction.hover": "S:15cb55fb1bd8beae4cb11a4692ceabf438a0bba8,",
+        "alias.fonts.body.strongSm": "S:726d1262c244344c245a834e8ee27c2447fda2a1,",
+        "alias.fonts.body.strongXs": "S:9e6d7eee591d27570d4b7048da988f790f3c910b,",
+        "alias.colors-light.functional.interaction.container": "S:d6f1286bb22e4f93fb99d5f93a6362f27881b89a,",
+        "alias.colors-light.functional.interaction.onContainer": "S:8276571d9339b22e8a71ba57b3db1a32d6274af7,",
+        "alias.colors-light.functional.interaction.onDefault": "S:b988d7df0ebe493a1a4b30c16f513a020e9edc1a,",
+        "alias.colors-light.functional.information.onDefault": "S:40c18ce48cfcf4da75264f2e71794365b09e45f5,",
+        "alias.colors-light.functional.information.container": "S:71ec60232942b8561275d10561af5a75c13f0a77,",
+        "alias.colors-light.functional.information.onContainer": "S:391e0e57735acb639315c57f62fe5d559148311f,",
+        "alias.colors-light.functional.attention.onDefault": "S:50cfee4f801a4996a304455ea335fa412c5601a6,",
+        "alias.colors-light.functional.attention.container": "S:13d3982eac30c26b44c69545c640eb55b3d3acd9,",
+        "alias.colors-light.functional.attention.onContainer": "S:b1af50fb26fad0465fbb683630625a5b0519a837,",
+        "alias.colors-light.functional.success.onDefault": "S:34d6ab3bdd69172bfdd7b1cefe63bf84267c7711,",
+        "alias.colors-light.functional.success.container": "S:18803bb90ae9ded5f89974b7fa8947658b0f261a,",
+        "alias.colors-light.functional.success.onContainer": "S:6d925dcda2ea3dc9e121191ed2f9371f1b6de56f,",
+        "alias.colors-light.neutral.onBackground.neutralEmphasis": "S:9d89d9e4e054f2bb3aab8d05492810ae54fa6cad,",
+        "alias.colors-light.neutral.onBackground.brandEmphasis": "S:7f26a29e35a71244fa70ed1072407e906957a259,",
+        "alias.colors-light.neutral.onBackground.default": "S:ddc661aa9391bb1023b1bd6291e779f118ce7de5,",
+        "alias.colors-light.neutral.onBackground.subtle": "S:350990173f21ce949571328fb3f7c4f3983265a4,",
+        "alias.colors-light.neutral.onBackground.inverted": "S:d16c1a61a29e6ad823e03dc70303b866fbe3f6e0,",
+        "alias.colors-light.neutral.onBackground.faint": "S:4184f5bf7282ab2b98d4b8f09d9e8e645165df3c,",
+        "alias.colors-light.neutral.onBackground.invertedEmphasis": "S:e92fe80bb11a36a580a1ff89735fbe3b1c603857,",
+        "alias.colors-light.functional.information.hover": "S:4af60e809533661c04aaeb288efc18371e0b5916,",
+        "alias.colors-light.functional.attention.hover": "S:f5fb4003bc5d0c239197d5e1468859e3d45260e9,",
+        "alias.colors-light.functional.success.hover": "S:72025cb329cf5faababa35627d058137227a2b8e,"
       },
       "selectedTokenSets": {
         "alias/color-roles": "enabled",
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled"
+        "alias/spacings": "enabled",
+        "elements/buttons/btnColors/invertSecondary": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -1948,21 +2246,25 @@
         "alias.borders.borderColor.success.medium": "8ba77c7f606aeecbbdaf329a18a3a26ea609809f",
         "alias.borders.borderColor.success.heavy": "0e14352147a6421fc7b246356f22fa3dde5cf819",
         "alias.colors-light.functional.interaction.default": "959ed6180b3015415bc373fb542fd7720a23fd65",
-        "alias.colors-light.functional.interaction.onInteraction": "e4906ce45b78643138a03f51d06451353a3e71a5",
-        "alias.colors-light.functional.interaction.interactionContainer": "9c8e17d56d36adbf6251cc580f9694b712ac9317",
-        "alias.colors-light.functional.interaction.onInteractionContainer": "70c5f1115ed67b47650f8097cb6e6eb32447aeb1",
+        "alias.colors-light.functional.interaction.onDefault": "e4906ce45b78643138a03f51d06451353a3e71a5",
+        "alias.colors-light.functional.interaction.hover": "e6d610d4598e8cccfabe18ef985001b2e0d1d247",
+        "alias.colors-light.functional.interaction.container": "9c8e17d56d36adbf6251cc580f9694b712ac9317",
+        "alias.colors-light.functional.interaction.onContainer": "70c5f1115ed67b47650f8097cb6e6eb32447aeb1",
         "alias.colors-light.functional.information.default": "b59f549d30c994e9f16f61eb12c0bd34480c3cd7",
-        "alias.colors-light.functional.information.onInformation": "bca98c4a0d881838a645600966611d55809feb9a",
-        "alias.colors-light.functional.information.informationContainer": "707e11f6c5510d9eaf36495d5dd7bb5586bffebb",
-        "alias.colors-light.functional.information.onInformativeContainer": "8b84aa925ee685bd0fbd0e8325d9d8299cd008a7",
+        "alias.colors-light.functional.information.onDefault": "bca98c4a0d881838a645600966611d55809feb9a",
+        "alias.colors-light.functional.information.hover": "a416edc923cf018447e6840a6146f4ff8947ed2d",
+        "alias.colors-light.functional.information.container": "707e11f6c5510d9eaf36495d5dd7bb5586bffebb",
+        "alias.colors-light.functional.information.onContainer": "8b84aa925ee685bd0fbd0e8325d9d8299cd008a7",
         "alias.colors-light.functional.attention.default": "dba6566a9c04a49df19c3a65b8ac779fa706dc9c",
-        "alias.colors-light.functional.attention.onAttention": "b963a204569c1d1b5ed2e6fd13d472bb578170ee",
-        "alias.colors-light.functional.attention.attentionContainer": "99d0d7021974c19cfbdfe131af9b630440a39d2b",
-        "alias.colors-light.functional.attention.onAttentionContainer": "d175f78690d7e56e3ce2af157302130da80c8082",
-        "alias.colors-light.functional.successful.default": "cae343728cadd835dd4eea1d7987367aae144868",
-        "alias.colors-light.functional.successful.onSuccess": "0dc53ae5eafb496c5431016b058ce5f1a520b584",
-        "alias.colors-light.functional.successful.successContainer": "6182e59a2799f68d7b063fff75b0b1de78fe031c",
-        "alias.colors-light.functional.successful.onSuccessContainer": "404d10467ab7fd4faa44a6d511027589164b2476",
+        "alias.colors-light.functional.attention.onDefault": "b963a204569c1d1b5ed2e6fd13d472bb578170ee",
+        "alias.colors-light.functional.attention.hover": "b3faece9a95dd333b1b8b87e837606de9a2a6421",
+        "alias.colors-light.functional.attention.container": "99d0d7021974c19cfbdfe131af9b630440a39d2b",
+        "alias.colors-light.functional.attention.onContainer": "d175f78690d7e56e3ce2af157302130da80c8082",
+        "alias.colors-light.functional.success.default": "cae343728cadd835dd4eea1d7987367aae144868",
+        "alias.colors-light.functional.success.onDefault": "0dc53ae5eafb496c5431016b058ce5f1a520b584",
+        "alias.colors-light.functional.success.hover": "b9030033ac55bb68210836fa3eca4f79a7af6a33",
+        "alias.colors-light.functional.success.container": "6182e59a2799f68d7b063fff75b0b1de78fe031c",
+        "alias.colors-light.functional.success.onContainer": "404d10467ab7fd4faa44a6d511027589164b2476",
         "alias.colors-light.neutral.background.default": "f5a1c0d2b58d0bc908ffa1ef7c6143f5e64f53a3",
         "alias.colors-light.neutral.background.elevation01": "811c8845272913a3adcef2102addc39be0e696e8",
         "alias.colors-light.neutral.background.elevation02": "75a5ef6d01c4a0b3fa12a9c56a7fb7561e9ea16f",
@@ -1971,11 +2273,13 @@
         "alias.colors-light.neutral.background.invertedElevation01": "df6ecc77174f94c4838b7d8994f861d1e136d79d",
         "alias.colors-light.neutral.background.invertedElevation02": "f5e6019345c66dac4f9d60c9215619f4aec74155",
         "alias.colors-light.neutral.background.invertedElevation03": "c372acde5f85f744e279ef5093d342886f5991f9",
-        "alias.colors-light.neutral.text.neutralEmphasis": "e535dc9dce60d661f43e628385f45edddaa81af0",
-        "alias.colors-light.neutral.text.brandEmphasis": "93ce846d28d44be6760e77b5400d67feccc9da3d",
-        "alias.colors-light.neutral.text.default": "a306e219c5f8ddd98a9e9d0f717f888bdd1ebd76",
-        "alias.colors-light.neutral.text.subtle": "bc4ec82faa3384d564d4a0d52e3c9eebadaebdc9",
-        "alias.colors-light.neutral.text.inverted": "da8a2040c12a1553f1a38d39868ff964d4658718",
+        "alias.colors-light.neutral.onBackground.neutralEmphasis": "e535dc9dce60d661f43e628385f45edddaa81af0",
+        "alias.colors-light.neutral.onBackground.brandEmphasis": "93ce846d28d44be6760e77b5400d67feccc9da3d",
+        "alias.colors-light.neutral.onBackground.invertedEmphasis": "0a873b11a67d08aa2b00d677a65e721a9e2ed6db",
+        "alias.colors-light.neutral.onBackground.default": "a306e219c5f8ddd98a9e9d0f717f888bdd1ebd76",
+        "alias.colors-light.neutral.onBackground.subtle": "bc4ec82faa3384d564d4a0d52e3c9eebadaebdc9",
+        "alias.colors-light.neutral.onBackground.faint": "c49c446595d22dd8d4c094bc46e21793427e9cd9",
+        "alias.colors-light.neutral.onBackground.inverted": "da8a2040c12a1553f1a38d39868ff964d4658718",
         "alias.color-roles.brand.50": "6735ad94fd62d297e4ab8e527aa5456dd5a5fb11",
         "alias.color-roles.brand.100": "a19666d485cd33828ad33ec4b0aacc23881d4f3c",
         "alias.color-roles.brand.200": "a095b31679b732b16e21abe1daaa0ea1af54534f",
@@ -2028,19 +2332,99 @@
         "alias.color-roles.neutral.900": "65afee06e5dfcf55b704aa28090dde7980c11849"
       },
       "group": "Alias"
+    },
+    {
+      "id": "0ab19a635a2347232a75d15f5320397938caf99c",
+      "name": "Light",
+      "$figmaStyleReferences": {
+        "elements.buttons.btnColors.secondary.default": "S:d5fef9e6f774f7ed1c8717ae85b37700ddafc69d,",
+        "elements.buttons.btnColors.secondary.hover": "S:f2dd9252acd4cbfbc00f127df4e200b8a1e372e1,",
+        "elements.buttons.btnColors.secondary.onClick": "S:7bd82b37167d5c8c1341cb644b712819d438a6f1,",
+        "elements.buttons.btnColors.secondary.onOnClick": "S:16a25b89257194bfa81b2e7ce6d04917e94464a3,",
+        "elements.buttons.btnColors.disabled.default": "S:7bc99b9057fcddc5a651198ab1067f3662a2a546,",
+        "elements.buttons.btnColors.disabled.onDisabled": "S:49d9681a37a3525c8f8958fa442bad9d8466f417,",
+        "elements.buttons.btnColors.invertSecondary.default": "S:dfc98fedc7c6d60f20de798c3f862f1e853483ff,",
+        "elements.buttons.btnColors.invertSecondary.onDefault": "S:f063ca48ee1aa5368d85da63cefb3cefcb60089d,",
+        "elements.buttons.btnColors.invertSecondary.hover": "S:ebcea01456963f624ea22fb2e36d87db723e01ba,",
+        "elements.buttons.btnColors.invertSecondary.onHover": "S:503ed8e3d2034b3056fd41d520be7c9d5f5a6c11,",
+        "elements.buttons.btnColors.invertSecondary.onClick": "S:9ad382fd9805a3e266d7bde20976122e73a73069,",
+        "elements.buttons.btnColors.invertSecondary.onOnClick": "S:d76e899be8b596715d12fda922eb5d161211a7b4,",
+        "elements.buttons.btnColors.secondary.onDefault": "S:3422749bee5e5df0b4676a56b736c8426540b086,",
+        "elements.buttons.btnColors.secondary.onHover": "S:c02df069bab588659c0d655e1992d341db0e21e5,",
+        "elements.buttons.btnColors.invertPrimary.default": "S:e8255078c78b6fe7c4f7790c9e609b8229935605,",
+        "elements.buttons.btnColors.invertPrimary.onDefault": "S:868ac22cbb827914d98f78d3714dc87e16a6057a,",
+        "elements.buttons.btnColors.invertPrimary.hover": "S:a4dbc8f955ce86dfd5a2d5f73dc931d80cf15810,",
+        "elements.buttons.btnColors.invertPrimary.onHover": "S:212e487e4d543b606b75371f084a8585fd87f5c1,",
+        "elements.buttons.btnColors.invertPrimary.onClick": "S:360f765229e801859da53ebe85fd2fad43a8c86b,",
+        "elements.buttons.btnColors.invertPrimary.onOnClick": "S:e7f8a6bc725955449212b59e40bf83485ffa813d,",
+        "elements.buttons.btnColors.primary.default": "S:34aef5d58758c01892ec5c77eec8088398e23ffa,",
+        "elements.buttons.btnColors.primary.onDefault": "S:c581c591a9f14be62b3ccc4afb60dc545746fbd1,",
+        "elements.buttons.btnColors.primary.hover": "S:b71eb6b14491ee448c8f16f04aabeed819c02497,",
+        "elements.buttons.btnColors.primary.onHover": "S:40e806ac107b753188867d150736fd6dc7678627,",
+        "elements.buttons.btnColors.primary.onClick": "S:a76026ae60610eb519fc897d280be817fe885fef,",
+        "elements.buttons.btnColors.primary.onOnClick": "S:ece7da271f0bcca1ec524d571b449e5e424778b2,"
+      },
+      "selectedTokenSets": {
+        "elements/buttons/btnSizes": "enabled",
+        "elements/buttons/btnColors/primary": "enabled",
+        "elements/buttons/btnColors/disabled": "enabled",
+        "elements/buttons/btnColors/invertSecondary": "enabled",
+        "elements/buttons/btnColors/invertPrimary": "enabled",
+        "elements/buttons/btnColors/secondary": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:6205:2741",
+      "$figmaModeId": "6205:0",
+      "$figmaVariableReferences": {
+        "elements.buttons.btnSizes.iconOnly.largeSize": "32c56ac77fc38bda7034594d318f255c8df29e2b",
+        "elements.buttons.bttnBorders.largeSize": "aaf522672bb2d55ba3df9216bcd01e3dbb714080",
+        "elements.buttons.btnGaps.defaultGap": "d29319c3761951645e75d492a415c283eb5a691f",
+        "elements.buttons.btnGaps.hoverGap": "1647b538da8dbb2410a8da203e2bb00116a40e43",
+        "elements.buttons.btnColors.disabled.default": "5fe7f6ebf23d5fc1c0c594fd89360b547ed78ed3",
+        "elements.buttons.btnColors.disabled.onDisabled": "ab844304b38041357dba83e14ea29cfef4a1b5c3",
+        "elements.buttons.btnColors.invertSecondary.default": "8940b590f66e3c30d4ac581bd869f2f500ff614f",
+        "elements.buttons.btnColors.invertSecondary.onDefault": "80f9c473a320b2ce61ad78f9e7c6ab5463f083d5",
+        "elements.buttons.btnColors.invertSecondary.hover": "6bd6eb780391248563f8c57ede05c1c359995990",
+        "elements.buttons.btnColors.invertSecondary.onHover": "1fe0ce5e2fdda0cfd42a239beee93fdf528e2d50",
+        "elements.buttons.btnColors.invertSecondary.onClick": "5bd05f11989f0dc4e5a8011583a38d3370bca4fd",
+        "elements.buttons.btnColors.invertSecondary.onOnClick": "31c2cd61dbaef41fa36277cd88c847d2825329e9",
+        "elements.buttons.btnColors.secondary.default": "f9fecea99a223c2da93a9a072c9fef1c53a18a51",
+        "elements.buttons.btnColors.secondary.onDefault": "affb939e1a630a7feaed33853dc9b26d27e89be6",
+        "elements.buttons.btnColors.secondary.hover": "aab6e164d598fd9bb5d74e27a2081c0270335a01",
+        "elements.buttons.btnColors.secondary.onHover": "0c70b9d1cc21750d7df7eb5fa2449566715799f2",
+        "elements.buttons.btnColors.secondary.onClick": "af133b748bdc6e80caf227b51c4d0446a93ac33a",
+        "elements.buttons.btnColors.secondary.onOnClick": "c0b803d661e771d01b29dd6f616c21708a6d3cd0",
+        "elements.buttons.btnColors.invertPrimary.default": "d4a8a7aed47a4dc14c0a5e18fa63b8cb66ea252b",
+        "elements.buttons.btnColors.invertPrimary.onDefault": "145ddc2b7f19083b7467f3b863574248a556cffa",
+        "elements.buttons.btnColors.invertPrimary.hover": "8a21c86a9d71e242a58ea16946ba54af1ecc94b2",
+        "elements.buttons.btnColors.invertPrimary.onHover": "e769075dd7c7223d646d5ef3fc7689a04cb9b5ab",
+        "elements.buttons.btnColors.invertPrimary.onClick": "8968b0b31665b3d3eab7bf868dabc565d925a05e",
+        "elements.buttons.btnColors.invertPrimary.onOnClick": "aee880f18895ea98b28d502dd8aa867e450f961f",
+        "elements.buttons.btnColors.primary.default": "912829cbd9717d6d4c51e735feffc4e42abef2d7",
+        "elements.buttons.btnColors.primary.onDefault": "804bcee19600e8b9d215de394d6bc4db61c4ba15",
+        "elements.buttons.btnColors.primary.hover": "805de71f10b8b353531b573bd0817856edf360a5",
+        "elements.buttons.btnColors.primary.onHover": "59d735ff867e49c32a523e336623bd13df5a9c6c",
+        "elements.buttons.btnColors.primary.onClick": "ad3e21f234cbfb3c3010b424cd522e4d27c746a9",
+        "elements.buttons.btnColors.primary.onOnClick": "dc7668defc4e50fe7b63ca90adef8db8afa6bb68"
+      },
+      "group": "Elements"
     }
   ],
   "$metadata": {
     "tokenSetOrder": [
-      "primitives/colors",
-      "primitives/dimensions",
-      "primitives/typography",
+      "global/colors",
+      "global/dimensions",
+      "global/typography",
       "alias/color-roles",
       "alias/fonts",
       "alias/colors-light",
       "alias/borders",
       "alias/spacings",
-      "master/elements/buttons"
+      "elements/buttons/btnColors/primary",
+      "elements/buttons/btnColors/invertPrimary",
+      "elements/buttons/btnColors/secondary",
+      "elements/buttons/btnColors/invertSecondary",
+      "elements/buttons/btnColors/disabled",
+      "elements/buttons/btnSizes"
     ]
   }
 }
