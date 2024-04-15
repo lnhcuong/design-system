@@ -1050,132 +1050,6 @@
               "type": "typography",
               "description": "single-line subtitles"
             }
-          },
-          "buttons": {
-            "main": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
-                "fontSize": "{global.typography.fontSize.xs}",
-                "letterSpacing": "{global.typography.letterSpacing.lg}",
-                "textCase": "{global.typography.textCase.none}"
-              },
-              "type": "typography",
-              "description": "default style for button texts"
-            },
-            "alternate": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.heading}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
-                "fontSize": "{global.typography.fontSize.xs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}",
-                "textCase": "{global.typography.textCase.none}"
-              },
-              "type": "typography",
-              "description": "alternate style for button texts"
-            }
-          },
-          "links": {
-            "regular": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
-                "fontSize": "{global.typography.fontSize.xs}",
-                "textDecoration": "{global.typography.textDecoration.none}"
-              },
-              "type": "typography",
-              "description": "default for hyperlinks"
-            },
-            "hover": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
-                "fontSize": "{global.typography.fontSize.xs}",
-                "textDecoration": "{global.typography.textDecoration.underline}"
-              },
-              "type": "typography",
-              "description": "hover for hyperlinks"
-            },
-            "navigational": {
-              "top": {
-                "regular": {
-                  "value": {
-                    "fontFamily": "{global.typography.fontFamilies.heading}",
-                    "fontWeight": "{global.typography.fontWeight.default}",
-                    "fontSize": "{global.typography.fontSize.sm}",
-                    "textDecoration": "{global.typography.textDecoration.none}",
-                    "lineHeight": "{global.typography.lineHeight.sm}",
-                    "letterSpacing": "{global.typography.letterSpacing.md}",
-                    "textCase": "{global.typography.textCase.capitalize}"
-                  },
-                  "type": "typography",
-                  "description": "default for navigational text in top header"
-                },
-                "focused": {
-                  "value": {
-                    "fontFamily": "{global.typography.fontFamilies.heading}",
-                    "fontWeight": "{global.typography.fontWeight.semiBold}",
-                    "fontSize": "{global.typography.fontSize.sm}",
-                    "textDecoration": "{global.typography.textDecoration.none}",
-                    "lineHeight": "{global.typography.lineHeight.sm}",
-                    "letterSpacing": "{global.typography.letterSpacing.xs}",
-                    "textCase": "{global.typography.textCase.capitalize}"
-                  },
-                  "type": "typography",
-                  "description": "selected or hovered for navigational text in top header"
-                }
-              },
-              "bottom": {
-                "regular": {
-                  "value": {
-                    "fontFamily": "{global.typography.fontFamilies.body}",
-                    "fontWeight": "{global.typography.fontWeight.default}",
-                    "fontSize": "{global.typography.fontSize.xxs}",
-                    "textDecoration": "{global.typography.textDecoration.none}",
-                    "lineHeight": "{global.typography.lineHeight.sm}",
-                    "letterSpacing": "{global.typography.letterSpacing.md}"
-                  },
-                  "type": "typography",
-                  "description": "default for navigational text in bottom footer"
-                },
-                "focused": {
-                  "value": {
-                    "fontFamily": "{global.typography.fontFamilies.body}",
-                    "fontWeight": "{global.typography.fontWeight.semiBold}",
-                    "fontSize": "{global.typography.fontSize.xxs}",
-                    "textDecoration": "{global.typography.textDecoration.none}",
-                    "lineHeight": "{global.typography.lineHeight.sm}",
-                    "letterSpacing": "{global.typography.letterSpacing.md}"
-                  },
-                  "type": "typography",
-                  "description": "selected or hovered for navigational text in bottom footer"
-                }
-              }
-            }
-          },
-          "label": {
-            "short": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
-                "lineHeight": "{global.typography.lineHeight.xxs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
-              },
-              "type": "typography",
-              "description": "labels that are single lined"
-            },
-            "long": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
-                "lineHeight": "{global.typography.lineHeight.xxxs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
-              },
-              "type": "typography",
-              "description": "labels that are going over multiple lines"
-            }
           }
         },
         "body": {
@@ -1273,7 +1147,7 @@
               "description": "color for elements that are placed on interactive primary color"
             },
             "hover": {
-              "value": "{alias.color-roles.brand.700}",
+              "value": "{alias.color-roles.brand.600}",
               "type": "color",
               "description": "hover color for elements that indicates interactions"
             },
@@ -1354,7 +1228,7 @@
               "description": "color for elements that are placed on top of items that indicate success"
             },
             "hover": {
-              "value": "{alias.color-roles.positive.500}",
+              "value": "{alias.color-roles.positive.600}",
               "type": "color",
               "description": "hover color for elements that indicates success"
             },
@@ -1367,6 +1241,60 @@
               "value": "{alias.color-roles.positive.900}",
               "type": "color",
               "description": "color for elements that are placed on top of the success container"
+            }
+          },
+          "invertInteraction": {
+            "default": {
+              "value": "{alias.color-roles.brand.50}",
+              "type": "color",
+              "description": "invert color for elements that indicates interactions"
+            },
+            "onDefault": {
+              "value": "{alias.color-roles.brand.800}",
+              "type": "color",
+              "description": "color for elements that are placed on inverted interactive primary color"
+            },
+            "hover": {
+              "value": "{alias.color-roles.brand.100}",
+              "type": "color",
+              "description": "invert hover color for elements that indicates interactions"
+            },
+            "container": {
+              "value": "{alias.color-roles.brand.900}",
+              "type": "color",
+              "description": "invert background color for containers intended for interactions"
+            },
+            "onContainer": {
+              "value": "{alias.color-roles.brand.50}",
+              "type": "color",
+              "description": "color for elements that are placed on top of invert primary container"
+            }
+          },
+          "invertInformation": {
+            "default": {
+              "value": "{alias.color-roles.accent.50}",
+              "type": "color",
+              "description": "invert color for elements that indicates information"
+            },
+            "onDefault": {
+              "value": "{alias.color-roles.accent.700}",
+              "type": "color",
+              "description": "color for elements that are placed on inverted information elements"
+            },
+            "hover": {
+              "value": "{alias.color-roles.accent.100}",
+              "type": "color",
+              "description": "invert hover color for elements that indicates information"
+            },
+            "container": {
+              "value": "{alias.color-roles.accent.900}",
+              "type": "color",
+              "description": "invert background color for containers intended for information"
+            },
+            "onContainer": {
+              "value": "{alias.color-roles.accent.50}",
+              "type": "color",
+              "description": "color for elements that are placed on top of invert information container"
             }
           }
         },
@@ -1662,35 +1590,88 @@
       "buttons": {
         "btnColors": {
           "primary": {
-            "default": {
-              "value": "{alias.colors-light.functional.interaction.default}",
-              "type": "color",
-              "description": "default color for primary buttons"
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "default color for primary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "default color for elements on primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.700}",
+                "type": "color",
+                "description": "hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "default color for elements on hovered primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.600}",
+                "type": "color",
+                "description": "on click color for primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.100}",
+                "type": "color",
+                "description": "color for elements on top of on click primary buttons"
+              }
             },
-            "onDefault": {
-              "value": "{alias.colors-light.functional.interaction.onDefault}",
-              "type": "color",
-              "description": "default color for elements on primary buttons"
-            },
-            "hover": {
-              "value": "{alias.colors-light.functional.interaction.hover}",
-              "type": "color",
-              "description": "hover color for primary buttons"
-            },
-            "onHover": {
-              "value": "{alias.colors-light.functional.interaction.onDefault}",
-              "type": "color",
-              "description": "default color for elements on hovered primary buttons"
-            },
-            "onClick": {
-              "value": "{alias.colors-light.functional.interaction.container}",
-              "type": "color",
-              "description": "on click color for primary buttons"
-            },
-            "onOnClick": {
-              "value": "{alias.colors-light.functional.interaction.onContainer}",
-              "type": "color",
-              "description": "color for elements on top of on click primary buttons"
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              },
+              "defaultBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of primary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.medium}",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of primary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of primary button"
+              }
             }
           }
         }
@@ -1702,35 +1683,88 @@
       "buttons": {
         "btnColors": {
           "invertPrimary": {
-            "default": {
-              "value": "{alias.colors-light.functional.interaction.container}",
-              "type": "color",
-              "description": "invert color for primary buttons"
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "invert color for primary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "invert color for elements on inverted primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.100}",
+                "type": "color",
+                "description": "invert hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "invert color for elements on hovered primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "invert on click color for primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "invert color for elements on top of inverted on click primary buttons"
+              }
             },
-            "onDefault": {
-              "value": "{alias.colors-light.functional.interaction.default}",
-              "type": "color",
-              "description": "invert color for elements on inverted primary buttons"
-            },
-            "hover": {
-              "value": "{alias.colors-light.functional.interaction.default}",
-              "type": "color",
-              "description": "invert hover color for primary buttons"
-            },
-            "onHover": {
-              "value": "{alias.colors-light.functional.interaction.onDefault}",
-              "type": "color",
-              "description": "invert color for elements on hovered primary buttons"
-            },
-            "onClick": {
-              "value": "{alias.colors-light.functional.interaction.hover}",
-              "type": "color",
-              "description": "invert on click color for primary buttons"
-            },
-            "onOnClick": {
-              "value": "{alias.colors-light.functional.interaction.onDefault}",
-              "type": "color",
-              "description": "invert color for elements on top of inverted on click primary buttons"
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.900}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.200}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              },
+              "defaultBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.subtle}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of primary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.extra-thin}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of primary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.subtle}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of primary button"
+              }
             }
           }
         }
@@ -1742,35 +1776,88 @@
       "buttons": {
         "btnColors": {
           "secondary": {
-            "default": {
-              "value": "{alias.colors-light.functional.information.default}",
-              "type": "color",
-              "description": "default color for secondary buttons"
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "default color for secondary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "default color for elements on secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.700}",
+                "type": "color",
+                "description": "hover color for secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "default color for elements on hovered secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.600}",
+                "type": "color",
+                "description": "on click color for secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.accent.100}",
+                "type": "color",
+                "description": "color for elements on top of on click secondary buttons"
+              }
             },
-            "onDefault": {
-              "value": "{alias.colors-light.functional.information.onDefault}",
-              "type": "color",
-              "description": "default color for elements on secondary buttons"
-            },
-            "hover": {
-              "value": "{alias.colors-light.functional.information.hover}",
-              "type": "color",
-              "description": "hover color for secondary buttons"
-            },
-            "onHover": {
-              "value": "{alias.colors-light.functional.information.onDefault}",
-              "type": "color",
-              "description": "default color for elements on hovered secondary buttons"
-            },
-            "onClick": {
-              "value": "{alias.colors-light.functional.information.container}",
-              "type": "color",
-              "description": "on click color for secondary buttons"
-            },
-            "onOnClick": {
-              "value": "{alias.colors-light.functional.information.onContainer}",
-              "type": "color",
-              "description": "color for elements on top of on click secondary buttons"
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "default color for items on outlined style secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "background color for hovered outlined style secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style secondary buttons"
+              },
+              "defaultBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.information.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of secondary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.information.medium}",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of secondary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.information.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of secondary button"
+              }
             }
           }
         }
@@ -1782,35 +1869,88 @@
       "buttons": {
         "btnColors": {
           "invertSecondary": {
-            "default": {
-              "value": "{alias.colors-light.functional.information.container}",
-              "type": "color",
-              "description": "invert color for inverted secondary buttons"
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "invert color for secondary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "invert color for elements on inverted secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.100}",
+                "type": "color",
+                "description": "invert hover color for secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "invert color for elements on hovered secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "invert on click color for secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "invert color for elements on top of inverted on click secondary buttons"
+              }
             },
-            "onDefault": {
-              "value": "{alias.colors-light.functional.information.default}",
-              "type": "color",
-              "description": "invert color for elements on inverted secondary buttons"
-            },
-            "hover": {
-              "value": "{alias.colors-light.functional.information.default}",
-              "type": "color",
-              "description": "invert hover color for inverted secondary buttons"
-            },
-            "onHover": {
-              "value": "{alias.colors-light.functional.information.onDefault}",
-              "type": "color",
-              "description": "invert color for elements on hovered inverted secondary buttons"
-            },
-            "onClick": {
-              "value": "{alias.colors-light.functional.information.hover}",
-              "type": "color",
-              "description": "invert on click color for inverted secondary buttons"
-            },
-            "onOnClick": {
-              "value": "{alias.colors-light.functional.information.onDefault}",
-              "type": "color",
-              "description": "invert color for elements on top of on click inverted secondary buttons"
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "default color for items on outlined style secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.900}",
+                "type": "color",
+                "description": "background color for hovered outlined style secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.accent.200}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.accent.50}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style secondary buttons"
+              },
+              "defaultBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.information.subtle}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of secondary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.information.heavy}",
+                  "width": "{alias.borders.borderWeight.extra-thin}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of secondary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.information.subtle}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of secondary button"
+              }
             }
           }
         }
@@ -1831,6 +1971,18 @@
               "value": "{alias.colors-light.neutral.onBackground.faint}",
               "type": "color",
               "description": "color for elements on disabled buttons"
+            },
+            "defaultBorder": {
+              "value": {
+                "color": "{alias.borders.borderColor.neutral.subtle}",
+                "width": "{alias.borders.borderWeight.thin}"
+              },
+              "type": "border",
+              "description": "default border color for outlined style disabled buttons"
+            },
+            "opacity": {
+              "value": ".5",
+              "type": "opacity"
             }
           }
         }
@@ -1889,6 +2041,234 @@
             "value": "{alias.spacings.md}",
             "type": "spacing",
             "description": "hover gap for elements on buttons"
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnFonts": {
+    "elements": {
+      "buttons": {
+        "btnFonts": {
+          "default": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "letterSpacing": "{global.typography.letterSpacing.lg}",
+              "textCase": "{global.typography.textCase.none}"
+            },
+            "type": "typography",
+            "description": "default style for button texts"
+          },
+          "alternate": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "letterSpacing": "{global.typography.letterSpacing.md}",
+              "textCase": "{global.typography.textCase.none}"
+            },
+            "type": "typography",
+            "description": "alternate style for button texts"
+          }
+        }
+      }
+    }
+  },
+  "elements/hyperlinks/links": {
+    "elements": {
+      "hyperlinks": {
+        "links": {
+          "regular": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "textDecoration": "{global.typography.textDecoration.none}"
+            },
+            "type": "typography",
+            "description": "default for hyperlinks"
+          },
+          "underlined": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xs}",
+              "textDecoration": "{global.typography.textDecoration.underline}"
+            },
+            "type": "typography",
+            "description": "underline indication for hyperlinks"
+          },
+          "default": {
+            "default": {
+              "value": "{alias.color-roles.brand.400}",
+              "type": "color",
+              "description": "default color for links"
+            },
+            "hover": {
+              "value": "{alias.color-roles.brand.800}",
+              "type": "color",
+              "description": "hover color for links"
+            },
+            "onClick": {
+              "value": "{alias.color-roles.brand.200}",
+              "type": "color",
+              "description": "on click color for links"
+            }
+          },
+          "accented": {
+            "default": {
+              "value": "{alias.color-roles.accent.400}",
+              "type": "color",
+              "description": "accented color for links"
+            },
+            "hover": {
+              "value": "{alias.color-roles.accent.800}",
+              "type": "color",
+              "description": "hover color for accented links"
+            },
+            "onClick": {
+              "value": "{alias.color-roles.accent.200}",
+              "type": "color",
+              "description": "on click color for accented links"
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "{alias.color-roles.neutral.500}",
+              "type": "color",
+              "description": "neutral color for links"
+            },
+            "hover": {
+              "value": "{alias.color-roles.neutral.800}",
+              "type": "color",
+              "description": "hover color for neutral links"
+            },
+            "onClick": {
+              "value": "{alias.color-roles.neutral.200}",
+              "type": "color",
+              "description": "on click color for neutral links"
+            }
+          },
+          "linkSpacings": {
+            "default": {
+              "value": "{alias.spacings.xxxs}",
+              "type": "spacing",
+              "description": "default spacing between link and icon"
+            },
+            "hover": {
+              "value": "{alias.spacings.xs}",
+              "type": "spacing",
+              "description": "spacing between link and icon on hover"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/hyperlinks/navigational": {
+    "elements": {
+      "hyperlinks": {
+        "navigational": {
+          "top": {
+            "regular": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.heading}",
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.sm}",
+                "textDecoration": "{global.typography.textDecoration.none}",
+                "lineHeight": "{global.typography.lineHeight.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "textCase": "{global.typography.textCase.capitalize}"
+              },
+              "type": "typography",
+              "description": "default for navigational text in top header"
+            },
+            "focused": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.heading}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.sm}",
+                "textDecoration": "{global.typography.textDecoration.none}",
+                "lineHeight": "{global.typography.lineHeight.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "textCase": "{global.typography.textCase.capitalize}"
+              },
+              "type": "typography",
+              "description": "selected or hovered for navigational text in top header"
+            }
+          },
+          "bottom": {
+            "regular": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "textDecoration": "{global.typography.textDecoration.none}",
+                "lineHeight": "{global.typography.lineHeight.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
+              },
+              "type": "typography",
+              "description": "default for navigational text in bottom footer"
+            },
+            "focused": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "textDecoration": "{global.typography.textDecoration.none}",
+                "lineHeight": "{global.typography.lineHeight.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
+              },
+              "type": "typography",
+              "description": "selected or hovered for navigational text in bottom footer"
+            }
+          },
+          "default": {
+            "value": "{alias.color-roles.neutral.900}",
+            "type": "color",
+            "description": "default color for navigational hyperlinks"
+          },
+          "hover": {
+            "value": "{alias.color-roles.brand.500}",
+            "type": "color",
+            "description": "hover color for default navigational hyperlinks"
+          },
+          "onClcik": {
+            "value": "{alias.color-roles.brand.300}",
+            "type": "color",
+            "description": "on click color for default navigational hyperlinks"
+          }
+        }
+      }
+    }
+  },
+  "elements/labels/lbFonts": {
+    "elements": {
+      "labels": {
+        "lbFonts": {
+          "short": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "letterSpacing": "{global.typography.letterSpacing.md}"
+            },
+            "type": "typography",
+            "description": "labels that are single lined"
+          },
+          "long": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "letterSpacing": "{global.typography.letterSpacing.md}"
+            },
+            "type": "typography",
+            "description": "labels that are going over multiple lines"
           }
         }
       }
@@ -1974,7 +2354,7 @@
         "global/colors": "enabled",
         "global/dimensions": "enabled",
         "global/typography": "enabled",
-        "elements/buttons/btnColors/invertSecondary": "disabled"
+        "elements/hyperlinks/navigational": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2197,7 +2577,17 @@
         "alias.colors-light.neutral.onBackground.invertedEmphasis": "S:e92fe80bb11a36a580a1ff89735fbe3b1c603857,",
         "alias.colors-light.functional.information.hover": "S:4af60e809533661c04aaeb288efc18371e0b5916,",
         "alias.colors-light.functional.attention.hover": "S:f5fb4003bc5d0c239197d5e1468859e3d45260e9,",
-        "alias.colors-light.functional.success.hover": "S:72025cb329cf5faababa35627d058137227a2b8e,"
+        "alias.colors-light.functional.success.hover": "S:72025cb329cf5faababa35627d058137227a2b8e,",
+        "alias.colors-light.functional.invertInteraction.default": "S:ee012338ad668712ab7e2594ad516d4942cf9c2c,",
+        "alias.colors-light.functional.invertInteraction.onDefault": "S:f90b6bed3a7acc931f02cd6d4dc6cfeb629fe748,",
+        "alias.colors-light.functional.invertInteraction.hover": "S:f6dec6e4d8a581948fe3f1be4c73afc5122aea9d,",
+        "alias.colors-light.functional.invertInteraction.container": "S:c524e4e4a1e41b16b9d4af920f41a9517f50ecd2,",
+        "alias.colors-light.functional.invertInteraction.onContainer": "S:c1e1a5118f016c4759b1e9b6ebe1ec6528dbf70f,",
+        "alias.colors-light.functional.invertInformation.default": "S:a38211cea1c963f78a05b01b205a28f89c03da23,",
+        "alias.colors-light.functional.invertInformation.onDefault": "S:1c123afe9b7c18e5d58c34f801ec988a30dcede4,",
+        "alias.colors-light.functional.invertInformation.hover": "S:29a3a2ffe6c249b965de5c46d73855cc711bc599,",
+        "alias.colors-light.functional.invertInformation.container": "S:21bb04d92f2495e50be226c569013c0c4ecdc461,",
+        "alias.colors-light.functional.invertInformation.onContainer": "S:d7c443542be501dcfa6e69b1dd2f9b3489b7b4c2,"
       },
       "selectedTokenSets": {
         "alias/color-roles": "enabled",
@@ -2205,7 +2595,7 @@
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
         "alias/spacings": "enabled",
-        "elements/buttons/btnColors/invertSecondary": "disabled"
+        "elements/hyperlinks/navigational": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -2280,6 +2670,16 @@
         "alias.colors-light.neutral.onBackground.subtle": "bc4ec82faa3384d564d4a0d52e3c9eebadaebdc9",
         "alias.colors-light.neutral.onBackground.faint": "c49c446595d22dd8d4c094bc46e21793427e9cd9",
         "alias.colors-light.neutral.onBackground.inverted": "da8a2040c12a1553f1a38d39868ff964d4658718",
+        "alias.colors-light.functional.invertInteraction.default": "3160f88991b1c8d2eb16e2add66c084ea1e457b5",
+        "alias.colors-light.functional.invertInteraction.onDefault": "78bebe7c2e42038274a03060e65eb357eae4e76f",
+        "alias.colors-light.functional.invertInteraction.hover": "4c51ff4aa28601dbb74c4838b105c5b9ad1e6cb2",
+        "alias.colors-light.functional.invertInteraction.container": "e0230a473383a576c3874d3512199362c582f877",
+        "alias.colors-light.functional.invertInteraction.onContainer": "792376e616a5ebb3207531ef6754b1afe54c2135",
+        "alias.colors-light.functional.invertInformation.default": "3936c2544a965dcd58333df9d9f609e0edf7fc68",
+        "alias.colors-light.functional.invertInformation.onDefault": "56522f9c3d82cf29bcc06ab8e064f7e67b0946de",
+        "alias.colors-light.functional.invertInformation.hover": "6db36f451ccae0b9b007d4659cebdfd0a5dcaa4c",
+        "alias.colors-light.functional.invertInformation.container": "de4e69f5f3434dabf65f16b4992d4377d5293765",
+        "alias.colors-light.functional.invertInformation.onContainer": "14d8a2552a34fd0bff7e3d4a1320df545b0b6a21",
         "alias.color-roles.brand.50": "6735ad94fd62d297e4ab8e527aa5456dd5a5fb11",
         "alias.color-roles.brand.100": "a19666d485cd33828ad33ec4b0aacc23881d4f3c",
         "alias.color-roles.brand.200": "a095b31679b732b16e21abe1daaa0ea1af54534f",
@@ -2337,10 +2737,6 @@
       "id": "0ab19a635a2347232a75d15f5320397938caf99c",
       "name": "Light",
       "$figmaStyleReferences": {
-        "elements.buttons.btnColors.secondary.default": "S:d5fef9e6f774f7ed1c8717ae85b37700ddafc69d,",
-        "elements.buttons.btnColors.secondary.hover": "S:f2dd9252acd4cbfbc00f127df4e200b8a1e372e1,",
-        "elements.buttons.btnColors.secondary.onClick": "S:7bd82b37167d5c8c1341cb644b712819d438a6f1,",
-        "elements.buttons.btnColors.secondary.onOnClick": "S:16a25b89257194bfa81b2e7ce6d04917e94464a3,",
         "elements.buttons.btnColors.disabled.default": "S:7bc99b9057fcddc5a651198ab1067f3662a2a546,",
         "elements.buttons.btnColors.disabled.onDisabled": "S:49d9681a37a3525c8f8958fa442bad9d8466f417,",
         "elements.buttons.btnColors.invertSecondary.default": "S:dfc98fedc7c6d60f20de798c3f862f1e853483ff,",
@@ -2349,62 +2745,116 @@
         "elements.buttons.btnColors.invertSecondary.onHover": "S:503ed8e3d2034b3056fd41d520be7c9d5f5a6c11,",
         "elements.buttons.btnColors.invertSecondary.onClick": "S:9ad382fd9805a3e266d7bde20976122e73a73069,",
         "elements.buttons.btnColors.invertSecondary.onOnClick": "S:d76e899be8b596715d12fda922eb5d161211a7b4,",
-        "elements.buttons.btnColors.secondary.onDefault": "S:3422749bee5e5df0b4676a56b736c8426540b086,",
-        "elements.buttons.btnColors.secondary.onHover": "S:c02df069bab588659c0d655e1992d341db0e21e5,",
-        "elements.buttons.btnColors.invertPrimary.default": "S:e8255078c78b6fe7c4f7790c9e609b8229935605,",
-        "elements.buttons.btnColors.invertPrimary.onDefault": "S:868ac22cbb827914d98f78d3714dc87e16a6057a,",
-        "elements.buttons.btnColors.invertPrimary.hover": "S:a4dbc8f955ce86dfd5a2d5f73dc931d80cf15810,",
-        "elements.buttons.btnColors.invertPrimary.onHover": "S:212e487e4d543b606b75371f084a8585fd87f5c1,",
-        "elements.buttons.btnColors.invertPrimary.onClick": "S:360f765229e801859da53ebe85fd2fad43a8c86b,",
-        "elements.buttons.btnColors.invertPrimary.onOnClick": "S:e7f8a6bc725955449212b59e40bf83485ffa813d,",
-        "elements.buttons.btnColors.primary.default": "S:34aef5d58758c01892ec5c77eec8088398e23ffa,",
-        "elements.buttons.btnColors.primary.onDefault": "S:c581c591a9f14be62b3ccc4afb60dc545746fbd1,",
-        "elements.buttons.btnColors.primary.hover": "S:b71eb6b14491ee448c8f16f04aabeed819c02497,",
-        "elements.buttons.btnColors.primary.onHover": "S:40e806ac107b753188867d150736fd6dc7678627,",
-        "elements.buttons.btnColors.primary.onClick": "S:a76026ae60610eb519fc897d280be817fe885fef,",
-        "elements.buttons.btnColors.primary.onOnClick": "S:ece7da271f0bcca1ec524d571b449e5e424778b2,"
+        "elements.buttons.btnColors.primary.filled.default": "S:34aef5d58758c01892ec5c77eec8088398e23ffa,",
+        "elements.buttons.btnColors.primary.filled.onDefault": "S:c581c591a9f14be62b3ccc4afb60dc545746fbd1,",
+        "elements.buttons.btnColors.primary.filled.hover": "S:b71eb6b14491ee448c8f16f04aabeed819c02497,",
+        "elements.buttons.btnColors.primary.filled.onHover": "S:40e806ac107b753188867d150736fd6dc7678627,",
+        "elements.buttons.btnColors.primary.filled.onClick": "S:a76026ae60610eb519fc897d280be817fe885fef,",
+        "elements.buttons.btnColors.primary.filled.onOnClick": "S:ece7da271f0bcca1ec524d571b449e5e424778b2,",
+        "elements.buttons.btnColors.primary.outlined.onDefault": "S:fe87d3b296a61acd7bfc509af60114495fab840b,",
+        "elements.buttons.btnColors.primary.outlined.hover": "S:5462ef39dd1ea0d949434d7727e1dc316b56067c,",
+        "elements.buttons.btnColors.primary.outlined.onHover": "S:5f0b6b6a86e2139d653ee09d5aa779dbf8c9e32e,",
+        "elements.buttons.btnColors.primary.outlined.onClick": "S:672d1018e9504ee3993352770fec83c61ea7d9a5,",
+        "elements.buttons.btnColors.primary.outlined.onOnClick": "S:f94bc9df30c3083e0ff1776b033e5281f88e6190,",
+        "elements.buttons.btnColors.invertPrimary.filled.default": "S:e8255078c78b6fe7c4f7790c9e609b8229935605,",
+        "elements.buttons.btnColors.invertPrimary.filled.onDefault": "S:868ac22cbb827914d98f78d3714dc87e16a6057a,",
+        "elements.buttons.btnColors.invertPrimary.filled.hover": "S:a4dbc8f955ce86dfd5a2d5f73dc931d80cf15810,",
+        "elements.buttons.btnColors.invertPrimary.filled.onHover": "S:212e487e4d543b606b75371f084a8585fd87f5c1,",
+        "elements.buttons.btnColors.invertPrimary.filled.onClick": "S:360f765229e801859da53ebe85fd2fad43a8c86b,",
+        "elements.buttons.btnColors.invertPrimary.filled.onOnClick": "S:e7f8a6bc725955449212b59e40bf83485ffa813d,",
+        "elements.buttons.btnColors.secondary.filled.default": "S:d5fef9e6f774f7ed1c8717ae85b37700ddafc69d,",
+        "elements.buttons.btnColors.secondary.filled.hover": "S:f2dd9252acd4cbfbc00f127df4e200b8a1e372e1,",
+        "elements.buttons.btnColors.secondary.filled.onClick": "S:7bd82b37167d5c8c1341cb644b712819d438a6f1,",
+        "elements.buttons.btnColors.secondary.filled.onOnClick": "S:16a25b89257194bfa81b2e7ce6d04917e94464a3,",
+        "elements.buttons.btnColors.secondary.filled.onDefault": "S:3422749bee5e5df0b4676a56b736c8426540b086,",
+        "elements.buttons.btnColors.secondary.filled.onHover": "S:c02df069bab588659c0d655e1992d341db0e21e5,",
+        "elements.buttons.btnColors.secondary.outlined.onDefault": "S:485f2f02dab2c1264452fc1058006560d5449c4c,",
+        "elements.buttons.btnColors.secondary.outlined.hover": "S:f5868307b500091bca9a69141c771e99ea5850fb,",
+        "elements.buttons.btnColors.secondary.outlined.onHover": "S:ca5dd0c75146ec4c2cb4f26f78362cd1de01a407,",
+        "elements.buttons.btnColors.secondary.outlined.onClick": "S:a3e79f84955c472ba2160b2baf586210a64ebd3d,",
+        "elements.buttons.btnColors.secondary.outlined.onOnClick": "S:c6142c86b9c488ff4141eefa2a6a927b7a49b714,",
+        "elements.buttons.btnColors.invertPrimary.outlined.onDefault": "S:125f67e05f125d3c06748f994e1ce24ec77c6b56,",
+        "elements.buttons.btnColors.invertPrimary.outlined.hover": "S:72da844be6f94b65c221803c8602257d96acdea9,",
+        "elements.buttons.btnColors.invertPrimary.outlined.onHover": "S:b79911eeae47429f4c0cfb2762a40c3715e19f77,",
+        "elements.buttons.btnColors.invertPrimary.outlined.onClick": "S:fd74189098df850548f52e62fb454bce52a3e972,",
+        "elements.buttons.btnColors.invertPrimary.outlined.onOnClick": "S:0e3598ff1275fe87333edc6d93b1a45777e763d5,"
       },
       "selectedTokenSets": {
         "elements/buttons/btnSizes": "enabled",
         "elements/buttons/btnColors/primary": "enabled",
         "elements/buttons/btnColors/disabled": "enabled",
-        "elements/buttons/btnColors/invertSecondary": "enabled",
         "elements/buttons/btnColors/invertPrimary": "enabled",
-        "elements/buttons/btnColors/secondary": "enabled"
+        "elements/buttons/btnColors/secondary": "enabled",
+        "elements/buttons/btnColors/invertSecondary": "enabled",
+        "elements/hyperlinks/navigational": "enabled",
+        "elements/buttons/btnFonts": "enabled",
+        "elements/hyperlinks/links": "enabled",
+        "elements/labels/lbFonts": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
       "$figmaVariableReferences": {
+        "elements.hyperlinks.links.default.default": "3f248a8244715c2d4c0cb89c46f1f49ccb5268fc",
+        "elements.hyperlinks.links.default.hover": "fabc33aa4c39b9bd48384eca564c642176caab51",
+        "elements.hyperlinks.links.default.onClick": "f3db7c53cb014f86145497ec93dfb9cd4ef6d549",
+        "elements.hyperlinks.links.accented.default": "03d6e722abf257fc72282819db0a905069051fe8",
+        "elements.hyperlinks.links.accented.hover": "b63174bc10da7584a7ef38bb9a00476a32c3b894",
+        "elements.hyperlinks.links.accented.onClick": "a46f36ef161dfaabb2bbc91ebf4c03eac705c393",
+        "elements.hyperlinks.links.neutral.default": "44bd975f2902b292b024924b2cd5c062ce8d329a",
+        "elements.hyperlinks.links.neutral.hover": "03c70eb17534461339d1ca6081d074b48153dadc",
+        "elements.hyperlinks.links.neutral.onClick": "8fed008a48e60771328c63c3aa9dde6aac803620",
+        "elements.hyperlinks.links.linkSpacings.default": "7949bb742f3de65f8e82412e164ccedd51e21446",
+        "elements.hyperlinks.links.linkSpacings.hover": "a4afac21ec86a820681f776c1f6288e4acea860e",
         "elements.buttons.btnSizes.iconOnly.largeSize": "32c56ac77fc38bda7034594d318f255c8df29e2b",
         "elements.buttons.bttnBorders.largeSize": "aaf522672bb2d55ba3df9216bcd01e3dbb714080",
         "elements.buttons.btnGaps.defaultGap": "d29319c3761951645e75d492a415c283eb5a691f",
         "elements.buttons.btnGaps.hoverGap": "1647b538da8dbb2410a8da203e2bb00116a40e43",
         "elements.buttons.btnColors.disabled.default": "5fe7f6ebf23d5fc1c0c594fd89360b547ed78ed3",
         "elements.buttons.btnColors.disabled.onDisabled": "ab844304b38041357dba83e14ea29cfef4a1b5c3",
-        "elements.buttons.btnColors.invertSecondary.default": "8940b590f66e3c30d4ac581bd869f2f500ff614f",
-        "elements.buttons.btnColors.invertSecondary.onDefault": "80f9c473a320b2ce61ad78f9e7c6ab5463f083d5",
-        "elements.buttons.btnColors.invertSecondary.hover": "6bd6eb780391248563f8c57ede05c1c359995990",
-        "elements.buttons.btnColors.invertSecondary.onHover": "1fe0ce5e2fdda0cfd42a239beee93fdf528e2d50",
-        "elements.buttons.btnColors.invertSecondary.onClick": "5bd05f11989f0dc4e5a8011583a38d3370bca4fd",
-        "elements.buttons.btnColors.invertSecondary.onOnClick": "31c2cd61dbaef41fa36277cd88c847d2825329e9",
-        "elements.buttons.btnColors.secondary.default": "f9fecea99a223c2da93a9a072c9fef1c53a18a51",
-        "elements.buttons.btnColors.secondary.onDefault": "affb939e1a630a7feaed33853dc9b26d27e89be6",
-        "elements.buttons.btnColors.secondary.hover": "aab6e164d598fd9bb5d74e27a2081c0270335a01",
-        "elements.buttons.btnColors.secondary.onHover": "0c70b9d1cc21750d7df7eb5fa2449566715799f2",
-        "elements.buttons.btnColors.secondary.onClick": "af133b748bdc6e80caf227b51c4d0446a93ac33a",
-        "elements.buttons.btnColors.secondary.onOnClick": "c0b803d661e771d01b29dd6f616c21708a6d3cd0",
-        "elements.buttons.btnColors.invertPrimary.default": "d4a8a7aed47a4dc14c0a5e18fa63b8cb66ea252b",
-        "elements.buttons.btnColors.invertPrimary.onDefault": "145ddc2b7f19083b7467f3b863574248a556cffa",
-        "elements.buttons.btnColors.invertPrimary.hover": "8a21c86a9d71e242a58ea16946ba54af1ecc94b2",
-        "elements.buttons.btnColors.invertPrimary.onHover": "e769075dd7c7223d646d5ef3fc7689a04cb9b5ab",
-        "elements.buttons.btnColors.invertPrimary.onClick": "8968b0b31665b3d3eab7bf868dabc565d925a05e",
-        "elements.buttons.btnColors.invertPrimary.onOnClick": "aee880f18895ea98b28d502dd8aa867e450f961f",
-        "elements.buttons.btnColors.primary.default": "912829cbd9717d6d4c51e735feffc4e42abef2d7",
-        "elements.buttons.btnColors.primary.onDefault": "804bcee19600e8b9d215de394d6bc4db61c4ba15",
-        "elements.buttons.btnColors.primary.hover": "805de71f10b8b353531b573bd0817856edf360a5",
-        "elements.buttons.btnColors.primary.onHover": "59d735ff867e49c32a523e336623bd13df5a9c6c",
-        "elements.buttons.btnColors.primary.onClick": "ad3e21f234cbfb3c3010b424cd522e4d27c746a9",
-        "elements.buttons.btnColors.primary.onOnClick": "dc7668defc4e50fe7b63ca90adef8db8afa6bb68"
+        "elements.buttons.btnColors.invertSecondary.filled.default": "35fef10caa452befb77599c06d9d0a6dcfaad25a",
+        "elements.buttons.btnColors.invertSecondary.filled.onDefault": "7efa85715813d0a273dc99a43c17c962161c6105",
+        "elements.buttons.btnColors.invertSecondary.filled.hover": "c4af092566de6649b1b47c8ca9febe2ef8fa5d55",
+        "elements.buttons.btnColors.invertSecondary.filled.onHover": "9990aa21a884edc2d4b721cb4fa478bcf77ac29c",
+        "elements.buttons.btnColors.invertSecondary.filled.onClick": "b514559a5e35cd21af06c0a2053e0d5e47ccec31",
+        "elements.buttons.btnColors.invertSecondary.filled.onOnClick": "e7b631f44dca39562d9f585ed796682dc28dda59",
+        "elements.buttons.btnColors.invertSecondary.outlined.onDefault": "462a274e839587a290f2a8b53fc19d5728675135",
+        "elements.buttons.btnColors.invertSecondary.outlined.hover": "c4b8f88f4946558a090ba44a557021540e64c3de",
+        "elements.buttons.btnColors.invertSecondary.outlined.onHover": "6b48af7e4deaf6f4b8662c67b6b7d43daef9b309",
+        "elements.buttons.btnColors.invertSecondary.outlined.onClick": "781169425c4d975d31a2e4009923c6df2fb14f42",
+        "elements.buttons.btnColors.invertSecondary.outlined.onOnClick": "b11511772efb590315c05919ec4374db813b81c3",
+        "elements.buttons.btnColors.secondary.filled.default": "f9fecea99a223c2da93a9a072c9fef1c53a18a51",
+        "elements.buttons.btnColors.secondary.filled.onDefault": "affb939e1a630a7feaed33853dc9b26d27e89be6",
+        "elements.buttons.btnColors.secondary.filled.hover": "aab6e164d598fd9bb5d74e27a2081c0270335a01",
+        "elements.buttons.btnColors.secondary.filled.onHover": "0c70b9d1cc21750d7df7eb5fa2449566715799f2",
+        "elements.buttons.btnColors.secondary.filled.onClick": "af133b748bdc6e80caf227b51c4d0446a93ac33a",
+        "elements.buttons.btnColors.secondary.filled.onOnClick": "c0b803d661e771d01b29dd6f616c21708a6d3cd0",
+        "elements.buttons.btnColors.secondary.outlined.onDefault": "07bb509ec98842760716b9593058d992be0aea01",
+        "elements.buttons.btnColors.secondary.outlined.hover": "d8da2ca7adccccfbab648a954087fcf84efa05ae",
+        "elements.buttons.btnColors.secondary.outlined.onHover": "7832da77b5169ce4a9e8cda7c9cff2f2e358c6f9",
+        "elements.buttons.btnColors.secondary.outlined.onClick": "9c1ee0de79f1eaf5e1ced9e0c3386e17948c31fb",
+        "elements.buttons.btnColors.secondary.outlined.onOnClick": "3b7ecf64d94efd1477b6885eef03dbb212f7eb4d",
+        "elements.buttons.btnColors.invertPrimary.filled.default": "d4a8a7aed47a4dc14c0a5e18fa63b8cb66ea252b",
+        "elements.buttons.btnColors.invertPrimary.filled.onDefault": "145ddc2b7f19083b7467f3b863574248a556cffa",
+        "elements.buttons.btnColors.invertPrimary.filled.hover": "8a21c86a9d71e242a58ea16946ba54af1ecc94b2",
+        "elements.buttons.btnColors.invertPrimary.filled.onHover": "e769075dd7c7223d646d5ef3fc7689a04cb9b5ab",
+        "elements.buttons.btnColors.invertPrimary.filled.onClick": "8968b0b31665b3d3eab7bf868dabc565d925a05e",
+        "elements.buttons.btnColors.invertPrimary.filled.onOnClick": "aee880f18895ea98b28d502dd8aa867e450f961f",
+        "elements.buttons.btnColors.invertPrimary.outlined.onDefault": "605007df3b6ea9d1eb4580ed13b83e2816bdb7fa",
+        "elements.buttons.btnColors.invertPrimary.outlined.hover": "1654cbfa8a984718e66e1e78e1b6b4978ed356b5",
+        "elements.buttons.btnColors.invertPrimary.outlined.onHover": "85784b69676aec2c3277ac836bf092a3ae0c7f9d",
+        "elements.buttons.btnColors.invertPrimary.outlined.onClick": "650a0679e3571616b21656ad2e78958c88909364",
+        "elements.buttons.btnColors.invertPrimary.outlined.onOnClick": "0a2e4cbbc60e0bd0dcc7047d49f2cff7c4ed3a25",
+        "elements.buttons.btnColors.primary.filled.default": "912829cbd9717d6d4c51e735feffc4e42abef2d7",
+        "elements.buttons.btnColors.primary.outlined.onDefault": "128e33bd6a0c1060287d2c3a0119b9b687ba3cb0",
+        "elements.buttons.btnColors.primary.filled.onDefault": "804bcee19600e8b9d215de394d6bc4db61c4ba15",
+        "elements.buttons.btnColors.primary.filled.hover": "805de71f10b8b353531b573bd0817856edf360a5",
+        "elements.buttons.btnColors.primary.outlined.hover": "9a4b5901b674cbc017aa946052a1c39ff2df0d2c",
+        "elements.buttons.btnColors.primary.outlined.onHover": "ead311b3da8fe9e82a73f8b0fa27f0027c5980ef",
+        "elements.buttons.btnColors.primary.outlined.onClick": "7457990824c3f3b96c434e7774612e405f87ce2d",
+        "elements.buttons.btnColors.primary.outlined.onOnClick": "0a8baa900621775e0f9971317aa5f5a213148127",
+        "elements.buttons.btnColors.primary.filled.onHover": "59d735ff867e49c32a523e336623bd13df5a9c6c",
+        "elements.buttons.btnColors.primary.filled.onClick": "ad3e21f234cbfb3c3010b424cd522e4d27c746a9",
+        "elements.buttons.btnColors.primary.filled.onOnClick": "dc7668defc4e50fe7b63ca90adef8db8afa6bb68"
       },
       "group": "Elements"
     }
@@ -2424,7 +2874,11 @@
       "elements/buttons/btnColors/secondary",
       "elements/buttons/btnColors/invertSecondary",
       "elements/buttons/btnColors/disabled",
-      "elements/buttons/btnSizes"
+      "elements/buttons/btnSizes",
+      "elements/buttons/btnFonts",
+      "elements/hyperlinks/links",
+      "elements/hyperlinks/navigational",
+      "elements/labels/lbFonts"
     ]
   }
 }
