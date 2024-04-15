@@ -1998,6 +1998,11 @@
               "value": "{global.dimensions.13}",
               "type": "sizing",
               "description": "large size for buttons with only icons"
+            },
+            "defaultSize": {
+              "value": "{global.dimensions.10}",
+              "type": "sizing",
+              "description": "default size for buttons with only icons"
             }
           }
         },
@@ -2007,6 +2012,11 @@
               "value": "{alias.spacings.sm} {alias.spacings.lg}",
               "type": "spacing",
               "description": "paddings for buttons with only icon"
+            },
+            "defaultSize": {
+              "value": "{global.dimensions.4} {alias.spacings.md}",
+              "type": "spacing",
+              "description": "defalut paddings for buttons with only icon"
             }
           },
           "iconLeft": {
@@ -2014,6 +2024,11 @@
               "value": "{alias.spacings.sm} {alias.spacings.lg} {alias.spacings.sm} {alias.spacings.ml}",
               "type": "spacing",
               "description": "paddings for buttons with left icon"
+            },
+            "defaultSize": {
+              "value": "{global.dimensions.4} {alias.spacings.md} {global.dimensions.4} {alias.spacings.xs}",
+              "type": "spacing",
+              "description": "default paddings for buttons with left icon"
             }
           },
           "iconRight": {
@@ -2021,6 +2036,11 @@
               "value": "{alias.spacings.sm} {alias.spacings.ml} {alias.spacings.sm} {alias.spacings.lg}",
               "type": "spacing",
               "description": "paddings for buttons with right icon"
+            },
+            "defaultSize": {
+              "value": "{global.dimensions.4} {alias.spacings.xs} {global.dimensions.4} {alias.spacings.md}",
+              "type": "spacing",
+              "description": "default paddings for buttons with right icon"
             }
           }
         },
@@ -2038,7 +2058,7 @@
             "description": "default gap for elements on buttons"
           },
           "hoverGap": {
-            "value": "{alias.spacings.md}",
+            "value": "{alias.spacings.xs}",
             "type": "spacing",
             "description": "hover gap for elements on buttons"
           }
@@ -2244,7 +2264,7 @@
       }
     }
   },
-  "elements/labels/lbFonts": {
+  "elements/labels": {
     "elements": {
       "labels": {
         "lbFonts": {
@@ -2269,6 +2289,155 @@
             },
             "type": "typography",
             "description": "labels that are going over multiple lines"
+          }
+        },
+        "labelSizes": {
+          "shortLabel": {
+            "value": "{alias.spacings.xxs} {alias.spacings.sm}",
+            "type": "spacing",
+            "description": "paddings for short labels"
+          },
+          "longLabel": {
+            "value": "{alias.spacings.xxxs} {alias.spacings.xs}",
+            "type": "spacing",
+            "description": "paddings for long labels"
+          },
+          "iconSize": {
+            "value": "{global.dimensions.5}",
+            "type": "sizing",
+            "description": "default size for icon in labels"
+          }
+        },
+        "labelGaps": {
+          "defaultGap": {
+            "value": "{alias.spacings.xxs}",
+            "type": "spacing",
+            "description": "default gap for short labels"
+          },
+          "shortGap": {
+            "value": "{alias.spacings.xxxs}",
+            "type": "spacing",
+            "description": "default gap for long labels"
+          }
+        },
+        "labelBorders": {
+          "primary": {
+            "value": {
+              "color": "{alias.borders.borderColor.interaction.heavy}",
+              "width": "{alias.borders.borderWeight.thin}"
+            },
+            "type": "border",
+            "description": "default border for labels"
+          },
+          "neutral": {
+            "value": {
+              "color": "{alias.borders.borderColor.neutral.medium}",
+              "width": "{alias.borders.borderWeight.thin}"
+            },
+            "type": "border",
+            "description": "neutral border for labels"
+          }
+        },
+        "lbColors": {
+          "primary": {
+            "default": {
+              "value": "{alias.color-roles.brand.50}",
+              "type": "color",
+              "description": "default background for primary label"
+            },
+            "onDefault": {
+              "value": "{alias.color-roles.brand.500}",
+              "type": "color",
+              "description": "default color for elements on primary label"
+            }
+          },
+          "neutral": {
+            "default": {
+              "value": "{alias.color-roles.neutral.50}",
+              "type": "color",
+              "description": "default background for neutral label"
+            },
+            "onDefault": {
+              "value": "{alias.color-roles.neutral.800}",
+              "type": "color",
+              "description": "default color for elements on neutral label"
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/fields/inputFields": {
+    "elements": {
+      "fields": {
+        "inputFields": {
+          "inputFieldFonts": {
+            "fieldLabel": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "lineHeight": "{global.typography.lineHeight.xxs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
+              },
+              "type": "typography",
+              "description": "labels that are single lined"
+            },
+            "hintText": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
+                "lineHeight": "{global.typography.lineHeight.xxs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}"
+              },
+              "type": "typography",
+              "description": "hint text for input fields"
+            }
+          },
+          "inputFieldGaps": {
+            "labelGap": {
+              "value": "{alias.spacings.xxxs}",
+              "type": "spacing",
+              "description": "spacing between label and text field"
+            }
+          },
+          "inputFieldPaddings": {
+            "inputBox": {
+              "value": "{alias.spacings.xxs} {alias.spacings.xs}",
+              "type": "spacing",
+              "description": "padidngs for input text box"
+            }
+          },
+          "inputFieldBorders": {
+            "default": {
+              "value": {
+                "color": "{alias.borders.borderColor.neutral.medium}",
+                "width": "{alias.borders.borderWeight.extra-thin}"
+              },
+              "type": "border",
+              "description": "default border for input text fields"
+            },
+            "neutral": {
+              "value": {
+                "color": "{alias.borders.borderColor.neutral.medium}",
+                "width": "{alias.borders.borderWeight.thin}"
+              },
+              "type": "border",
+              "description": "neutral border for labels"
+            }
+          },
+          "inputFieldColors": {
+            "onDefault": {
+              "value": "{alias.color-roles.neutral.400}",
+              "type": "color",
+              "description": "default color for elements on input text fields"
+            },
+            "default-copy": {
+              "value": "#fff",
+              "type": "color",
+              "description": "default color for input text fields"
+            }
           }
         }
       }
@@ -2354,7 +2523,8 @@
         "global/colors": "enabled",
         "global/dimensions": "enabled",
         "global/typography": "enabled",
-        "elements/hyperlinks/navigational": "disabled"
+        "elements/labels": "disabled",
+        "elements/fields/inputFields": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2595,7 +2765,8 @@
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
         "alias/spacings": "enabled",
-        "elements/hyperlinks/navigational": "disabled"
+        "elements/labels": "disabled",
+        "elements/fields/inputFields": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -2789,11 +2960,25 @@
         "elements/hyperlinks/navigational": "enabled",
         "elements/buttons/btnFonts": "enabled",
         "elements/hyperlinks/links": "enabled",
-        "elements/labels/lbFonts": "enabled"
+        "elements/labels": "enabled",
+        "elements/fields/inputFields": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
       "$figmaVariableReferences": {
+        "elements.fields.inputFields.inputFieldGaps.labelGap": "00d90612d6259b002f0bc16b42d3f5b6474c6902",
+        "elements.fields.inputFields.inputFieldColors.onDefault": "8daed8f8b96e9f615e3bbc0e83fb9fee20c44154",
+        "elements.fields.inputFields.inputFieldColors.default-copy": "748fc8d05771a441bd1e7842fa4b9d58793fbd83",
+        "elements.labels.labelGaps.defaultGap": "48392df0d49868ced58ce2bf49276f096af5c1c2",
+        "elements.labels.labelGaps.shortGap": "0b8ae32e6da36dff5716899605180fc2c5e0fc6a",
+        "elements.labels.labelSizes.iconSize": "318b9c8dfabca67843598f4fbc72caf5f5a02a33",
+        "elements.labels.lbColors.primary.default": "33233e03ce0a450f35deb0da19dc2fe961c437c3",
+        "elements.labels.lbColors.primary.onDefault": "728a87b32c37fdb4000d73ec25aa7553fb82ae0f",
+        "elements.labels.lbColors.neutral.default": "71262e17865465a2d09a0122ad9fb93004d144ac",
+        "elements.labels.lbColors.neutral.onDefault": "2190c6c1663da3d15c51fbb1e971a468125901c2",
+        "elements.hyperlinks.navigational.default": "366c24721e33540bb74f2009036de2107458080c",
+        "elements.hyperlinks.navigational.hover": "d2bb0dce93ac1c3a3cb7398baae7c71de19558f8",
+        "elements.hyperlinks.navigational.onClcik": "8828641826a7e59e9d3b389aa0881356d6ccf32f",
         "elements.hyperlinks.links.default.default": "3f248a8244715c2d4c0cb89c46f1f49ccb5268fc",
         "elements.hyperlinks.links.default.hover": "fabc33aa4c39b9bd48384eca564c642176caab51",
         "elements.hyperlinks.links.default.onClick": "f3db7c53cb014f86145497ec93dfb9cd4ef6d549",
@@ -2806,6 +2991,7 @@
         "elements.hyperlinks.links.linkSpacings.default": "7949bb742f3de65f8e82412e164ccedd51e21446",
         "elements.hyperlinks.links.linkSpacings.hover": "a4afac21ec86a820681f776c1f6288e4acea860e",
         "elements.buttons.btnSizes.iconOnly.largeSize": "32c56ac77fc38bda7034594d318f255c8df29e2b",
+        "elements.buttons.btnSizes.iconOnly.defaultSize": "dd0a133e5c865fb7620741624e4655548cb334c7",
         "elements.buttons.bttnBorders.largeSize": "aaf522672bb2d55ba3df9216bcd01e3dbb714080",
         "elements.buttons.btnGaps.defaultGap": "d29319c3761951645e75d492a415c283eb5a691f",
         "elements.buttons.btnGaps.hoverGap": "1647b538da8dbb2410a8da203e2bb00116a40e43",
@@ -2878,7 +3064,8 @@
       "elements/buttons/btnFonts",
       "elements/hyperlinks/links",
       "elements/hyperlinks/navigational",
-      "elements/labels/lbFonts"
+      "elements/labels",
+      "elements/fields/inputFields"
     ]
   }
 }
