@@ -2522,9 +2522,7 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled",
-        "elements/labels": "disabled",
-        "elements/fields/inputFields": "disabled"
+        "global/typography": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2764,9 +2762,7 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled",
-        "elements/labels": "disabled",
-        "elements/fields/inputFields": "disabled"
+        "alias/spacings": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
