@@ -1307,7 +1307,7 @@
         "neutral": {
           "background": {
             "white": {
-              "value": "{alias.color-roles.neutral.50}",
+              "value": "{alias.color-roles.neutral.0}",
               "type": "color",
               "description": "background color for sections or elements lowest level of elevation"
             },
