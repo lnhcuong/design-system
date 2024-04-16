@@ -2378,6 +2378,18 @@
               "type": "color",
               "description": "default color for elements on neutral label"
             }
+          },
+          "secondary": {
+            "default": {
+              "value": "{alias.color-roles.accent.50}",
+              "type": "color",
+              "description": "default background for secondary label"
+            },
+            "onDefault": {
+              "value": "{alias.color-roles.accent.500}",
+              "type": "color",
+              "description": "default color for elements on secondary label"
+            }
           }
         }
       }
@@ -3005,7 +3017,9 @@
         "elements.hyperlinks.links.regular": "S:784c3c1ad66b18963a8225c2998f16cbeb24a522,",
         "elements.hyperlinks.links.underlined": "S:cbf198bcb21789bf187d3f11ac131703370fc4fe,",
         "elements.buttons.btnFonts.default": "S:21cae0716e49fa27c73af22cee3525831ec22385,",
-        "elements.buttons.btnFonts.alternate": "S:22b032e815d1f3b6fbb19316dc047f40fb8b8be7,"
+        "elements.buttons.btnFonts.alternate": "S:22b032e815d1f3b6fbb19316dc047f40fb8b8be7,",
+        "elements.labels.lbColors.secondary.default": "S:4e7388f5bc8a8cd4314e6bc8734af7ed65d6fc59,",
+        "elements.labels.lbColors.secondary.onDefault": "S:c46bae1e5e4ab2a596fa89597594721d34c3656a,"
       },
       "selectedTokenSets": {
         "elements/buttons/btnSizes": "enabled",
@@ -3033,6 +3047,8 @@
         "elements.labels.lbColors.primary.onDefault": "b6febd0b7acf06f22bafff16a115c5bb14282c9a",
         "elements.labels.lbColors.neutral.default": "0bf5f562c0b224f973b37c3841d53b4fa9f14f75",
         "elements.labels.lbColors.neutral.onDefault": "95e221ea3db78d2a0f787ef5bcd0d55f2f586d60",
+        "elements.labels.lbColors.secondary.default": "a7733c8c7df7d0663eb09f62fdf097c9ccba0f2c",
+        "elements.labels.lbColors.secondary.onDefault": "935cc4635a740d9cdcda46705bb67efe66bee60c",
         "elements.hyperlinks.navigational.default": "5a67ec0b2ab2d90961204c3e37ad18ea58502ee5",
         "elements.hyperlinks.navigational.hover": "90bb1e3783661b2abddadf0c10d11d58da60cd57",
         "elements.hyperlinks.navigational.onClcik": "ed9eae8879e86f1403a38d6a5ff5f25594cffe4c",
