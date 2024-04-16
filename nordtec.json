@@ -465,7 +465,7 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "League Spartan",
+            "value": "Inter",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
