@@ -891,6 +891,11 @@
           }
         },
         "neutral": {
+          "0": {
+            "value": "#fff",
+            "type": "color",
+            "description": "lightest shade of default color with no specific role"
+          },
           "50": {
             "value": "{global.colors.grayscale.50}",
             "type": "color",
@@ -1301,6 +1306,11 @@
         },
         "neutral": {
           "background": {
+            "white": {
+              "value": "{alias.color-roles.neutral.50}",
+              "type": "color",
+              "description": "background color for sections or elements lowest level of elevation"
+            },
             "default": {
               "value": "{alias.color-roles.neutral.50}",
               "type": "color",
@@ -2761,7 +2771,9 @@
         "alias.colors-light.functional.invertInformation.onDefault": "S:5bf82b93b7d78c606345d34ad7aaf4f0df53bb08,",
         "alias.colors-light.functional.invertInformation.hover": "S:0717572feb4c2f74294f58d7ea5e7973f81b3798,",
         "alias.colors-light.functional.invertInformation.container": "S:b3aaf179338a16575535995a32c128209c55b797,",
-        "alias.colors-light.functional.invertInformation.onContainer": "S:ec504f4e22e281992eedde339a92892e1b601287,"
+        "alias.colors-light.functional.invertInformation.onContainer": "S:ec504f4e22e281992eedde339a92892e1b601287,",
+        "alias.colors-light.neutral.background.white": "S:9d59b6b8c1147cf9e8cc5ad4ef43b934d13cd3fd,",
+        "alias.color-roles.neutral.0": "S:2f5c6fd0253a0f03b782953a89ff7f8bd59f3a2d,"
       },
       "selectedTokenSets": {
         "alias/color-roles": "enabled",
@@ -2838,6 +2850,7 @@
         "alias.colors-light.functional.invertInformation.hover": "adbd19815d0ae054be5da3d09c19648684c658d2",
         "alias.colors-light.functional.invertInformation.container": "a2e9575cfc27204636e76ac62326a6e7632719ff",
         "alias.colors-light.functional.invertInformation.onContainer": "d14a0d7cdc1c85b8206d2e338055faca33743ab1",
+        "alias.colors-light.neutral.background.white": "9b9d964f203e9dc1fd25b768a9bc2db60b33ab65",
         "alias.colors-light.neutral.background.default": "3d706f99d2f02268561646564a74eff68125038c",
         "alias.colors-light.neutral.background.elevation01": "2082b9efb841c59b7879eb35d2ceb7a14de9b605",
         "alias.colors-light.neutral.background.elevation02": "71a5c6eb2695d6c3789112d67c130a11d95599f4",
@@ -2894,6 +2907,7 @@
         "alias.color-roles.warning.800": "ea5888047c6dc0149813200f725419fe3e4ac9d0",
         "alias.color-roles.warning.900": "d07aefc55e538679ee69201d0317c39b9f477834",
         "alias.color-roles.neutral.50": "840c0f1cf79de19b7c7849e664a06b40fca02f33",
+        "alias.color-roles.neutral.0": "7bae11c855f40317a60615b9f1fd7b2d77bee8f5",
         "alias.color-roles.neutral.100": "a4b852d5aed380a474c3a8f802d0e5b72595ff9f",
         "alias.color-roles.neutral.200": "f9be3a28983ab30115e0adf02a2623130ef10b24",
         "alias.color-roles.neutral.300": "4ae495f5b018838c9e28fc14da5c33e668d97e17",
@@ -3036,6 +3050,7 @@
         "elements.buttons.btnSizes.iconOnly.largeSize": "1358f45133225d17dc6b81d3c6ed04520903a535",
         "elements.buttons.btnSizes.iconOnly.defaultSize": "7abafb8c8632f724da371f5e216ab4693b303c1a",
         "elements.buttons.bttnBorders.largeSize": "51188d18707a7c259699fdde42886094e8432089",
+        "elements.buttons.bttnBorders.defaultSize": "b37f307d52a17806fb907328f21c450b7e6ba8bd",
         "elements.buttons.btnGaps.defaultGap": "4efdcbbdc0c26a971b2b1c73593014f306818ea2",
         "elements.buttons.btnGaps.hoverGap": "3b9e41e8c34bf1553476e475526cf0b651423c22",
         "elements.buttons.btnColors.disabled.default": "b756b8eef1786e4414ba628355e16de2d4be182e",
