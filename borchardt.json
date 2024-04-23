@@ -1022,19 +1022,6 @@
           "type": "textDecoration"
         },
         "functional": {
-          "pre-title": {
-            "regular": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}",
-                "textCase": "{global.typography.textCase.none}"
-              },
-              "type": "typography",
-              "description": "texts preceding the title"
-            }
-          },
           "subtitle": {
             "regular": {
               "value": {
@@ -1055,6 +1042,19 @@
               },
               "type": "typography",
               "description": "single-line subtitles"
+            }
+          },
+          "pre-title": {
+            "regular": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontSize": "{global.typography.fontSize.xxs}",
+                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "textCase": "{global.typography.textCase.none}"
+              },
+              "type": "typography",
+              "description": "texts preceding the title"
             }
           }
         },
@@ -2337,14 +2337,6 @@
           }
         },
         "labelBorders": {
-          "primary": {
-            "value": {
-              "color": "{alias.borders.borderColor.interaction.heavy}",
-              "width": "{alias.borders.borderWeight.thin}"
-            },
-            "type": "border",
-            "description": "default border for labels"
-          },
           "neutral": {
             "value": {
               "color": "{alias.borders.borderColor.neutral.medium}",
@@ -2352,6 +2344,14 @@
             },
             "type": "border",
             "description": "neutral border for labels"
+          },
+          "primary": {
+            "value": {
+              "color": "{alias.borders.borderColor.interaction.heavy}",
+              "width": "{alias.borders.borderWeight.thin}"
+            },
+            "type": "border",
+            "description": "default border for labels"
           }
         },
         "lbColors": {
