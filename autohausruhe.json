@@ -465,12 +465,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "League Spartan",
+            "value": "Epilogue",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Roboto",
+            "value": "Barlow",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
