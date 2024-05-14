@@ -2057,7 +2057,7 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{alias.borders.borderRadius.sm}",
+            "value": "{alias.borders.borderRadius.xs}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           },
@@ -2089,7 +2089,7 @@
           "default": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.lg}",
               "textCase": "{global.typography.textCase.none}"
@@ -2100,7 +2100,7 @@
           "alternate": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
