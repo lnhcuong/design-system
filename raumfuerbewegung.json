@@ -465,12 +465,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "League Spartan",
+            "value": "Melodrama Variable",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Roboto",
+            "value": "Comfortaa",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -684,52 +684,52 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.grayscale.50}",
+            "value": "{global.colors.mint.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.grayscale.100}",
+            "value": "{global.colors.mint.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.grayscale.200}",
+            "value": "{global.colors.mint.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.grayscale.300}",
+            "value": "{global.colors.mint.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.grayscale.400}",
+            "value": "{global.colors.mint.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.grayscale.500}",
+            "value": "{global.colors.mint.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.grayscale.600}",
+            "value": "{global.colors.mint.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.grayscale.700}",
+            "value": "{global.colors.mint.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.grayscale.800}",
+            "value": "{global.colors.mint.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.grayscale.900}",
+            "value": "{global.colors.mint.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
@@ -1603,7 +1603,7 @@
           "primary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.brand.800}",
+                "value": "{alias.color-roles.brand.400}",
                 "type": "color",
                 "description": "default color for primary buttons"
               },
