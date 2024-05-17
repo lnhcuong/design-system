@@ -465,7 +465,7 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Melodrama Variable",
+            "value": "Alpino Variable",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
@@ -473,6 +473,11 @@
             "value": "Comfortaa",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
+          },
+          "alternateHeadings": {
+            "value": "Playfair Display",
+            "type": "fontFamilies",
+            "description": "font for highlighted headlines"
           }
         },
         "fontWeight": {
@@ -2057,12 +2062,12 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.sm}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           },
           "defaultSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.xs}",
             "type": "borderRadius",
             "description": "radius for default buttons"
           }
