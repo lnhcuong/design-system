@@ -689,52 +689,52 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.mint.50}",
+            "value": "{global.colors.gold.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.mint.100}",
+            "value": "{global.colors.gold.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.mint.200}",
+            "value": "{global.colors.gold.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.mint.300}",
+            "value": "{global.colors.gold.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.mint.400}",
+            "value": "{global.colors.gold.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.mint.500}",
+            "value": "{global.colors.gold.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.mint.600}",
+            "value": "{global.colors.gold.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.mint.700}",
+            "value": "{global.colors.gold.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.mint.800}",
+            "value": "{global.colors.gold.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.mint.900}",
+            "value": "{global.colors.gold.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
@@ -2884,7 +2884,6 @@
         "alias.colors-light.neutral.onBackground.faint": "81841e9c783cec02fce5a1c71fc43f26d0058dec",
         "alias.colors-light.neutral.onBackground.inverted": "3bd90c42c1bd48dc25fbc629d615bffacca52149",
         "alias.color-roles.brand.50": "56a01d58eba8a0b919cf683d9507bfc2b7f58896",
-        "alias.color-roles.brand.100": "56246a063dad37fab4be11dc8eb98da38e3318bd",
         "alias.color-roles.brand.200": "a15dce1ba298cd92a8448679cb5231112911a10a",
         "alias.color-roles.brand.300": "d42ccdbdbcac869b639fb200b9cf0962e59a2c77",
         "alias.color-roles.brand.400": "583f04e276d78f8704fbec91f1bd3339ae7f316a",
@@ -2933,7 +2932,8 @@
         "alias.color-roles.neutral.600": "f77658ba0c6065ee59ba753853dc84c22ce15646",
         "alias.color-roles.neutral.700": "21fef0e26f745564b47698f00537d98de27b3946",
         "alias.color-roles.neutral.800": "97e8ca76ddd1e56cce0f0b5ecab35b7816fbba4b",
-        "alias.color-roles.neutral.900": "07c5fa72cfa2b8234427e6032b3177214fdc601e"
+        "alias.color-roles.neutral.900": "07c5fa72cfa2b8234427e6032b3177214fdc601e",
+        "alias.color-roles.brand.100": "56246a063dad37fab4be11dc8eb98da38e3318bd"
       },
       "group": "Alias"
     },
