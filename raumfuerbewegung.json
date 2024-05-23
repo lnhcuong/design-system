@@ -160,52 +160,52 @@
         },
         "gold": {
           "50": {
-            "value": "#FFFCF5",
+            "value": "#fdf5e7",
             "type": "color",
             "description": "global color gold of weight 50"
           },
           "100": {
-            "value": "#FDECC3",
+            "value": "#fcf0da",
             "type": "color",
             "description": "global color gold of weight 100"
           },
           "200": {
-            "value": "#F0D36B",
+            "value": "#f9e0b3",
             "type": "color",
             "description": "global color gold of weight 200"
           },
           "300": {
-            "value": "#D4BB5F",
+            "value": "#ec9c0a",
             "type": "color",
             "description": "global color gold of weight 300"
           },
           "400": {
-            "value": "#B19D51",
+            "value": "#d48c09",
             "type": "color",
             "description": "global color gold of weight 400"
           },
           "500": {
-            "value": "#84773F",
+            "value": "#bd7d08",
             "type": "color",
             "description": "global color gold of weight 500"
           },
           "600": {
-            "value": "#685E34",
+            "value": "#b17508",
             "type": "color",
             "description": "global color gold of weight 600"
           },
           "700": {
-            "value": "#534B2B",
+            "value": "#8e5e06",
             "type": "color",
             "description": "global color gold of weight 700"
           },
           "800": {
-            "value": "#3E3922",
+            "value": "#6a4605",
             "type": "color",
             "description": "global color gold of weight 800"
           },
           "900": {
-            "value": "#2B2819",
+            "value": "#533704",
             "type": "color",
             "description": "global color gold of weight 900"
           }
@@ -470,7 +470,7 @@
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Comfortaa",
+            "value": "Inter",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           },
