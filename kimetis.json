@@ -4,104 +4,104 @@
       "colors": {
         "ocean blue": {
           "50": {
-            "value": "#ebf3fe",
+            "value": "#e7efff",
             "type": "color",
             "description": "global color ocean blue of weight 50"
           },
           "100": {
-            "value": "#c2d8fc",
+            "value": "#b5ceff",
             "type": "color",
             "description": "global color ocean blue of weight 100"
           },
           "200": {
-            "value": "#a5c6fb",
+            "value": "#91b7ff",
             "type": "color",
             "description": "global color ocean blue of weight 200"
           },
           "300": {
-            "value": "#7cabf9",
+            "value": "#5f96fe",
             "type": "color",
             "description": "global color ocean blue of weight 300"
           },
           "400": {
-            "value": "#629bf8",
+            "value": "#4081fe",
             "type": "color",
             "description": "global color ocean blue of weight 400"
           },
           "500": {
-            "value": "#3b82f6",
+            "value": "#1062fe",
             "type": "color",
             "description": "global color ocean blue of weight 500"
           },
           "600": {
-            "value": "#3676e0",
+            "value": "#0f59e7",
             "type": "color",
             "description": "global color ocean blue of weight 600"
           },
           "700": {
-            "value": "#2a5caf",
+            "value": "#0b46b4",
             "type": "color",
             "description": "global color ocean blue of weight 700"
           },
           "800": {
-            "value": "#204887",
+            "value": "#09368c",
             "type": "color",
             "description": "global color ocean blue of weight 800"
           },
           "900": {
-            "value": "#193767",
+            "value": "#07296b",
             "type": "color",
             "description": "global color ocean blue of weight 900"
           }
         },
-        "mint": {
+        "orange": {
           "50": {
-            "value": "#F6FEFB",
+            "value": "#fef2ec",
             "type": "color",
             "description": "global color mint of weight 50"
           },
           "100": {
-            "value": "#C5F8EA",
+            "value": "#fdd6c5",
             "type": "color",
             "description": "global color mint of weight 100"
           },
           "200": {
-            "value": "#55EBCE",
+            "value": "#fcc2a9",
             "type": "color",
             "description": "global color mint of weight 200"
           },
           "300": {
-            "value": "#00D4B6",
+            "value": "#faa782",
             "type": "color",
             "description": "global color mint of weight 300"
           },
           "400": {
-            "value": "#0AB29A",
+            "value": "#f9956a",
             "type": "color",
             "description": "global color mint of weight 400"
           },
           "500": {
-            "value": "#188675",
+            "value": "#f87b45",
             "type": "color",
             "description": "global color mint of weight 500"
           },
           "600": {
-            "value": "#1A6A5D",
+            "value": "#e2703f",
             "type": "color",
             "description": "global color mint of weight 600"
           },
           "700": {
-            "value": "#19544B",
+            "value": "#b05731",
             "type": "color",
             "description": "global color mint of weight 700"
           },
           "800": {
-            "value": "#174039",
+            "value": "#884426",
             "type": "color",
             "description": "global color mint of weight 800"
           },
           "900": {
-            "value": "#142C28",
+            "value": "#68341d",
             "type": "color",
             "description": "global color mint of weight 900"
           }
@@ -465,12 +465,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "League Spartan",
+            "value": "IBM Plex Sans",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Inter",
+            "value": "Montserrat",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -736,52 +736,52 @@
         },
         "accent": {
           "50": {
-            "value": "{global.colors.red.50}",
+            "value": "{global.colors.orange.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.red.100}",
+            "value": "{global.colors.orange.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.red.200}",
+            "value": "{global.colors.orange.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.red.300}",
+            "value": "{global.colors.orange.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.red.400}",
+            "value": "{global.colors.orange.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.red.500}",
+            "value": "{global.colors.orange.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.red.600}",
+            "value": "{global.colors.orange.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.red.700}",
+            "value": "{global.colors.orange.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.red.800}",
+            "value": "{global.colors.orange.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.red.900}",
+            "value": "{global.colors.orange.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
@@ -2046,7 +2046,7 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.sm}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           }
@@ -2073,7 +2073,7 @@
           "default": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.lg}",
               "textCase": "{global.typography.textCase.none}"
@@ -2084,7 +2084,7 @@
           "alternate": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
@@ -2458,16 +2458,6 @@
         "global.colors.ocean blue.700": "S:c3bfec76c74090ad3f39ec579e28ebb24efa8803,",
         "global.colors.ocean blue.800": "S:39a75b5a03e4fb0de9434aebdb2ad1394a16ac62,",
         "global.colors.ocean blue.900": "S:7a00cb6e7cc7b40f300e9eb4b4780b3fa1e6ffbf,",
-        "global.colors.mint.50": "S:ce8af78dad897a5f01823ce0c0d97acad830d7c6,",
-        "global.colors.mint.100": "S:8b5dcf3cdc3aff2e9dc1fb2195f402e0f849f3f0,",
-        "global.colors.mint.200": "S:e2d65fa2c0b35fcdd54094b641268d3778818632,",
-        "global.colors.mint.300": "S:9d403da11ab07c17760d958d84aa309ac6dc7545,",
-        "global.colors.mint.400": "S:258aa5f5d40e004cd6e28efdc875118307646031,",
-        "global.colors.mint.500": "S:9e2d12259ffafad81dde8f6da4a547d0e963cc89,",
-        "global.colors.mint.600": "S:85212ecffabe35e080aea83713a099974f287a92,",
-        "global.colors.mint.700": "S:e4d0998fd77fc1462d3fb316dce3162ca2cb30fe,",
-        "global.colors.mint.800": "S:f9c815abb5febf8957281522bf270fa12baa9c50,",
-        "global.colors.mint.900": "S:6ae28710f84c18f491e1fedf746fa1bc7057a9e6,",
         "global.colors.violet.50": "S:5311d07d7ccc812c74c605af57f41912e78fe969,",
         "global.colors.violet.100": "S:2323441be80e6f7abf4dc8de97393af63e3d54b5,",
         "global.colors.violet.200": "S:41442926243deb08c155f085bec3b37488a7c0e5,",
@@ -2517,7 +2507,17 @@
         "global.colors.grayscale.600": "S:17095ebfe4a9e93aa9b0e0883582a12300fa2bf4,",
         "global.colors.grayscale.700": "S:230e81ddf298aa4bd66c6a692cba0c65b8eb4f04,",
         "global.colors.grayscale.800": "S:95807fa75cc32ae371ed257ebe0e9ec6b6f99798,",
-        "global.colors.grayscale.900": "S:8aa40141096dfa2eb748227a6c2bfa7090d2a3f9,"
+        "global.colors.grayscale.900": "S:8aa40141096dfa2eb748227a6c2bfa7090d2a3f9,",
+        "global.colors.orange.50": "S:ce8af78dad897a5f01823ce0c0d97acad830d7c6,",
+        "global.colors.orange.100": "S:8b5dcf3cdc3aff2e9dc1fb2195f402e0f849f3f0,",
+        "global.colors.orange.200": "S:e2d65fa2c0b35fcdd54094b641268d3778818632,",
+        "global.colors.orange.300": "S:9d403da11ab07c17760d958d84aa309ac6dc7545,",
+        "global.colors.orange.400": "S:258aa5f5d40e004cd6e28efdc875118307646031,",
+        "global.colors.orange.500": "S:9e2d12259ffafad81dde8f6da4a547d0e963cc89,",
+        "global.colors.orange.600": "S:85212ecffabe35e080aea83713a099974f287a92,",
+        "global.colors.orange.700": "S:e4d0998fd77fc1462d3fb316dce3162ca2cb30fe,",
+        "global.colors.orange.800": "S:f9c815abb5febf8957281522bf270fa12baa9c50,",
+        "global.colors.orange.900": "S:6ae28710f84c18f491e1fedf746fa1bc7057a9e6,"
       },
       "selectedTokenSets": {
         "global/colors": "enabled",
@@ -2554,16 +2554,6 @@
         "global.colors.ocean blue.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
         "global.colors.ocean blue.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
         "global.colors.ocean blue.900": "fd20e25151193942b92bba3e90de39972bb11610",
-        "global.colors.mint.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
-        "global.colors.mint.100": "a6b7080ec454702b387757469a5b9734857237a5",
-        "global.colors.mint.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
-        "global.colors.mint.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
-        "global.colors.mint.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
-        "global.colors.mint.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
-        "global.colors.mint.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
-        "global.colors.mint.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
-        "global.colors.mint.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
-        "global.colors.mint.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2",
         "global.colors.violet.50": "2ab238c7bb167c9711384d7ae17aa4931479e111",
         "global.colors.violet.100": "82c1a0f361251215b7a8f29a59cbd0172b3430ac",
         "global.colors.violet.200": "4457151391af7f905a70c702cff2d91216b6e023",
@@ -2613,7 +2603,17 @@
         "global.colors.grayscale.600": "e14cc729fcfbc86c5da1fb7ac922f3edd5eda9d4",
         "global.colors.grayscale.700": "6e274c1491339e736024c4538e2d39e44f088b63",
         "global.colors.grayscale.800": "78ffd70c29a752ccbb8117dd476e0bbe8f3c74e2",
-        "global.colors.grayscale.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c"
+        "global.colors.grayscale.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c",
+        "global.colors.orange.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
+        "global.colors.orange.100": "a6b7080ec454702b387757469a5b9734857237a5",
+        "global.colors.orange.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
+        "global.colors.orange.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
+        "global.colors.orange.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
+        "global.colors.orange.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
+        "global.colors.orange.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
+        "global.colors.orange.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
+        "global.colors.orange.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
+        "global.colors.orange.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2"
       },
       "group": "Global"
     },
