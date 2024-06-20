@@ -491,15 +491,15 @@
             "type": "fontWeights",
             "description": "bold weight for fonts"
           },
-          "semiBold": {
-            "value": "600",
-            "type": "fontWeights",
-            "description": "semibold weight for fonts"
-          },
           "medium": {
             "value": "500",
             "type": "fontWeights",
             "description": "medium weight for fonts"
+          },
+          "semiBold": {
+            "value": "600",
+            "type": "fontWeights",
+            "description": "semibold weight for fonts"
           },
           "default": {
             "value": "400",
