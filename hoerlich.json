@@ -1043,7 +1043,7 @@
             "short": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.medium}",
+                "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
