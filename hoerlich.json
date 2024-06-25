@@ -465,12 +465,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Poppins",
+            "value": "Plus Jakarta Sans",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Montserrat",
+            "value": "Poppins",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -736,52 +736,52 @@
         },
         "accent": {
           "50": {
-            "value": "{global.colors.mint.50}",
+            "value": "{global.colors.grayscale.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.mint.100}",
+            "value": "{global.colors.grayscale.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.mint.200}",
+            "value": "{global.colors.grayscale.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.mint.300}",
+            "value": "{global.colors.grayscale.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.mint.400}",
+            "value": "{global.colors.grayscale.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.mint.500}",
+            "value": "{global.colors.grayscale.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.mint.600}",
+            "value": "{global.colors.grayscale.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.mint.700}",
+            "value": "{global.colors.grayscale.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.mint.800}",
+            "value": "{global.colors.grayscale.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.mint.900}",
+            "value": "{global.colors.grayscale.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
@@ -1690,7 +1690,7 @@
                 "description": "invert color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "invert color for elements on inverted primary buttons"
               },
@@ -1700,7 +1700,7 @@
                 "description": "invert hover color for primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.800}",
                 "type": "color",
                 "description": "invert color for elements on hovered primary buttons"
               },
@@ -1710,7 +1710,7 @@
                 "description": "invert on click color for primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "invert color for elements on top of inverted on click primary buttons"
               }
@@ -1737,7 +1737,7 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.800}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
               },
@@ -1778,7 +1778,7 @@
           "secondary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.800}",
                 "type": "color",
                 "description": "default color for secondary buttons"
               },
@@ -2641,7 +2641,6 @@
         "alias.fonts.body.regular": "S:a018e25998b0fe90ee9687a7100b1c6586658999,",
         "alias.fonts.body.strong": "S:f01ab6367ca936a168db2d1ae62cee7a1c20f91e,",
         "alias.color-roles.accent.50": "S:a72c434209e0a483bcac6ed1a95e6fbb83abc027,",
-        "alias.color-roles.accent.100": "S:163c99c470fb902072981d9a0ec7e6bacaa23471,",
         "alias.color-roles.accent.200": "S:7fe988e95efe6fbd803da6e0dc3f740c3d78e668,",
         "alias.color-roles.accent.300": "S:ec70c0e599cfd693fdaf7efaed2d668fe7fae1a8,",
         "alias.color-roles.accent.400": "S:0d51470fdcd538731cb265d2d65d1c8fddf86ccf,",
@@ -2755,7 +2754,8 @@
         "alias.colors-light.functional.invertInformation.onDefault": "S:5fee7dcd6d4e63ef33ed38a31f45b4f100b7d95d,",
         "alias.colors-light.functional.invertInformation.hover": "S:e1bf5494a94090a417d8bb71bf5bdbb8a88a104b,",
         "alias.colors-light.functional.invertInformation.container": "S:85ccb2cbc69c50e02d06141275fef9494d5bd241,",
-        "alias.colors-light.functional.invertInformation.onContainer": "S:850d52a6bc81c0c0ddc6d0afec8441e20d90c3f7,"
+        "alias.colors-light.functional.invertInformation.onContainer": "S:850d52a6bc81c0c0ddc6d0afec8441e20d90c3f7,",
+        "alias.color-roles.accent.100": "S:163c99c470fb902072981d9a0ec7e6bacaa23471,"
       },
       "selectedTokenSets": {
         "alias/color-roles": "enabled",
@@ -2858,7 +2858,6 @@
         "alias.color-roles.brand.800": "76d7c5b31b91a87514b99fdb690c621c2c460d5c",
         "alias.color-roles.brand.900": "95cb4fb033d604cababfb36e4ba83dde28167668",
         "alias.color-roles.accent.50": "ab49d75e63b4f53e95fefba5d4f194e396c94b71",
-        "alias.color-roles.accent.100": "27dd2dedc32c43f45ca175fcda857d2c478a55dc",
         "alias.color-roles.accent.200": "4a47e38633669039edbff80a09cafcef2921cd79",
         "alias.color-roles.accent.300": "b91eb1362de79f47fd71b9b940e4554e11881e72",
         "alias.color-roles.accent.400": "53adbf09cfc6ec81d0cbeb581d2bcf2f260b1723",
@@ -2896,7 +2895,8 @@
         "alias.color-roles.neutral.600": "078407255616d6343e5b45418cd39138d839afb5",
         "alias.color-roles.neutral.700": "6916caeeb11a6ee7660b2fd9306ab35d6fff5884",
         "alias.color-roles.neutral.800": "e8071a55290eb12a9ee6d21b6429d1124782fdb0",
-        "alias.color-roles.neutral.900": "7adeb81cb14ea377fbc7709202f44fb9fbc12d60"
+        "alias.color-roles.neutral.900": "7adeb81cb14ea377fbc7709202f44fb9fbc12d60",
+        "alias.color-roles.accent.100": "27dd2dedc32c43f45ca175fcda857d2c478a55dc"
       },
       "group": "Alias"
     },
