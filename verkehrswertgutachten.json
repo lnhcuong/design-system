@@ -510,6 +510,10 @@
             "value": "400",
             "type": "fontWeights",
             "description": "default weight for fonts"
+          },
+          "italic": {
+            "value": "Italic",
+            "type": "fontWeights"
           }
         },
         "fontSize": {
@@ -957,7 +961,7 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
               "textCase": "{global.typography.textCase.none}"
@@ -968,7 +972,7 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xl}+ {global.typography.fontSize.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}"
@@ -979,7 +983,7 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.ml}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -989,7 +993,7 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.md}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -999,7 +1003,7 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.sm}"
             },
             "type": "typography",
@@ -1008,7 +1012,7 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -1025,7 +1029,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontWeight": "{global.typography.fontWeight.medium}",
                 "fontSize": "{global.typography.fontSize.xxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
                 "textCase": "{global.typography.textCase.uppercase}"
@@ -1050,7 +1054,8 @@
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.medium}",
                 "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
+                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "lineHeight": "{global.typography.lineHeight.md}"
               },
               "type": "typography",
               "description": "single-line subtitles"
