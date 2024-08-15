@@ -972,7 +972,8 @@
               "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
-              "textCase": "{global.typography.textCase.none}"
+              "textCase": "{global.typography.textCase.none}",
+              "lineHeight": "auto"
             },
             "type": "typography",
             "description": "Heading 2, display font for high emphasis headlines"
@@ -1039,7 +1040,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
@@ -1049,7 +1050,7 @@
             "short": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
@@ -1065,7 +1066,7 @@
               "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xs}",
               "lineHeight": "{global.typography.lineHeight.sm}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.md}"
             },
             "type": "typography",
             "description": "default for paragraphs that are going over multiple lines"
@@ -2362,7 +2363,7 @@
               "description": "default background for primary label"
             },
             "onDefault": {
-              "value": "{alias.color-roles.brand.500}",
+              "value": "{alias.color-roles.brand.600}",
               "type": "color",
               "description": "default color for elements on primary label"
             }
