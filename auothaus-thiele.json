@@ -2287,7 +2287,7 @@
           "short": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xxs}",
               "lineHeight": "{global.typography.lineHeight.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.md}"
@@ -2339,7 +2339,7 @@
         "labelBorders": {
           "primary": {
             "value": {
-              "color": "{alias.borders.borderColor.interaction.heavy}",
+              "color": "{alias.borders.borderColor.interaction.subtle}",
               "width": "{alias.borders.borderWeight.thin}"
             },
             "type": "border",
