@@ -465,12 +465,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Epilogue",
+            "value": "Urbanist",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Barlow",
+            "value": "Urbanist",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -957,7 +957,7 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
               "textCase": "{global.typography.textCase.none}",
@@ -969,7 +969,7 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}"
@@ -980,7 +980,7 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.ml}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -990,7 +990,7 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.md}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -1000,7 +1000,7 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.sm}"
             },
             "type": "typography",
@@ -1009,7 +1009,7 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -2037,7 +2037,7 @@
               "description": "paddings for buttons with left icon"
             },
             "defaultSize": {
-              "value": "{global.dimensions.4} {alias.spacings.md} {global.dimensions.4} {alias.spacings.xs}",
+              "value": "{global.dimensions.4} {alias.spacings.sm} {global.dimensions.4} {alias.spacings.xs}",
               "type": "spacing",
               "description": "default paddings for buttons with left icon"
             }
@@ -2057,12 +2057,12 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.md}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           },
           "defaultSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.md}",
             "type": "borderRadius",
             "description": "radius for default buttons"
           }
