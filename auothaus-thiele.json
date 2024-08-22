@@ -1052,7 +1052,8 @@
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
+                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "lineHeight": "auto"
               },
               "type": "typography",
               "description": "single-line subtitles"
