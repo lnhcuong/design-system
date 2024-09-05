@@ -1030,7 +1030,7 @@
                 "fontWeight": "{global.typography.fontWeight.semiBold}",
                 "fontSize": "{global.typography.fontSize.xxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
-                "textCase": "{global.typography.textCase.none}"
+                "textCase": "{global.typography.textCase.capitalize}"
               },
               "type": "typography",
               "description": "texts preceding the title"
@@ -1376,7 +1376,7 @@
               "description": "default text color"
             },
             "subtle": {
-              "value": "{alias.color-roles.neutral.500}",
+              "value": "{alias.color-roles.neutral.400}",
               "type": "color",
               "description": "color for subtle texts"
             },
@@ -2103,7 +2103,7 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
               "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xs}",
+              "fontSize": "{global.typography.fontSize.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
             },
