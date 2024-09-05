@@ -2059,12 +2059,12 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{global.dimensions.4}",
+            "value": "{alias.borders.borderRadius.xl}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           },
           "defaultSize": {
-            "value": "{global.dimensions.4}",
+            "value": "{alias.borders.borderRadius.lg}",
             "type": "borderRadius",
             "description": "radius for default buttons"
           }
