@@ -1605,7 +1605,7 @@
           "primary": {
             "filled": {
               "default": {
-                "value": "linear-gradient(270deg, {alias.color-roles.brand.500} 1.94%, {alias.color-roles.brand.800} 98.06%)",
+                "value": "linear-gradient(270deg, {alias.color-roles.brand.500} 1.94%, {alias.color-roles.brand.700} 98.06%)",
                 "type": "color",
                 "description": "default color for primary buttons"
               },
