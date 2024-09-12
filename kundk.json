@@ -2,56 +2,56 @@
   "global/colors": {
     "global": {
       "colors": {
-        "rose-gold": {
+        "neon": {
           "50": {
-            "value": "#faf5f1",
+            "value": "#eafdf4",
             "type": "color",
-            "description": "global color rose gold of weight 50"
+            "description": "global color neon of weight 50"
           },
           "100": {
-            "value": "#efdfd3",
+            "value": "#bff9dd",
             "type": "color",
-            "description": "global color rose gold of weight 100"
+            "description": "global color neon of weight 100"
           },
           "200": {
-            "value": "#e7d0bd",
+            "value": "#9ff6cc",
             "type": "color",
-            "description": "global color rose gold of weight 200"
+            "description": "global color neon of weight 200"
           },
           "300": {
-            "value": "#dcba9f",
+            "value": "#74f2b5",
             "type": "color",
-            "description": "global color rose gold of weight 300"
+            "description": "global color neon of weight 300"
           },
           "400": {
-            "value": "#d5ad8d",
+            "value": "#59efa7",
             "type": "color",
-            "description": "global color rose gold of weight 400"
+            "description": "global color neon of weight 400"
           },
           "500": {
-            "value": "#cb9870",
+            "value": "#2feb91",
             "type": "color",
-            "description": "global color rose gold of weight 500"
+            "description": "global color neon of weight 500"
           },
           "600": {
-            "value": "#b98a66",
+            "value": "#2bd684",
             "type": "color",
-            "description": "global color rose gold of weight 600"
+            "description": "global color neon of weight 600"
           },
           "700": {
-            "value": "#906c50",
+            "value": "#21a767",
             "type": "color",
-            "description": "global color rose gold of weight 700"
+            "description": "global color neon of weight 700"
           },
           "800": {
-            "value": "#70543e",
+            "value": "#1a8150",
             "type": "color",
-            "description": "global color rose gold of weight 800"
+            "description": "global color neon of weight 800"
           },
           "900": {
-            "value": "#55402f",
+            "value": "#14633d",
             "type": "color",
-            "description": "global color rose gold of weight 900"
+            "description": "global color neon of weight 900"
           }
         },
         "brown": {
@@ -465,12 +465,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Gilda Display",
+            "value": "SF Pro",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "DM Sans",
+            "value": "SF Pro",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -684,52 +684,52 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.rose-gold.50}",
+            "value": "{global.colors.neon.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.rose-gold.100}",
+            "value": "{global.colors.neon.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.rose-gold.200}",
+            "value": "{global.colors.neon.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.rose-gold.300}",
+            "value": "{global.colors.neon.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.rose-gold.400}",
+            "value": "{global.colors.neon.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.rose-gold.500}",
+            "value": "{global.colors.neon.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.rose-gold.600}",
+            "value": "{global.colors.neon.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.rose-gold.700}",
+            "value": "{global.colors.neon.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.rose-gold.800}",
+            "value": "{global.colors.neon.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.rose-gold.900}",
+            "value": "{global.colors.neon.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
@@ -957,7 +957,7 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "Expanded Thin",
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
               "textCase": "{global.typography.textCase.none}",
@@ -969,7 +969,7 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "Expanded Thin",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
@@ -981,7 +981,7 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "Expanded Thin",
               "fontSize": "{global.typography.fontSize.ml}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -991,7 +991,7 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "Expanded Thin",
               "fontSize": "{global.typography.fontSize.md}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -1001,7 +1001,7 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "Expanded Thin",
               "fontSize": "{global.typography.fontSize.sm}"
             },
             "type": "typography",
@@ -1010,7 +1010,7 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "Expanded Thin",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
@@ -1027,7 +1027,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontWeight": "Medium",
                 "fontSize": "{global.typography.fontSize.xxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
                 "textCase": "{global.typography.textCase.capitalize}"
@@ -1040,7 +1040,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontWeight": "Expanded Regular",
                 "fontSize": "{global.typography.fontSize.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
@@ -1050,7 +1050,7 @@
             "short": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontWeight": "Expanded Medium",
                 "fontSize": "{global.typography.fontSize.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
                 "lineHeight": "auto"
@@ -1064,9 +1064,9 @@
           "regular": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.default}",
-              "fontSize": "{global.typography.fontSize.xs}",
-              "lineHeight": "{global.typography.lineHeight.sm}",
+              "fontWeight": "Light",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xs}",
               "letterSpacing": "{global.typography.letterSpacing.md}"
             },
             "type": "typography",
@@ -1075,9 +1075,9 @@
           "strong": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xs}",
-              "lineHeight": "{global.typography.lineHeight.sm}",
+              "fontWeight": "Medium",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xs}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
@@ -1086,9 +1086,9 @@
           "sm": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.default}",
-              "fontSize": "{global.typography.fontSize.xxs}",
-              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "fontWeight": "Light",
+              "fontSize": "{global.typography.fontSize.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1097,9 +1097,9 @@
           "strongSm": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xxs}",
-              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "fontWeight": "Medium",
+              "fontSize": "{global.typography.fontSize.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1108,9 +1108,9 @@
           "xs": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.default}",
-              "fontSize": "{global.typography.fontSize.xxxs}",
-              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "fontWeight": "Regular",
+              "fontSize": "{global.dimensions.3}",
+              "lineHeight": "{global.dimensions.5}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1119,9 +1119,9 @@
           "strongXs": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xxxs}",
-              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "fontWeight": "Medium",
+              "fontSize": "{global.dimensions.3}",
+              "lineHeight": "{global.dimensions.5}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -2121,9 +2121,10 @@
           "regular": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xs}",
-              "textDecoration": "{global.typography.textDecoration.none}"
+              "fontWeight": "Medium",
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "textDecoration": "{global.typography.textDecoration.none}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "default for hyperlinks"
@@ -2131,8 +2132,8 @@
           "underlined": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xs}",
+              "fontWeight": "Medium",
+              "fontSize": "{global.typography.fontSize.xxs}",
               "textDecoration": "{global.typography.textDecoration.underline}"
             },
             "type": "typography",
@@ -2213,8 +2214,8 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
-                "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.xxxs}",
+                "fontWeight": "Regular",
+                "fontSize": "{global.typography.fontSize.xxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
@@ -2226,7 +2227,7 @@
             "focused": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
-                "fontWeight": "{global.typography.fontWeight.medium}",
+                "fontWeight": "Medium",
                 "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.sm}",
@@ -2241,7 +2242,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontWeight": "Regular",
                 "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.sm}",
@@ -2528,16 +2529,6 @@
         "global.colors.grayscale.700": "S:81519e727bfb9ca16dc9233f3bdc9c511f4d966a,",
         "global.colors.grayscale.800": "S:9dd4f9d5da70c79f05b45eb9427e9e5aea1ee5d4,",
         "global.colors.grayscale.900": "S:9b584fc3083a12a73d45b4f43de6aab81de0b5c5,",
-        "global.colors.rose-gold.50": "S:9acf99bc2f0884e140f79064fd80c718b6135cee,",
-        "global.colors.rose-gold.100": "S:4f726735e4e3a791c024612a29ec1e282a3aae79,",
-        "global.colors.rose-gold.200": "S:c3128d60d117c8b2ca954acbaa566360ebcf0d29,",
-        "global.colors.rose-gold.300": "S:ffaff2efddbff48ea61e33d6ab67396eedac76b8,",
-        "global.colors.rose-gold.400": "S:450f5615013fb9e017d52e1dd8b3d9c7cc7b0b46,",
-        "global.colors.rose-gold.500": "S:9c884ed1008061ee1d8cd6a5b28599e002d85f8f,",
-        "global.colors.rose-gold.600": "S:8018a8d41af72deb081fc8d951ff370889aa395a,",
-        "global.colors.rose-gold.700": "S:248abebf2bd6a9e13cf3a04cf868bbd4830b21cc,",
-        "global.colors.rose-gold.800": "S:eb337bb24622079d4d50fdfc00d8aba64dc271f7,",
-        "global.colors.rose-gold.900": "S:a882c0c90411012c4e39d0e465828383a8d1d1e3,",
         "global.colors.brown.50": "S:b02cc0833f2b7820b80269e3bacb3bd5f7e1e661,",
         "global.colors.brown.100": "S:28e4df9141bd5f2445ab591857304417fcd65431,",
         "global.colors.brown.200": "S:40c14e502e3a3c75b5acb80bed38c4a61266289f,",
@@ -2547,7 +2538,17 @@
         "global.colors.brown.600": "S:8e6ff129091ce43fdd7ef73e7f813b8362fd8860,",
         "global.colors.brown.700": "S:cd9a53aa761e6ed6cfc2ea91d9450344f27b753a,",
         "global.colors.brown.800": "S:570d9425fd5de1d032d5256ecc3cae15fd606f25,",
-        "global.colors.brown.900": "S:dc44baa24e19c77f00347ad0cbbb5860d809fb60,"
+        "global.colors.brown.900": "S:dc44baa24e19c77f00347ad0cbbb5860d809fb60,",
+        "global.colors.neon.50": "S:9acf99bc2f0884e140f79064fd80c718b6135cee,",
+        "global.colors.neon.100": "S:4f726735e4e3a791c024612a29ec1e282a3aae79,",
+        "global.colors.neon.200": "S:c3128d60d117c8b2ca954acbaa566360ebcf0d29,",
+        "global.colors.neon.300": "S:ffaff2efddbff48ea61e33d6ab67396eedac76b8,",
+        "global.colors.neon.400": "S:450f5615013fb9e017d52e1dd8b3d9c7cc7b0b46,",
+        "global.colors.neon.500": "S:9c884ed1008061ee1d8cd6a5b28599e002d85f8f,",
+        "global.colors.neon.600": "S:8018a8d41af72deb081fc8d951ff370889aa395a,",
+        "global.colors.neon.700": "S:248abebf2bd6a9e13cf3a04cf868bbd4830b21cc,",
+        "global.colors.neon.800": "S:eb337bb24622079d4d50fdfc00d8aba64dc271f7,",
+        "global.colors.neon.900": "S:a882c0c90411012c4e39d0e465828383a8d1d1e3,"
       },
       "selectedTokenSets": {
         "global/colors": "enabled",
@@ -2624,16 +2625,6 @@
         "global.colors.grayscale.700": "ca91fe15f0533337527334630d8b5e7eb73abde4",
         "global.colors.grayscale.800": "38dd6f63ed570c404a112f190bd797085f2cd832",
         "global.colors.grayscale.900": "307172a099e7873f24e0f628d54d65cb754b7e01",
-        "global.colors.rose-gold.50": "ebeb01e79735f97dd3e636519070c3bd4d84e1b5",
-        "global.colors.rose-gold.100": "c651d0410c4bf11cfce2a53433bbf31ed8fbdde7",
-        "global.colors.rose-gold.200": "eee6b44da9eb2741d6e8e3daa490c574bbfe4502",
-        "global.colors.rose-gold.300": "490e3077e00409b4b4f98609be1999511b091228",
-        "global.colors.rose-gold.400": "068f975d06efc8cac2ebd8db9f5ea242be9c6ea5",
-        "global.colors.rose-gold.500": "6845341850596fdae4758a28e0a2a67ac6f90c50",
-        "global.colors.rose-gold.600": "b53bfd5cc0d25d24522a8e17adfd3faeee16be1f",
-        "global.colors.rose-gold.700": "9c53d12e42fc451247d32465296e91fd9d0bea15",
-        "global.colors.rose-gold.800": "2b83657de67503b14545c815f7664596952e78ca",
-        "global.colors.rose-gold.900": "b1c4e73953234472efd880c8792718ba4e1dfb06",
         "global.colors.brown.50": "deadfaa11250fab006584024620cf27375bb427a",
         "global.colors.brown.100": "5aaaec6398701d67f0e4e804ded281d590ac3865",
         "global.colors.brown.200": "1b961c63316d12a93b0e58be64406c29acd00b45",
@@ -2643,7 +2634,17 @@
         "global.colors.brown.600": "705fa28107b27fe7df476d904a71ae2d640f5356",
         "global.colors.brown.700": "d6c42f4f69dc341629177c8769dee4dab5893a78",
         "global.colors.brown.800": "ff5fec75e5c48a89ad4c6824a4e9e811b12d06a6",
-        "global.colors.brown.900": "cfdffcf021235d669e6f98ce6fcacf78455cd5f7"
+        "global.colors.brown.900": "cfdffcf021235d669e6f98ce6fcacf78455cd5f7",
+        "global.colors.neon.50": "ebeb01e79735f97dd3e636519070c3bd4d84e1b5",
+        "global.colors.neon.100": "c651d0410c4bf11cfce2a53433bbf31ed8fbdde7",
+        "global.colors.neon.200": "eee6b44da9eb2741d6e8e3daa490c574bbfe4502",
+        "global.colors.neon.300": "490e3077e00409b4b4f98609be1999511b091228",
+        "global.colors.neon.400": "068f975d06efc8cac2ebd8db9f5ea242be9c6ea5",
+        "global.colors.neon.500": "6845341850596fdae4758a28e0a2a67ac6f90c50",
+        "global.colors.neon.600": "b53bfd5cc0d25d24522a8e17adfd3faeee16be1f",
+        "global.colors.neon.700": "9c53d12e42fc451247d32465296e91fd9d0bea15",
+        "global.colors.neon.800": "2b83657de67503b14545c815f7664596952e78ca",
+        "global.colors.neon.900": "b1c4e73953234472efd880c8792718ba4e1dfb06"
       },
       "group": "Global"
     },
