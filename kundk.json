@@ -1028,9 +1028,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "Medium",
-                "fontSize": "{global.typography.fontSize.xxs}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
-                "textCase": "{global.typography.textCase.capitalize}"
+                "textCase": "{global.typography.textCase.uppercase}"
               },
               "type": "typography",
               "description": "texts preceding the title"
@@ -1605,12 +1605,12 @@
           "primary": {
             "filled": {
               "default": {
-                "value": "linear-gradient(270deg, {alias.color-roles.brand.500} 1.94%, {alias.color-roles.brand.700} 98.06%)",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "default color for elements on primary buttons"
               },
@@ -1730,7 +1730,7 @@
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.300}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
@@ -2064,7 +2064,7 @@
             "description": "radius for large buttons"
           },
           "defaultSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.xl}",
             "type": "borderRadius",
             "description": "radius for default buttons"
           }
@@ -2091,10 +2091,10 @@
           "default": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontWeight": "Expanded Medium",
               "fontSize": "{global.typography.fontSize.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.lg}",
-              "textCase": "{global.typography.textCase.none}"
+              "textCase": "{global.typography.textCase.uppercase}"
             },
             "type": "typography",
             "description": "default style for button texts"
@@ -2102,10 +2102,10 @@
           "alternate": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "Medium",
               "fontSize": "{global.typography.fontSize.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
-              "textCase": "{global.typography.textCase.none}"
+              "textCase": "{global.typography.textCase.uppercase}"
             },
             "type": "typography",
             "description": "alternate style for button texts"
@@ -2121,7 +2121,7 @@
           "regular": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "Medium",
+              "fontWeight": "Expanded Medium",
               "fontSize": "{global.typography.fontSize.xxs}",
               "textDecoration": "{global.typography.textDecoration.none}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
@@ -2132,7 +2132,7 @@
           "underlined": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "Medium",
+              "fontWeight": "Expanded Medium",
               "fontSize": "{global.typography.fontSize.xxs}",
               "textDecoration": "{global.typography.textDecoration.underline}"
             },
@@ -2214,12 +2214,12 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
-                "fontWeight": "Regular",
+                "fontWeight": "Expanded Regular",
                 "fontSize": "{global.typography.fontSize.xxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
-                "textCase": "{global.typography.textCase.capitalize}"
+                "textCase": "{global.typography.textCase.uppercase}"
               },
               "type": "typography",
               "description": "default for navigational text in top header"
@@ -2242,7 +2242,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "Regular",
+                "fontWeight": "Thin",
                 "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.sm}",
