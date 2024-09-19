@@ -496,20 +496,20 @@
             "type": "fontWeights",
             "description": "extra-bold weight for fonts"
           },
-          "bold": {
-            "value": "700",
+          "medium": {
+            "value": "500",
             "type": "fontWeights",
-            "description": "bold weight for fonts"
+            "description": "medium weight for fonts"
           },
           "semiBold": {
             "value": "600",
             "type": "fontWeights",
             "description": "semibold weight for fonts"
           },
-          "medium": {
-            "value": "500",
+          "bold": {
+            "value": "700",
             "type": "fontWeights",
-            "description": "medium weight for fonts"
+            "description": "bold weight for fonts"
           },
           "default": {
             "value": "400",
@@ -969,10 +969,22 @@
     "alias": {
       "fonts": {
         "headings": {
+          "display": {
+            "value": {
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "Expanded Regular",
+              "fontSize": "{global.typography.fontSize.xxxl} + {global.typography.fontSize.xxl}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}",
+              "textCase": "{global.typography.textCase.none}",
+              "lineHeight": "{global.typography.lineHeight.xxxl}+ {global.typography.lineHeight.xxl}"
+            },
+            "type": "typography",
+            "description": "Display font for highest possible emphasis"
+          },
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "Expanded Thin",
+              "fontWeight": "Expanded Light",
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
               "textCase": "{global.typography.textCase.none}",
