@@ -684,52 +684,52 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.neon.50}",
+            "value": "{global.colors.grayscale.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.neon.100}",
+            "value": "{global.colors.grayscale.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.neon.200}",
+            "value": "{global.colors.grayscale.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.neon.300}",
+            "value": "{global.colors.grayscale.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.neon.400}",
+            "value": "{global.colors.grayscale.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.neon.500}",
+            "value": "{global.colors.grayscale.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.neon.600}",
+            "value": "{global.colors.grayscale.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.neon.700}",
+            "value": "{global.colors.grayscale.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.neon.800}",
+            "value": "{global.colors.grayscale.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.neon.900}",
+            "value": "{global.colors.grayscale.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
