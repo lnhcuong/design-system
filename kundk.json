@@ -315,6 +315,11 @@
           }
         },
         "grayscale": {
+          "0": {
+            "value": "#fff",
+            "type": "color",
+            "description": "global color neutral of weight 50"
+          },
           "50": {
             "value": "#FCFCFC",
             "type": "color",
@@ -362,6 +367,11 @@
           },
           "900": {
             "value": "#282828",
+            "type": "color",
+            "description": "global color neutral of weight 900"
+          },
+          "1000": {
+            "value": "#191919",
             "type": "color",
             "description": "global color neutral of weight 900"
           }
@@ -892,7 +902,7 @@
         },
         "neutral": {
           "0": {
-            "value": "#fff",
+            "value": "{global.colors.grayscale.0}",
             "type": "color",
             "description": "lightest shade of default color with no specific role"
           },
@@ -943,6 +953,11 @@
           },
           "900": {
             "value": "{global.colors.grayscale.900}",
+            "type": "color",
+            "description": "darkest shade of default color with no specific role"
+          },
+          "1000": {
+            "value": "{global.colors.grayscale.1000}",
             "type": "color",
             "description": "darkest shade of default color with no specific role"
           }
@@ -1334,17 +1349,17 @@
               "description": "background color for sections or elements with +3 level of elevation"
             },
             "inverted": {
-              "value": "{alias.color-roles.neutral.900}",
+              "value": "{alias.color-roles.neutral.1000}",
               "type": "color",
               "description": "inverted background color for sections or elements with no level of elevation"
             },
             "invertedElevation01": {
-              "value": "{alias.color-roles.neutral.800}",
+              "value": "{alias.color-roles.neutral.900}",
               "type": "color",
               "description": "inverted background color for sections or elements with +1 level of elevation"
             },
             "invertedElevation02": {
-              "value": "{alias.color-roles.neutral.700}",
+              "value": "{alias.color-roles.neutral.800}",
               "type": "color",
               "description": "inverted background color for sections or elements with +2 level of elevation"
             },
