@@ -957,7 +957,7 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
               "textCase": "{global.typography.textCase.none}",
