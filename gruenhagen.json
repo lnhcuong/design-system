@@ -534,17 +534,17 @@
             "description": "medium font size unit"
           },
           "ml": {
-            "value": "28",
+            "value": "32",
             "type": "fontSizes",
             "description": "medium large font size unit"
           },
           "lg": {
-            "value": "32",
+            "value": "36",
             "type": "fontSizes",
             "description": "large font size unit"
           },
           "xl": {
-            "value": "40",
+            "value": "48",
             "type": "fontSizes",
             "description": "extra large font size unit"
           },
@@ -952,10 +952,11 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xxl}",
-              "letterSpacing": "{global.typography.letterSpacing.sm}",
-              "textCase": "{global.typography.textCase.none}"
+              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontSize": "{global.typography.fontSize.xxxl}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "textCase": "{global.typography.textCase.none}",
+              "lineHeight": "{global.typography.lineHeight.xxl}"
             },
             "type": "typography",
             "description": "Heading 1, main title, display font for highest possible emphasis"
@@ -963,10 +964,11 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
-              "textCase": "{global.typography.textCase.none}"
+              "textCase": "{global.typography.textCase.none}",
+              "lineHeight": "{global.typography.lineHeight.xl}"
             },
             "type": "typography",
             "description": "Heading 2, display font for high emphasis headlines"
@@ -974,9 +976,10 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.ml}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "lineHeight": "{global.typography.lineHeight.ml}"
             },
             "type": "typography",
             "description": "heading 3"
@@ -984,9 +987,10 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.md}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "lineHeight": "{global.typography.lineHeight.md}"
             },
             "type": "typography",
             "description": "heading 4"
@@ -994,8 +998,10 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.sm}"
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontSize": "{global.typography.fontSize.sm}",
+              "lineHeight": "{global.typography.lineHeight.sm}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "heading 5"
@@ -1003,9 +1009,10 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "lineHeight": "{global.typography.lineHeight.xs}"
             },
             "type": "typography",
             "description": "heading 6"
@@ -1043,7 +1050,7 @@
             "short": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
+                "fontWeight": "{global.typography.fontWeight.semiBold}",
                 "fontSize": "{global.typography.fontSize.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
@@ -1067,7 +1074,7 @@
           "strong": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "lineHeight": "{global.typography.lineHeight.sm}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
@@ -1089,7 +1096,7 @@
           "strongSm": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxs}",
               "lineHeight": "{global.typography.lineHeight.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
@@ -1111,7 +1118,7 @@
           "strongXs": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxxs}",
               "lineHeight": "{global.typography.lineHeight.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
@@ -2084,7 +2091,7 @@
           "alternate": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
