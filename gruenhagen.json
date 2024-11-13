@@ -2246,7 +2246,7 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
                 "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xs",
+                "fontSize": "{global.typography.fontSize.xs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.xs}",
