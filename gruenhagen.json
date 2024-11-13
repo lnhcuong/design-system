@@ -2614,8 +2614,7 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled",
-        "patterns/cards/basicCards": "disabled"
+        "global/typography": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2855,8 +2854,7 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled",
-        "patterns/cards/basicCards": "disabled"
+        "alias/spacings": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -3092,8 +3090,7 @@
         "elements/buttons/btnFonts": "enabled",
         "elements/hyperlinks/links": "enabled",
         "elements/labels": "enabled",
-        "elements/fields/inputFields": "enabled",
-        "patterns/cards/basicCards": "disabled"
+        "elements/fields/inputFields": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
