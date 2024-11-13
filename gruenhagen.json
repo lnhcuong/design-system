@@ -1060,7 +1060,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
+                "fontWeight": "{global.typography.fontWeight.medium}",
                 "fontSize": "{global.typography.fontSize.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
@@ -2402,7 +2402,7 @@
           },
           "onDark": {
             "default": {
-              "value": "rgba(255,255,255,0.29)",
+              "value": "rgba(255,255,255,0.75)",
               "type": "color",
               "description": "default background for neutral label"
             },
@@ -2497,7 +2497,40 @@
               "type": "color",
               "description": "default color for input text field labels"
             }
+          },
+          "inputFieldSizes": {
+            "minWidth": {
+              "value": "{global.dimensions.17}*2",
+              "type": "sizing",
+              "description": "min width of text fields"
+            },
+            "minHeight": {
+              "value": "{global.dimensions.10}",
+              "type": "sizing",
+              "description": "min height of text fields"
+            }
           }
+        }
+      }
+    }
+  },
+  "patterns/cards/basicCards": {
+    "patterns": {
+      "basicCards": {
+        "containerBorders": {
+          "value": "{alias.borders.borderRadius.md}",
+          "type": "borderRadius",
+          "description": "outer radius for card container"
+        },
+        "containerPaddings": {
+          "value": "{alias.spacings.md} {alias.spacings.xs}",
+          "type": "spacing",
+          "description": "paddings for card container"
+        },
+        "ctaSpacing": {
+          "value": "{alias.spacings.xs}",
+          "type": "spacing",
+          "description": "spacing between cta elements"
         }
       }
     }
@@ -2581,7 +2614,8 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled"
+        "global/typography": "enabled",
+        "patterns/cards/basicCards": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2821,7 +2855,8 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled"
+        "alias/spacings": "enabled",
+        "patterns/cards/basicCards": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -3057,7 +3092,8 @@
         "elements/buttons/btnFonts": "enabled",
         "elements/hyperlinks/links": "enabled",
         "elements/labels": "enabled",
-        "elements/fields/inputFields": "enabled"
+        "elements/fields/inputFields": "enabled",
+        "patterns/cards/basicCards": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
@@ -3161,7 +3197,8 @@
       "elements/hyperlinks/links",
       "elements/hyperlinks/navigational",
       "elements/labels",
-      "elements/fields/inputFields"
+      "elements/fields/inputFields",
+      "patterns/cards/basicCards"
     ]
   }
 }
