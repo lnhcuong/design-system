@@ -2233,9 +2233,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
                 "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.sm}",
+                "fontSize": "{global.typography.fontSize.xs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
                 "textCase": "{global.typography.textCase.capitalize}"
               },
@@ -2246,9 +2246,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
                 "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.sm}",
+                "fontSize": "{global.typography.fontSize.xs",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.xs}",
                 "textCase": "{global.typography.textCase.capitalize}"
               },
@@ -2261,9 +2261,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.xxs}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xxxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
@@ -2273,9 +2273,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xxxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
