@@ -571,22 +571,22 @@
         },
         "letterSpacing": {
           "xs": {
-            "value": "-0.16",
+            "value": "-4%",
             "type": "letterSpacing",
             "description": "extra small letter spacing unit"
           },
           "sm": {
-            "value": "0",
+            "value": "-2%",
             "type": "letterSpacing",
             "description": "small letter spacing unit"
           },
           "md": {
-            "value": "0.08",
+            "value": "1%",
             "type": "letterSpacing",
             "description": "medium letter spacing unit"
           },
           "lg": {
-            "value": "0.16",
+            "value": "3%",
             "type": "letterSpacing",
             "description": "large letter spacing unit"
           }
