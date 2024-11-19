@@ -1061,9 +1061,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.md}",
+                "fontSize": "{global.typography.fontSize.sm}",
                 "letterSpacing": "{global.typography.letterSpacing.xs}",
-                "lineHeight": "{global.typography.lineHeight.md}"
+                "lineHeight": "{global.typography.lineHeight.sm}"
               },
               "type": "typography",
               "description": "regular style for subtitles, multiple-line subtitles"
