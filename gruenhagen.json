@@ -1060,9 +1060,10 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.medium}",
-                "fontSize": "{global.typography.fontSize.xs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.md}",
+                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "lineHeight": "{global.typography.lineHeight.md}"
               },
               "type": "typography",
               "description": "regular style for subtitles, multiple-line subtitles"
@@ -1070,9 +1071,10 @@
             "short": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.ml}+2",
+                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "lineHeight": "{global.typography.lineHeight.ml}"
               },
               "type": "typography",
               "description": "single-line subtitles"
