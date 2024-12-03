@@ -4,106 +4,106 @@
       "colors": {
         "ocean blue": {
           "50": {
-            "value": "#ebf3fe",
+            "value": "#e6eef6",
             "type": "color",
             "description": "global color ocean blue of weight 50"
           },
           "100": {
-            "value": "#c2d8fc",
+            "value": "#dae6f3",
             "type": "color",
             "description": "global color ocean blue of weight 100"
           },
           "200": {
-            "value": "#a5c6fb",
+            "value": "#b2cce6",
             "type": "color",
             "description": "global color ocean blue of weight 200"
           },
           "300": {
-            "value": "#7cabf9",
+            "value": "#0559ae",
             "type": "color",
             "description": "global color ocean blue of weight 300"
           },
           "400": {
-            "value": "#629bf8",
+            "value": "#05509d",
             "type": "color",
             "description": "global color ocean blue of weight 400"
           },
           "500": {
-            "value": "#3b82f6",
+            "value": "#04478b",
             "type": "color",
             "description": "global color ocean blue of weight 500"
           },
           "600": {
-            "value": "#3676e0",
+            "value": "#044383",
             "type": "color",
             "description": "global color ocean blue of weight 600"
           },
           "700": {
-            "value": "#2a5caf",
+            "value": "#033568",
             "type": "color",
             "description": "global color ocean blue of weight 700"
           },
           "800": {
-            "value": "#204887",
+            "value": "#02284e",
             "type": "color",
             "description": "global color ocean blue of weight 800"
           },
           "900": {
-            "value": "#193767",
+            "value": "#021f3d",
             "type": "color",
             "description": "global color ocean blue of weight 900"
           }
         },
-        "mint": {
+        "tawny": {
           "50": {
-            "value": "#F6FEFB",
+            "value": "#f7efe6",
             "type": "color",
-            "description": "global color mint of weight 50"
+            "description": "global color tawny of weight 50"
           },
           "100": {
-            "value": "#C5F8EA",
+            "value": "#f3e6da",
             "type": "color",
-            "description": "global color mint of weight 100"
+            "description": "global color tawny of weight 100"
           },
           "200": {
-            "value": "#55EBCE",
+            "value": "#e6ccb2",
             "type": "color",
-            "description": "global color mint of weight 200"
+            "description": "global color tawny of weight 200"
           },
           "300": {
-            "value": "#00D4B6",
+            "value": "#ae5a05",
             "type": "color",
-            "description": "global color mint of weight 300"
+            "description": "global color tawny of weight 300"
           },
           "400": {
-            "value": "#0AB29A",
+            "value": "#9d5105",
             "type": "color",
-            "description": "global color mint of weight 400"
+            "description": "global color tawny of weight 400"
           },
           "500": {
-            "value": "#188675",
+            "value": "#8b4804",
             "type": "color",
-            "description": "global color mint of weight 500"
+            "description": "global color tawny of weight 500"
           },
           "600": {
-            "value": "#1A6A5D",
+            "value": "#834404",
             "type": "color",
-            "description": "global color mint of weight 600"
+            "description": "global color tawny of weight 600"
           },
           "700": {
-            "value": "#19544B",
+            "value": "#683603",
             "type": "color",
-            "description": "global color mint of weight 700"
+            "description": "global color tawny of weight 700"
           },
           "800": {
-            "value": "#174039",
+            "value": "#4e2802",
             "type": "color",
-            "description": "global color mint of weight 800"
+            "description": "global color tawny of weight 800"
           },
           "900": {
-            "value": "#142C28",
+            "value": "#3d1f02",
             "type": "color",
-            "description": "global color mint of weight 900"
+            "description": "global color tawny of weight 900"
           }
         },
         "violet": {
@@ -315,6 +315,11 @@
           }
         },
         "grayscale": {
+          "0": {
+            "value": "#fff",
+            "type": "color",
+            "description": "global color neutral of weight 0"
+          },
           "50": {
             "value": "#FCFCFC",
             "type": "color",
@@ -364,6 +369,11 @@
             "value": "#282828",
             "type": "color",
             "description": "global color neutral of weight 900"
+          },
+          "1000": {
+            "value": "#141414",
+            "type": "color",
+            "description": "global color neutral of weight 1000"
           }
         }
       }
@@ -465,12 +475,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "League Spartan",
+            "value": "Wix Madefor Display",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Inter",
+            "value": "Wix Madefor Display",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -534,17 +544,17 @@
             "description": "medium font size unit"
           },
           "ml": {
-            "value": "28",
+            "value": "32",
             "type": "fontSizes",
             "description": "medium large font size unit"
           },
           "lg": {
-            "value": "32",
+            "value": "36",
             "type": "fontSizes",
             "description": "large font size unit"
           },
           "xl": {
-            "value": "40",
+            "value": "48",
             "type": "fontSizes",
             "description": "extra large font size unit"
           },
@@ -561,22 +571,22 @@
         },
         "letterSpacing": {
           "xs": {
-            "value": "-0.16",
+            "value": "-4%",
             "type": "letterSpacing",
             "description": "extra small letter spacing unit"
           },
           "sm": {
-            "value": "0",
+            "value": "-2%",
             "type": "letterSpacing",
             "description": "small letter spacing unit"
           },
           "md": {
-            "value": "0.08",
+            "value": "1%",
             "type": "letterSpacing",
             "description": "medium letter spacing unit"
           },
           "lg": {
-            "value": "0.16",
+            "value": "3%",
             "type": "letterSpacing",
             "description": "large letter spacing unit"
           }
@@ -736,52 +746,52 @@
         },
         "accent": {
           "50": {
-            "value": "{global.colors.red.50}",
+            "value": "{global.colors.tawny.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.red.100}",
+            "value": "{global.colors.tawny.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.red.200}",
+            "value": "{global.colors.tawny.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.red.300}",
+            "value": "{global.colors.tawny.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.red.400}",
+            "value": "{global.colors.tawny.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.red.500}",
+            "value": "{global.colors.tawny.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.red.600}",
+            "value": "{global.colors.tawny.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.red.700}",
+            "value": "{global.colors.tawny.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.red.800}",
+            "value": "{global.colors.tawny.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.red.900}",
+            "value": "{global.colors.tawny.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
@@ -891,6 +901,11 @@
           }
         },
         "neutral": {
+          "0": {
+            "value": "{global.colors.grayscale.0}",
+            "type": "color",
+            "description": "white shade of default color with no specific role"
+          },
           "50": {
             "value": "{global.colors.grayscale.50}",
             "type": "color",
@@ -940,6 +955,11 @@
             "value": "{global.colors.grayscale.900}",
             "type": "color",
             "description": "darkest shade of default color with no specific role"
+          },
+          "1000": {
+            "value": "{global.colors.grayscale.1000}",
+            "type": "color",
+            "description": "black shade of default color with no specific role"
           }
         }
       }
@@ -952,10 +972,11 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.xxl}",
-              "letterSpacing": "{global.typography.letterSpacing.sm}",
-              "textCase": "{global.typography.textCase.none}"
+              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontSize": "{global.typography.fontSize.xxxl}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "textCase": "{global.typography.textCase.none}",
+              "lineHeight": "{global.typography.lineHeight.xxl}"
             },
             "type": "typography",
             "description": "Heading 1, main title, display font for highest possible emphasis"
@@ -963,10 +984,11 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
-              "textCase": "{global.typography.textCase.none}"
+              "textCase": "{global.typography.textCase.none}",
+              "lineHeight": "{global.typography.lineHeight.xl}"
             },
             "type": "typography",
             "description": "Heading 2, display font for high emphasis headlines"
@@ -974,9 +996,10 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.ml}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "lineHeight": "{global.typography.lineHeight.ml}"
             },
             "type": "typography",
             "description": "heading 3"
@@ -984,9 +1007,10 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.md}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "lineHeight": "{global.typography.lineHeight.md}"
             },
             "type": "typography",
             "description": "heading 4"
@@ -994,8 +1018,10 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
-              "fontSize": "{global.typography.fontSize.sm}"
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontSize": "{global.typography.fontSize.sm}",
+              "lineHeight": "{global.typography.lineHeight.sm}",
+              "letterSpacing": "{global.typography.letterSpacing.xs}"
             },
             "type": "typography",
             "description": "heading 5"
@@ -1003,9 +1029,10 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "lineHeight": "{global.typography.lineHeight.xs}"
             },
             "type": "typography",
             "description": "heading 6"
@@ -1033,9 +1060,10 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "lineHeight": "{global.typography.lineHeight.sm}"
               },
               "type": "typography",
               "description": "regular style for subtitles, multiple-line subtitles"
@@ -1043,9 +1071,10 @@
             "short": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.bold}",
-                "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.md}"
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.md}+2",
+                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "lineHeight": "{global.typography.lineHeight.md}"
               },
               "type": "typography",
               "description": "single-line subtitles"
@@ -1067,7 +1096,7 @@
           "strong": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "lineHeight": "{global.typography.lineHeight.sm}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
@@ -1089,7 +1118,7 @@
           "strongSm": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxs}",
               "lineHeight": "{global.typography.lineHeight.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
@@ -1111,7 +1140,7 @@
           "strongXs": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxxs}",
               "lineHeight": "{global.typography.lineHeight.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
@@ -1301,37 +1330,42 @@
         "neutral": {
           "background": {
             "default": {
-              "value": "{alias.color-roles.neutral.50}",
+              "value": "{alias.color-roles.neutral.0}",
               "type": "color",
               "description": "standard background color for sections or elements with no level of elevation"
             },
             "elevation01": {
-              "value": "{alias.color-roles.neutral.100}",
+              "value": "{alias.color-roles.neutral.50}",
               "type": "color",
               "description": "background color for sections or elements with +1 level of elevation"
             },
             "elevation02": {
-              "value": "{alias.color-roles.neutral.200}",
+              "value": "{alias.color-roles.neutral.100}",
               "type": "color",
               "description": "background color for sections or elements with +2 level of elevation"
             },
             "elevation03": {
-              "value": "{alias.color-roles.neutral.300}",
+              "value": "{alias.color-roles.neutral.200}",
               "type": "color",
               "description": "background color for sections or elements with +3 level of elevation"
             },
+            "elevation04": {
+              "value": "{alias.color-roles.neutral.300}",
+              "type": "color",
+              "description": "background color for sections or elements with +4 level of elevation"
+            },
             "inverted": {
-              "value": "{alias.color-roles.neutral.900}",
+              "value": "{alias.color-roles.neutral.1000}",
               "type": "color",
               "description": "inverted background color for sections or elements with no level of elevation"
             },
             "invertedElevation01": {
-              "value": "{alias.color-roles.neutral.800}",
+              "value": "{alias.color-roles.neutral.900}",
               "type": "color",
               "description": "inverted background color for sections or elements with +1 level of elevation"
             },
             "invertedElevation02": {
-              "value": "{alias.color-roles.neutral.700}",
+              "value": "{alias.color-roles.neutral.800}",
               "type": "color",
               "description": "inverted background color for sections or elements with +2 level of elevation"
             },
@@ -1339,6 +1373,11 @@
               "value": "{alias.color-roles.neutral.700}",
               "type": "color",
               "description": "inverted background color for sections or elements with +3 level of elevation"
+            },
+            "invertedElevation04": {
+              "value": "{alias.color-roles.neutral.600}",
+              "type": "color",
+              "description": "inverted background color for sections or elements with +4 level of elevation"
             }
           },
           "onBackground": {
@@ -2073,7 +2112,7 @@
           "default": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.lg}",
               "textCase": "{global.typography.textCase.none}"
@@ -2084,7 +2123,7 @@
           "alternate": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
@@ -2103,7 +2142,7 @@
           "regular": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "textDecoration": "{global.typography.textDecoration.none}"
             },
@@ -2113,7 +2152,7 @@
           "underlined": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "textDecoration": "{global.typography.textDecoration.underline}"
             },
@@ -2196,9 +2235,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
                 "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.sm}",
+                "fontSize": "{global.typography.fontSize.xs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}",
                 "textCase": "{global.typography.textCase.capitalize}"
               },
@@ -2209,9 +2248,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
                 "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.sm}",
+                "fontSize": "{global.typography.fontSize.xs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.xs}",
                 "textCase": "{global.typography.textCase.capitalize}"
               },
@@ -2224,9 +2263,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.xxs}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xxxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
@@ -2236,9 +2275,9 @@
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
-                "lineHeight": "{global.typography.lineHeight.sm}",
+                "lineHeight": "{global.typography.lineHeight.xxxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
@@ -2271,8 +2310,8 @@
           "short": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
-              "fontSize": "{global.typography.fontSize.xxs}",
+              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontSize": "{global.typography.fontSize.xs}",
               "lineHeight": "{global.typography.lineHeight.xxs}",
               "letterSpacing": "{global.typography.letterSpacing.md}"
             },
@@ -2293,12 +2332,12 @@
         },
         "labelSizes": {
           "shortLabel": {
-            "value": "{alias.spacings.xxs} {alias.spacings.sm}",
+            "value": "{alias.spacings.xs} {alias.spacings.md}",
             "type": "spacing",
             "description": "paddings for short labels"
           },
           "longLabel": {
-            "value": "{alias.spacings.xxxs} {alias.spacings.xs}",
+            "value": "{alias.spacings.xxs} {alias.spacings.xs}",
             "type": "spacing",
             "description": "paddings for long labels"
           },
@@ -2341,24 +2380,36 @@
         "lbColors": {
           "primary": {
             "default": {
-              "value": "{alias.color-roles.brand.50}",
+              "value": "{alias.colors-light.neutral.onBackground.brandEmphasis}",
               "type": "color",
               "description": "default background for primary label"
             },
             "onDefault": {
-              "value": "{alias.color-roles.brand.500}",
+              "value": "{alias.colors-light.neutral.onBackground.brandEmphasis}",
               "type": "color",
               "description": "default color for elements on primary label"
             }
           },
           "neutral": {
             "default": {
-              "value": "{alias.color-roles.neutral.50}",
+              "value": "{alias.colors-light.neutral.onBackground.faint}",
               "type": "color",
               "description": "default background for neutral label"
             },
             "onDefault": {
-              "value": "{alias.color-roles.neutral.800}",
+              "value": "{alias.colors-light.neutral.onBackground.faint}",
+              "type": "color",
+              "description": "default color for elements on neutral label"
+            }
+          },
+          "onDark": {
+            "default": {
+              "value": "rgba(255,255,255,0.75)",
+              "type": "color",
+              "description": "default background for neutral label"
+            },
+            "onDefault": {
+              "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
               "type": "color",
               "description": "default color for elements on neutral label"
             }
@@ -2375,9 +2426,9 @@
             "fieldLabel": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
-                "lineHeight": "{global.typography.lineHeight.xxs}",
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.xs}",
+                "lineHeight": "{global.typography.lineHeight.xs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
               },
               "type": "typography",
@@ -2386,7 +2437,7 @@
             "hintText": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontWeight": "{global.typography.fontWeight.medium}",
                 "fontSize": "{global.typography.fontSize.xxxs}",
                 "lineHeight": "{global.typography.lineHeight.xxs}",
                 "letterSpacing": "{global.typography.letterSpacing.md}"
@@ -2397,14 +2448,19 @@
           },
           "inputFieldGaps": {
             "labelGap": {
-              "value": "{alias.spacings.xxxs}",
+              "value": "{alias.spacings.xs}",
+              "type": "spacing",
+              "description": "spacing between label and text field"
+            },
+            "contentGap": {
+              "value": "{alias.spacings.xs}",
               "type": "spacing",
               "description": "spacing between label and text field"
             }
           },
           "inputFieldPaddings": {
             "inputBox": {
-              "value": "{alias.spacings.xxs} {alias.spacings.xs}",
+              "value": "12px {alias.spacings.sm}",
               "type": "spacing",
               "description": "padidngs for input text box"
             }
@@ -2429,16 +2485,54 @@
           },
           "inputFieldColors": {
             "onDefault": {
-              "value": "{alias.color-roles.neutral.400}",
+              "value": "{alias.colors-light.neutral.onBackground.subtle}",
               "type": "color",
               "description": "default color for elements on input text fields"
             },
-            "default-copy": {
-              "value": "#fff",
+            "default": {
+              "value": "{alias.colors-light.neutral.background.elevation02}",
               "type": "color",
               "description": "default color for input text fields"
+            },
+            "labelText": {
+              "value": "{alias.colors-light.neutral.background.invertedElevation02}",
+              "type": "color",
+              "description": "default color for input text field labels"
+            }
+          },
+          "inputFieldSizes": {
+            "minWidth": {
+              "value": "{global.dimensions.17}*2",
+              "type": "sizing",
+              "description": "min width of text fields"
+            },
+            "minHeight": {
+              "value": "{global.dimensions.10}",
+              "type": "sizing",
+              "description": "min height of text fields"
             }
           }
+        }
+      }
+    }
+  },
+  "patterns/cards/basicCards": {
+    "patterns": {
+      "basicCards": {
+        "containerBorders": {
+          "value": "{alias.borders.borderRadius.md}",
+          "type": "borderRadius",
+          "description": "outer radius for card container"
+        },
+        "containerPaddings": {
+          "value": "{alias.spacings.md} {alias.spacings.xs}",
+          "type": "spacing",
+          "description": "paddings for card container"
+        },
+        "ctaSpacing": {
+          "value": "{alias.spacings.xs}",
+          "type": "spacing",
+          "description": "spacing between cta elements"
         }
       }
     }
@@ -2458,16 +2552,6 @@
         "global.colors.ocean blue.700": "S:c3bfec76c74090ad3f39ec579e28ebb24efa8803,",
         "global.colors.ocean blue.800": "S:39a75b5a03e4fb0de9434aebdb2ad1394a16ac62,",
         "global.colors.ocean blue.900": "S:7a00cb6e7cc7b40f300e9eb4b4780b3fa1e6ffbf,",
-        "global.colors.mint.50": "S:ce8af78dad897a5f01823ce0c0d97acad830d7c6,",
-        "global.colors.mint.100": "S:8b5dcf3cdc3aff2e9dc1fb2195f402e0f849f3f0,",
-        "global.colors.mint.200": "S:e2d65fa2c0b35fcdd54094b641268d3778818632,",
-        "global.colors.mint.300": "S:9d403da11ab07c17760d958d84aa309ac6dc7545,",
-        "global.colors.mint.400": "S:258aa5f5d40e004cd6e28efdc875118307646031,",
-        "global.colors.mint.500": "S:9e2d12259ffafad81dde8f6da4a547d0e963cc89,",
-        "global.colors.mint.600": "S:85212ecffabe35e080aea83713a099974f287a92,",
-        "global.colors.mint.700": "S:e4d0998fd77fc1462d3fb316dce3162ca2cb30fe,",
-        "global.colors.mint.800": "S:f9c815abb5febf8957281522bf270fa12baa9c50,",
-        "global.colors.mint.900": "S:6ae28710f84c18f491e1fedf746fa1bc7057a9e6,",
         "global.colors.violet.50": "S:5311d07d7ccc812c74c605af57f41912e78fe969,",
         "global.colors.violet.100": "S:2323441be80e6f7abf4dc8de97393af63e3d54b5,",
         "global.colors.violet.200": "S:41442926243deb08c155f085bec3b37488a7c0e5,",
@@ -2517,7 +2601,17 @@
         "global.colors.grayscale.600": "S:17095ebfe4a9e93aa9b0e0883582a12300fa2bf4,",
         "global.colors.grayscale.700": "S:230e81ddf298aa4bd66c6a692cba0c65b8eb4f04,",
         "global.colors.grayscale.800": "S:95807fa75cc32ae371ed257ebe0e9ec6b6f99798,",
-        "global.colors.grayscale.900": "S:8aa40141096dfa2eb748227a6c2bfa7090d2a3f9,"
+        "global.colors.grayscale.900": "S:8aa40141096dfa2eb748227a6c2bfa7090d2a3f9,",
+        "global.colors.tawny.50": "S:ce8af78dad897a5f01823ce0c0d97acad830d7c6,",
+        "global.colors.tawny.100": "S:8b5dcf3cdc3aff2e9dc1fb2195f402e0f849f3f0,",
+        "global.colors.tawny.200": "S:e2d65fa2c0b35fcdd54094b641268d3778818632,",
+        "global.colors.tawny.300": "S:9d403da11ab07c17760d958d84aa309ac6dc7545,",
+        "global.colors.tawny.400": "S:258aa5f5d40e004cd6e28efdc875118307646031,",
+        "global.colors.tawny.500": "S:9e2d12259ffafad81dde8f6da4a547d0e963cc89,",
+        "global.colors.tawny.600": "S:85212ecffabe35e080aea83713a099974f287a92,",
+        "global.colors.tawny.700": "S:e4d0998fd77fc1462d3fb316dce3162ca2cb30fe,",
+        "global.colors.tawny.800": "S:f9c815abb5febf8957281522bf270fa12baa9c50,",
+        "global.colors.tawny.900": "S:6ae28710f84c18f491e1fedf746fa1bc7057a9e6,"
       },
       "selectedTokenSets": {
         "global/colors": "enabled",
@@ -2554,16 +2648,6 @@
         "global.colors.ocean blue.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
         "global.colors.ocean blue.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
         "global.colors.ocean blue.900": "fd20e25151193942b92bba3e90de39972bb11610",
-        "global.colors.mint.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
-        "global.colors.mint.100": "a6b7080ec454702b387757469a5b9734857237a5",
-        "global.colors.mint.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
-        "global.colors.mint.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
-        "global.colors.mint.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
-        "global.colors.mint.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
-        "global.colors.mint.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
-        "global.colors.mint.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
-        "global.colors.mint.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
-        "global.colors.mint.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2",
         "global.colors.violet.50": "2ab238c7bb167c9711384d7ae17aa4931479e111",
         "global.colors.violet.100": "82c1a0f361251215b7a8f29a59cbd0172b3430ac",
         "global.colors.violet.200": "4457151391af7f905a70c702cff2d91216b6e023",
@@ -2613,7 +2697,17 @@
         "global.colors.grayscale.600": "e14cc729fcfbc86c5da1fb7ac922f3edd5eda9d4",
         "global.colors.grayscale.700": "6e274c1491339e736024c4538e2d39e44f088b63",
         "global.colors.grayscale.800": "78ffd70c29a752ccbb8117dd476e0bbe8f3c74e2",
-        "global.colors.grayscale.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c"
+        "global.colors.grayscale.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c",
+        "global.colors.tawny.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
+        "global.colors.tawny.100": "a6b7080ec454702b387757469a5b9734857237a5",
+        "global.colors.tawny.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
+        "global.colors.tawny.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
+        "global.colors.tawny.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
+        "global.colors.tawny.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
+        "global.colors.tawny.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
+        "global.colors.tawny.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
+        "global.colors.tawny.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
+        "global.colors.tawny.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2"
       },
       "group": "Global"
     },
@@ -2946,7 +3040,6 @@
         "elements.buttons.btnColors.invertPrimary.outlined.onClick": "S:ec38ade82e3c38856b53fc8bc8371e9a908eeb66,",
         "elements.buttons.btnColors.invertPrimary.outlined.onOnClick": "S:663e23201a525a0d8adad8121d355c786030d238,",
         "elements.fields.inputFields.inputFieldColors.onDefault": "S:1ff77de1dc9a9b4de37bcbf0d978eace70dd8e2f,",
-        "elements.fields.inputFields.inputFieldColors.default-copy": "S:8d37d5f6c3d160b1c051f525e8f76d13db3719e2,",
         "elements.labels.lbColors.primary.default": "S:8ae20e5e794507b4970eccc5efc7a16e4bb058ac,",
         "elements.labels.lbColors.primary.onDefault": "S:bd213938124e70d55753afd4589370e2e2598739,",
         "elements.labels.lbColors.neutral.default": "S:d193f924e88884615cc97a5aaf3e0e863ea699d8,",
@@ -2985,7 +3078,8 @@
         "elements.hyperlinks.links.regular": "S:0ca44f01f3e3c3a1f585b6723fcec7920b82f5ea,",
         "elements.hyperlinks.links.underlined": "S:5d18915c14e7fc56793b99c95fde61c6e0781a12,",
         "elements.buttons.btnFonts.default": "S:d706a359e15dc31ec0a7b2875ec7e21a07437d9a,",
-        "elements.buttons.btnFonts.alternate": "S:ee096f319441780f8c14a474b81fc303731e58d9,"
+        "elements.buttons.btnFonts.alternate": "S:ee096f319441780f8c14a474b81fc303731e58d9,",
+        "elements.fields.inputFields.inputFieldColors.labelText": "S:8d37d5f6c3d160b1c051f525e8f76d13db3719e2,"
       },
       "selectedTokenSets": {
         "elements/buttons/btnSizes": "enabled",
@@ -3005,7 +3099,6 @@
       "$figmaVariableReferences": {
         "elements.fields.inputFields.inputFieldGaps.labelGap": "34925a437ceb1f7417138de31ce78e1d4bc18617",
         "elements.fields.inputFields.inputFieldColors.onDefault": "845c358b8dc4de3d6b588b59fdff00a4b4335065",
-        "elements.fields.inputFields.inputFieldColors.default-copy": "9bfb88980fe09f7ba96585d2f54365932dc9a2f8",
         "elements.labels.labelSizes.iconSize": "439cf95c25e7bfc34de4551dce78e69fd60bf884",
         "elements.labels.labelGaps.defaultGap": "22f74a22539de70bc4cfcd0df86f9022d3146800",
         "elements.labels.labelGaps.shortGap": "6a5a564d900223e5c4c8eadaed44238eb9f8e25d",
@@ -3077,7 +3170,8 @@
         "elements.buttons.btnColors.primary.outlined.hover": "7e51791e9e34c65d748793648ae8de9dae351a8a",
         "elements.buttons.btnColors.primary.outlined.onHover": "828b168f7cd9047e2387b54e4a5c9bb8e869eb61",
         "elements.buttons.btnColors.primary.outlined.onClick": "83f6c1f028d4620507f99dfd4d4d0044a35e72d4",
-        "elements.buttons.btnColors.primary.outlined.onOnClick": "f229443f637b8ed7a50fcee016b92d1c19cec5fa"
+        "elements.buttons.btnColors.primary.outlined.onOnClick": "f229443f637b8ed7a50fcee016b92d1c19cec5fa",
+        "elements.fields.inputFields.inputFieldColors.labelText": "9bfb88980fe09f7ba96585d2f54365932dc9a2f8"
       },
       "group": "Elements"
     }
@@ -3102,7 +3196,8 @@
       "elements/hyperlinks/links",
       "elements/hyperlinks/navigational",
       "elements/labels",
-      "elements/fields/inputFields"
+      "elements/fields/inputFields",
+      "patterns/cards/basicCards"
     ]
   }
 }
