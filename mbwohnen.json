@@ -475,12 +475,12 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Outfit",
+            "value": "Solenoidal",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
           "body": {
-            "value": "Outfit",
+            "value": "DM Sans",
             "type": "fontFamilies",
             "description": "Font family for body fonts"
           }
@@ -972,7 +972,6 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xxxl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
@@ -984,7 +983,6 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
@@ -996,7 +994,6 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.ml}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "lineHeight": "{global.typography.lineHeight.ml}"
@@ -1007,7 +1004,6 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
               "fontSize": "{global.typography.fontSize.md}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "lineHeight": "{global.typography.lineHeight.md}"
@@ -1018,7 +1014,6 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.sm}",
               "lineHeight": "{global.typography.lineHeight.sm}",
               "letterSpacing": "{global.typography.letterSpacing.xs}"
@@ -1029,7 +1024,6 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "lineHeight": "{global.typography.lineHeight.xs}"
