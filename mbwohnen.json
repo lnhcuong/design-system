@@ -2,106 +2,106 @@
   "global/colors": {
     "global": {
       "colors": {
-        "ocean blue": {
+        "navy": {
           "50": {
-            "value": "#e9edf3",
+            "value": "#e7e9eb",
             "type": "color",
             "description": "global color ocean blue of weight 50"
           },
           "100": {
-            "value": "#dee4ed",
+            "value": "#dbdee1",
             "type": "color",
             "description": "global color ocean blue of weight 100"
           },
           "200": {
-            "value": "#bcc8d9",
+            "value": "#b6bbc2",
             "type": "color",
             "description": "global color ocean blue of weight 200"
           },
           "300": {
-            "value": "#264c86",
+            "value": "#122539",
             "type": "color",
             "description": "global color ocean blue of weight 300"
           },
           "400": {
-            "value": "#224479",
+            "value": "#102133",
             "type": "color",
             "description": "global color ocean blue of weight 400"
           },
           "500": {
-            "value": "#1e3d6b",
+            "value": "#0e1e2e",
             "type": "color",
             "description": "global color ocean blue of weight 500"
           },
           "600": {
-            "value": "#1d3965",
+            "value": "#0e1c2b",
             "type": "color",
             "description": "global color ocean blue of weight 600"
           },
           "700": {
-            "value": "#172e50",
+            "value": "#0b1622",
             "type": "color",
             "description": "global color ocean blue of weight 700"
           },
           "800": {
-            "value": "#11223c",
+            "value": "#08111a",
             "type": "color",
             "description": "global color ocean blue of weight 800"
           },
           "900": {
-            "value": "#0d1b2f",
+            "value": "#060d14",
             "type": "color",
             "description": "global color ocean blue of weight 900"
           }
         },
-        "cerulean": {
+        "orange": {
           "50": {
-            "value": "#e6f2f6",
+            "value": "#fdeee8",
             "type": "color",
             "description": "global color tawny of weight 50"
           },
           "100": {
-            "value": "#daebf2",
+            "value": "#fbe6dd",
             "type": "color",
             "description": "global color tawny of weight 100"
           },
           "200": {
-            "value": "#b2d6e4",
+            "value": "#f7ccb8",
             "type": "color",
             "description": "global color tawny of weight 200"
           },
           "300": {
-            "value": "#087ca7",
+            "value": "#e6591a",
             "type": "color",
             "description": "global color tawny of weight 300"
           },
           "400": {
-            "value": "#077096",
+            "value": "#cf5017",
             "type": "color",
             "description": "global color tawny of weight 400"
           },
           "500": {
-            "value": "#066386",
+            "value": "#b84715",
             "type": "color",
             "description": "global color tawny of weight 500"
           },
           "600": {
-            "value": "#065d7d",
+            "value": "#ad4314",
             "type": "color",
             "description": "global color tawny of weight 600"
           },
           "700": {
-            "value": "#054a64",
+            "value": "#8a3510",
             "type": "color",
             "description": "global color tawny of weight 700"
           },
           "800": {
-            "value": "#04384b",
+            "value": "#67280c",
             "type": "color",
             "description": "global color tawny of weight 800"
           },
           "900": {
-            "value": "#032b3a",
+            "value": "#511f09",
             "type": "color",
             "description": "global color tawny of weight 900"
           }
@@ -158,54 +158,54 @@
             "description": "global color viola of weight 900"
           }
         },
-        "gold": {
+        "beige": {
           "50": {
-            "value": "#FFFCF5",
+            "value": "#fefdfd",
             "type": "color",
             "description": "global color gold of weight 50"
           },
           "100": {
-            "value": "#FDECC3",
+            "value": "#fdfcfb",
             "type": "color",
             "description": "global color gold of weight 100"
           },
           "200": {
-            "value": "#F0D36B",
+            "value": "#fcfaf8",
             "type": "color",
             "description": "global color gold of weight 200"
           },
           "300": {
-            "value": "#D4BB5F",
+            "value": "#f4eee7",
             "type": "color",
             "description": "global color gold of weight 300"
           },
           "400": {
-            "value": "#B19D51",
+            "value": "#dcd6d0",
             "type": "color",
             "description": "global color gold of weight 400"
           },
           "500": {
-            "value": "#84773F",
+            "value": "#c3beb9",
             "type": "color",
             "description": "global color gold of weight 500"
           },
           "600": {
-            "value": "#685E34",
+            "value": "#b7b3ad",
             "type": "color",
             "description": "global color gold of weight 600"
           },
           "700": {
-            "value": "#534B2B",
+            "value": "#928f8b",
             "type": "color",
             "description": "global color gold of weight 700"
           },
           "800": {
-            "value": "#3E3922",
+            "value": "#6e6b68",
             "type": "color",
             "description": "global color gold of weight 800"
           },
           "900": {
-            "value": "#2B2819",
+            "value": "#555351",
             "type": "color",
             "description": "global color gold of weight 900"
           }
@@ -475,7 +475,7 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Solenoidal",
+            "value": "Cormorant Garamond",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
@@ -694,104 +694,104 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.ocean blue.50}",
+            "value": "{global.colors.navy.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.ocean blue.100}",
+            "value": "{global.colors.navy.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.ocean blue.200}",
+            "value": "{global.colors.navy.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.ocean blue.300}",
+            "value": "{global.colors.navy.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.ocean blue.400}",
+            "value": "{global.colors.navy.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.ocean blue.500}",
+            "value": "{global.colors.navy.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.ocean blue.600}",
+            "value": "{global.colors.navy.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.ocean blue.700}",
+            "value": "{global.colors.navy.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.ocean blue.800}",
+            "value": "{global.colors.navy.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.ocean blue.900}",
+            "value": "{global.colors.navy.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
         },
         "accent": {
           "50": {
-            "value": "{global.colors.cerulean.50}",
+            "value": "{global.colors.orange.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.cerulean.100}",
+            "value": "{global.colors.orange.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.cerulean.200}",
+            "value": "{global.colors.orange.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.cerulean.300}",
+            "value": "{global.colors.orange.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.cerulean.400}",
+            "value": "{global.colors.orange.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.cerulean.500}",
+            "value": "{global.colors.orange.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.cerulean.600}",
+            "value": "{global.colors.orange.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.cerulean.700}",
+            "value": "{global.colors.orange.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.cerulean.800}",
+            "value": "{global.colors.orange.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.cerulean.900}",
+            "value": "{global.colors.orange.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
@@ -850,52 +850,52 @@
         },
         "warning": {
           "50": {
-            "value": "{global.colors.gold.50}",
+            "value": "{global.colors.beige.50}",
             "type": "color",
             "description": "lightest shade of warning color"
           },
           "100": {
-            "value": "{global.colors.gold.100}",
+            "value": "{global.colors.beige.100}",
             "type": "color",
             "description": "lighter shade of warning color"
           },
           "200": {
-            "value": "{global.colors.gold.200}",
+            "value": "{global.colors.beige.200}",
             "type": "color",
             "description": "light shade of warning color"
           },
           "300": {
-            "value": "{global.colors.gold.300}",
+            "value": "{global.colors.beige.300}",
             "type": "color",
             "description": "standard shade of warning color"
           },
           "400": {
-            "value": "{global.colors.gold.400}",
+            "value": "{global.colors.beige.400}",
             "type": "color",
             "description": "more emphasis standard shade of warning color"
           },
           "500": {
-            "value": "{global.colors.gold.500}",
+            "value": "{global.colors.beige.500}",
             "type": "color",
             "description": "even more emphasis standard shade of warning color"
           },
           "600": {
-            "value": "{global.colors.gold.600}",
+            "value": "{global.colors.beige.600}",
             "type": "color",
             "description": "dark shade of warning color"
           },
           "700": {
-            "value": "{global.colors.gold.700}",
+            "value": "{global.colors.beige.700}",
             "type": "color",
             "description": "darker shade of warning color"
           },
           "800": {
-            "value": "{global.colors.gold.800}",
+            "value": "{global.colors.beige.800}",
             "type": "color",
             "description": "even darker shade of warning color"
           },
           "900": {
-            "value": "{global.colors.gold.900}",
+            "value": "{global.colors.beige.900}",
             "type": "color",
             "description": "darkest shade of warning color"
           }
@@ -2536,16 +2536,6 @@
       "id": "b2f728f2c1584ea9fb10b2060b16a307bddb5f33",
       "name": "Light",
       "$figmaStyleReferences": {
-        "global.colors.ocean blue.50": "S:4152a7a897b56c8395141c18cff04aac00a71a10,",
-        "global.colors.ocean blue.100": "S:85373a892eed1871b8e7887d6475825552b00499,",
-        "global.colors.ocean blue.200": "S:2b942f73315266e0446452deaa126939df32d7c4,",
-        "global.colors.ocean blue.300": "S:28aa40ad50b4eb19ad99d18d6f62f0b684dd7093,",
-        "global.colors.ocean blue.400": "S:90d7b5036c17f3331575275704a95e18a0d50359,",
-        "global.colors.ocean blue.500": "S:a70763584da87542001b77a9f15a7d4b0ee9aa6a,",
-        "global.colors.ocean blue.600": "S:626642cf8f40cb1d5251e9906defacf90b22fd40,",
-        "global.colors.ocean blue.700": "S:c3bfec76c74090ad3f39ec579e28ebb24efa8803,",
-        "global.colors.ocean blue.800": "S:39a75b5a03e4fb0de9434aebdb2ad1394a16ac62,",
-        "global.colors.ocean blue.900": "S:7a00cb6e7cc7b40f300e9eb4b4780b3fa1e6ffbf,",
         "global.colors.violet.50": "S:5311d07d7ccc812c74c605af57f41912e78fe969,",
         "global.colors.violet.100": "S:2323441be80e6f7abf4dc8de97393af63e3d54b5,",
         "global.colors.violet.200": "S:41442926243deb08c155f085bec3b37488a7c0e5,",
@@ -2556,16 +2546,6 @@
         "global.colors.violet.700": "S:9eef5d3c006a02fdbc5089a6fc2e976794434af1,",
         "global.colors.violet.800": "S:f264cd4b088976f87d84709baf9dcdcd2933cf67,",
         "global.colors.violet.900": "S:eccaa0b4966f693113979f4677b8b9928d895c32,",
-        "global.colors.gold.50": "S:7023b070bee81ac7603242914acdff50aee91d31,",
-        "global.colors.gold.100": "S:f3b5a6612a0b05adbd674de03567d99964d48746,",
-        "global.colors.gold.200": "S:2ebb9bdfb64f7ef591587c515a1bd9f4ed72178d,",
-        "global.colors.gold.300": "S:cee8bf28f2498c6c850474aaf3d1857cb099b4e5,",
-        "global.colors.gold.400": "S:cf7998a3a7cf9fefb7e3f863b21c75074ecd0535,",
-        "global.colors.gold.500": "S:68f1a37e3a453967fbdd83e37c5d31ee5a5d70b4,",
-        "global.colors.gold.600": "S:0e5aeb209bf9e3061369e49093c79ba3b054d9e3,",
-        "global.colors.gold.700": "S:9d46e680e9f8d705307e4d29f7a3d68b71be4392,",
-        "global.colors.gold.800": "S:5a753a0fb0eaed221fbd725081f821cae16b1c5d,",
-        "global.colors.gold.900": "S:c56f480e150d57af7cc674190dc68cc85644e2d3,",
         "global.colors.red.50": "S:291ce5ec056da3fb837fc8a6a2622bda027f3085,",
         "global.colors.red.100": "S:eae66ff8b79a085dd440277d255a2ba0bf3ca451,",
         "global.colors.red.200": "S:7c6c766d60023f60b554c278da92285a69953e11,",
@@ -2596,16 +2576,36 @@
         "global.colors.grayscale.700": "S:230e81ddf298aa4bd66c6a692cba0c65b8eb4f04,",
         "global.colors.grayscale.800": "S:95807fa75cc32ae371ed257ebe0e9ec6b6f99798,",
         "global.colors.grayscale.900": "S:8aa40141096dfa2eb748227a6c2bfa7090d2a3f9,",
-        "global.colors.cerulean.50": "S:ce8af78dad897a5f01823ce0c0d97acad830d7c6,",
-        "global.colors.cerulean.100": "S:8b5dcf3cdc3aff2e9dc1fb2195f402e0f849f3f0,",
-        "global.colors.cerulean.200": "S:e2d65fa2c0b35fcdd54094b641268d3778818632,",
-        "global.colors.cerulean.300": "S:9d403da11ab07c17760d958d84aa309ac6dc7545,",
-        "global.colors.cerulean.400": "S:258aa5f5d40e004cd6e28efdc875118307646031,",
-        "global.colors.cerulean.500": "S:9e2d12259ffafad81dde8f6da4a547d0e963cc89,",
-        "global.colors.cerulean.600": "S:85212ecffabe35e080aea83713a099974f287a92,",
-        "global.colors.cerulean.700": "S:e4d0998fd77fc1462d3fb316dce3162ca2cb30fe,",
-        "global.colors.cerulean.800": "S:f9c815abb5febf8957281522bf270fa12baa9c50,",
-        "global.colors.cerulean.900": "S:6ae28710f84c18f491e1fedf746fa1bc7057a9e6,"
+        "global.colors.navy.50": "S:4152a7a897b56c8395141c18cff04aac00a71a10,",
+        "global.colors.navy.100": "S:85373a892eed1871b8e7887d6475825552b00499,",
+        "global.colors.navy.200": "S:2b942f73315266e0446452deaa126939df32d7c4,",
+        "global.colors.navy.300": "S:28aa40ad50b4eb19ad99d18d6f62f0b684dd7093,",
+        "global.colors.navy.400": "S:90d7b5036c17f3331575275704a95e18a0d50359,",
+        "global.colors.navy.500": "S:a70763584da87542001b77a9f15a7d4b0ee9aa6a,",
+        "global.colors.navy.600": "S:626642cf8f40cb1d5251e9906defacf90b22fd40,",
+        "global.colors.navy.700": "S:c3bfec76c74090ad3f39ec579e28ebb24efa8803,",
+        "global.colors.navy.800": "S:39a75b5a03e4fb0de9434aebdb2ad1394a16ac62,",
+        "global.colors.navy.900": "S:7a00cb6e7cc7b40f300e9eb4b4780b3fa1e6ffbf,",
+        "global.colors.orange.50": "S:ce8af78dad897a5f01823ce0c0d97acad830d7c6,",
+        "global.colors.orange.100": "S:8b5dcf3cdc3aff2e9dc1fb2195f402e0f849f3f0,",
+        "global.colors.orange.200": "S:e2d65fa2c0b35fcdd54094b641268d3778818632,",
+        "global.colors.orange.300": "S:9d403da11ab07c17760d958d84aa309ac6dc7545,",
+        "global.colors.orange.400": "S:258aa5f5d40e004cd6e28efdc875118307646031,",
+        "global.colors.orange.500": "S:9e2d12259ffafad81dde8f6da4a547d0e963cc89,",
+        "global.colors.orange.600": "S:85212ecffabe35e080aea83713a099974f287a92,",
+        "global.colors.orange.700": "S:e4d0998fd77fc1462d3fb316dce3162ca2cb30fe,",
+        "global.colors.orange.800": "S:f9c815abb5febf8957281522bf270fa12baa9c50,",
+        "global.colors.orange.900": "S:6ae28710f84c18f491e1fedf746fa1bc7057a9e6,",
+        "global.colors.beige.50": "S:7023b070bee81ac7603242914acdff50aee91d31,",
+        "global.colors.beige.100": "S:f3b5a6612a0b05adbd674de03567d99964d48746,",
+        "global.colors.beige.200": "S:2ebb9bdfb64f7ef591587c515a1bd9f4ed72178d,",
+        "global.colors.beige.300": "S:cee8bf28f2498c6c850474aaf3d1857cb099b4e5,",
+        "global.colors.beige.400": "S:cf7998a3a7cf9fefb7e3f863b21c75074ecd0535,",
+        "global.colors.beige.500": "S:68f1a37e3a453967fbdd83e37c5d31ee5a5d70b4,",
+        "global.colors.beige.600": "S:0e5aeb209bf9e3061369e49093c79ba3b054d9e3,",
+        "global.colors.beige.700": "S:9d46e680e9f8d705307e4d29f7a3d68b71be4392,",
+        "global.colors.beige.800": "S:5a753a0fb0eaed221fbd725081f821cae16b1c5d,",
+        "global.colors.beige.900": "S:c56f480e150d57af7cc674190dc68cc85644e2d3,"
       },
       "selectedTokenSets": {
         "global/colors": "enabled",
@@ -2632,16 +2632,6 @@
         "global.dimensions.15": "d81e9637be2fe0f88aadfa0fc9e4617586d878b8",
         "global.dimensions.16": "b0a957a80d0c48ab21e74fb51bd26b4a3ca6ea92",
         "global.dimensions.17": "cfd49f592b208581b20c8a64e6a3e18b0c595955",
-        "global.colors.ocean blue.50": "4c4bccab6fc51b088d2732d6eca284773f88d4e4",
-        "global.colors.ocean blue.100": "44a9401fb20714d3811c96ae8dbf1fac192d7112",
-        "global.colors.ocean blue.200": "53efd2e5d2879539536895eb69424323eebabb46",
-        "global.colors.ocean blue.300": "dd446b153e957eec72058121193c0bfb5946d285",
-        "global.colors.ocean blue.400": "39033c303cbeabb487a6f810e34caaf164ed7469",
-        "global.colors.ocean blue.500": "89a2b95d24d1abc5382c01c56cd45ddbcd6dfabd",
-        "global.colors.ocean blue.600": "b4ab598b5bb904b840dd182d6f9fbf651895a25c",
-        "global.colors.ocean blue.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
-        "global.colors.ocean blue.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
-        "global.colors.ocean blue.900": "fd20e25151193942b92bba3e90de39972bb11610",
         "global.colors.violet.50": "2ab238c7bb167c9711384d7ae17aa4931479e111",
         "global.colors.violet.100": "82c1a0f361251215b7a8f29a59cbd0172b3430ac",
         "global.colors.violet.200": "4457151391af7f905a70c702cff2d91216b6e023",
@@ -2652,16 +2642,6 @@
         "global.colors.violet.700": "fd76d8675fd728a7418b409e641142e19d28ed61",
         "global.colors.violet.800": "a6faa2049a92dc9f1e6c4c16647964a18de30d81",
         "global.colors.violet.900": "a5a38d08502a567229bbaa2c74d40a4ad4e91dd6",
-        "global.colors.gold.50": "3fffd34fb60e799fb8451193ead4c6dd71261b7a",
-        "global.colors.gold.100": "50a55ba395901dd7fe2efaac0d6aeda64b61ae06",
-        "global.colors.gold.200": "0a628ec715c01080a3a1f9fb25ea5db174fc96b2",
-        "global.colors.gold.300": "d23cfc9a172758006a24c5cb3b333011c99c3678",
-        "global.colors.gold.400": "5313c5c71db1ab9581bf12ecf204f10a697bdac6",
-        "global.colors.gold.500": "c03fd968b988b11480d628745e480322a53de5e4",
-        "global.colors.gold.600": "7ac2589b2168a8dc833c95aa1bece2641f2d6700",
-        "global.colors.gold.700": "103b97ea9f4467ca01126f58b384ba1e42cfac44",
-        "global.colors.gold.800": "fe795bce1ccc46bcbb0e3fac521ecc655dd9df5f",
-        "global.colors.gold.900": "f74fd652e50b0276c48200017dd6c76d1410aa1e",
         "global.colors.red.50": "dca47c8db5cbe22a62ea469a29804949a71ef3e8",
         "global.colors.red.100": "cb0d27b14edc2e60bd3026d7834dd6840ff580a5",
         "global.colors.red.200": "f50737d1a71408f513bcf2f5fa1869aa1825fd13",
@@ -2692,16 +2672,36 @@
         "global.colors.grayscale.700": "6e274c1491339e736024c4538e2d39e44f088b63",
         "global.colors.grayscale.800": "78ffd70c29a752ccbb8117dd476e0bbe8f3c74e2",
         "global.colors.grayscale.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c",
-        "global.colors.cerulean.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
-        "global.colors.cerulean.100": "a6b7080ec454702b387757469a5b9734857237a5",
-        "global.colors.cerulean.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
-        "global.colors.cerulean.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
-        "global.colors.cerulean.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
-        "global.colors.cerulean.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
-        "global.colors.cerulean.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
-        "global.colors.cerulean.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
-        "global.colors.cerulean.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
-        "global.colors.cerulean.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2"
+        "global.colors.navy.50": "4c4bccab6fc51b088d2732d6eca284773f88d4e4",
+        "global.colors.navy.100": "44a9401fb20714d3811c96ae8dbf1fac192d7112",
+        "global.colors.navy.200": "53efd2e5d2879539536895eb69424323eebabb46",
+        "global.colors.navy.300": "dd446b153e957eec72058121193c0bfb5946d285",
+        "global.colors.navy.400": "39033c303cbeabb487a6f810e34caaf164ed7469",
+        "global.colors.navy.500": "89a2b95d24d1abc5382c01c56cd45ddbcd6dfabd",
+        "global.colors.navy.600": "b4ab598b5bb904b840dd182d6f9fbf651895a25c",
+        "global.colors.navy.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
+        "global.colors.navy.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
+        "global.colors.navy.900": "fd20e25151193942b92bba3e90de39972bb11610",
+        "global.colors.orange.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
+        "global.colors.orange.100": "a6b7080ec454702b387757469a5b9734857237a5",
+        "global.colors.orange.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
+        "global.colors.orange.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
+        "global.colors.orange.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
+        "global.colors.orange.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
+        "global.colors.orange.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
+        "global.colors.orange.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
+        "global.colors.orange.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
+        "global.colors.orange.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2",
+        "global.colors.beige.50": "3fffd34fb60e799fb8451193ead4c6dd71261b7a",
+        "global.colors.beige.100": "50a55ba395901dd7fe2efaac0d6aeda64b61ae06",
+        "global.colors.beige.200": "0a628ec715c01080a3a1f9fb25ea5db174fc96b2",
+        "global.colors.beige.300": "d23cfc9a172758006a24c5cb3b333011c99c3678",
+        "global.colors.beige.400": "5313c5c71db1ab9581bf12ecf204f10a697bdac6",
+        "global.colors.beige.500": "c03fd968b988b11480d628745e480322a53de5e4",
+        "global.colors.beige.600": "7ac2589b2168a8dc833c95aa1bece2641f2d6700",
+        "global.colors.beige.700": "103b97ea9f4467ca01126f58b384ba1e42cfac44",
+        "global.colors.beige.800": "fe795bce1ccc46bcbb0e3fac521ecc655dd9df5f",
+        "global.colors.beige.900": "f74fd652e50b0276c48200017dd6c76d1410aa1e"
       },
       "group": "Global"
     },
