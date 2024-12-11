@@ -1811,7 +1811,7 @@
           "secondary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.300}",
                 "type": "color",
                 "description": "default color for secondary buttons"
               },
@@ -1843,7 +1843,7 @@
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.300}",
                 "type": "color",
                 "description": "default color for items on outlined style secondary buttons"
               },
