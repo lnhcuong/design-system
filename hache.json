@@ -2213,7 +2213,7 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.heading}",
-                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontWeight": "{global.typography.fontWeight.medium}",
                 "fontSize": "{global.typography.fontSize.xxxs}",
                 "textDecoration": "{global.typography.textDecoration.none}",
                 "lineHeight": "{global.typography.lineHeight.sm}",
