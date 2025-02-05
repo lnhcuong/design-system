@@ -465,7 +465,7 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Figtree",
+            "value": "Clash Display",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
