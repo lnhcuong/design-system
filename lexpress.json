@@ -2,160 +2,160 @@
   "global/colors": {
     "global": {
       "colors": {
-        "ocean blue": {
+        "lime": {
           "50": {
-            "value": "#e6eef6",
+            "value": "#f8fff2",
             "type": "color",
-            "description": "global color ocean blue of weight 50"
+            "description": "global color lime of weight 50"
           },
           "100": {
-            "value": "#dae6f3",
+            "value": "#eafed7",
             "type": "color",
-            "description": "global color ocean blue of weight 100"
+            "description": "global color lime of weight 100"
           },
           "200": {
-            "value": "#b2cce6",
+            "value": "#e0fec4",
             "type": "color",
-            "description": "global color ocean blue of weight 200"
+            "description": "global color lime of weight 200"
           },
           "300": {
-            "value": "#0559ae",
+            "value": "#d2fda9",
             "type": "color",
-            "description": "global color ocean blue of weight 300"
+            "description": "global color lime of weight 300"
           },
           "400": {
-            "value": "#05509d",
+            "value": "#c9fd99",
             "type": "color",
-            "description": "global color ocean blue of weight 400"
+            "description": "global color lime of weight 400"
           },
           "500": {
-            "value": "#04478b",
+            "value": "#bcfc7f",
             "type": "color",
-            "description": "global color ocean blue of weight 500"
+            "description": "global color lime of weight 500"
           },
           "600": {
-            "value": "#044383",
+            "value": "#abe574",
             "type": "color",
-            "description": "global color ocean blue of weight 600"
+            "description": "global color lime of weight 600"
           },
           "700": {
-            "value": "#033568",
+            "value": "#85b35a",
             "type": "color",
-            "description": "global color ocean blue of weight 700"
+            "description": "global color lime of weight 700"
           },
           "800": {
-            "value": "#02284e",
+            "value": "#678b46",
             "type": "color",
-            "description": "global color ocean blue of weight 800"
+            "description": "global color lime of weight 800"
           },
           "900": {
-            "value": "#021f3d",
+            "value": "#4f6a35",
             "type": "color",
-            "description": "global color ocean blue of weight 900"
+            "description": "global color lime of weight 900"
           }
         },
-        "tawny": {
+        "sand": {
           "50": {
-            "value": "#f7efe6",
+            "value": "#fefef2",
             "type": "color",
-            "description": "global color tawny of weight 50"
+            "description": "global color sand of weight 50"
           },
           "100": {
-            "value": "#f3e6da",
+            "value": "#fcfbd5",
             "type": "color",
-            "description": "global color tawny of weight 100"
+            "description": "global color sand of weight 100"
           },
           "200": {
-            "value": "#e6ccb2",
+            "value": "#faf9c1",
             "type": "color",
-            "description": "global color tawny of weight 200"
+            "description": "global color sand of weight 200"
           },
           "300": {
-            "value": "#ae5a05",
+            "value": "#f8f7a5",
             "type": "color",
-            "description": "global color tawny of weight 300"
+            "description": "global color sand of weight 300"
           },
           "400": {
-            "value": "#9d5105",
+            "value": "#f7f593",
             "type": "color",
-            "description": "global color tawny of weight 400"
+            "description": "global color sand of weight 400"
           },
           "500": {
-            "value": "#8b4804",
+            "value": "#f5f378",
             "type": "color",
-            "description": "global color tawny of weight 500"
+            "description": "global color sand of weight 500"
           },
           "600": {
-            "value": "#834404",
+            "value": "#dfdd6d",
             "type": "color",
-            "description": "global color tawny of weight 600"
+            "description": "global color sand of weight 600"
           },
           "700": {
-            "value": "#683603",
+            "value": "#aead55",
             "type": "color",
-            "description": "global color tawny of weight 700"
+            "description": "global color sand of weight 700"
           },
           "800": {
-            "value": "#4e2802",
+            "value": "#878642",
             "type": "color",
-            "description": "global color tawny of weight 800"
+            "description": "global color sand of weight 800"
           },
           "900": {
-            "value": "#3d1f02",
+            "value": "#676632",
             "type": "color",
-            "description": "global color tawny of weight 900"
+            "description": "global color sand of weight 900"
           }
         },
-        "violet": {
+        "lavender": {
           "50": {
-            "value": "#FCFCFE",
+            "value": "#fcf9ff",
             "type": "color",
-            "description": "global color viola of weight 50"
+            "description": "global color lavender of weight 50"
           },
           "100": {
-            "value": "#ECEDFA",
+            "value": "#f4ecff",
             "type": "color",
-            "description": "global color viola of weight 100"
+            "description": "global color lavender of weight 100"
           },
           "200": {
-            "value": "#D0D2F3",
+            "value": "#efe2ff",
             "type": "color",
-            "description": "global color viola of weight 200"
+            "description": "global color lavender of weight 200"
           },
           "300": {
-            "value": "#B6B8EB",
+            "value": "#e8d5ff",
             "type": "color",
-            "description": "global color viola of weight 300"
+            "description": "global color lavender of weight 300"
           },
           "400": {
-            "value": "#9598E0",
+            "value": "#e3cdff",
             "type": "color",
-            "description": "global color viola of weight 400"
+            "description": "global color lavender of weight 400"
           },
           "500": {
-            "value": "#686FC8",
+            "value": "#dcc1ff",
             "type": "color",
-            "description": "global color viola of weight 500"
+            "description": "global color lavender of weight 500"
           },
           "600": {
-            "value": "#57579C",
+            "value": "#c8b0e8",
             "type": "color",
-            "description": "global color viola of weight 600"
+            "description": "global color lavender of weight 600"
           },
           "700": {
-            "value": "#49457A",
+            "value": "#9c89b5",
             "type": "color",
-            "description": "global color viola of weight 700"
+            "description": "global color lavender of weight 700"
           },
           "800": {
-            "value": "#39345A",
+            "value": "#796a8c",
             "type": "color",
-            "description": "global color viola of weight 800"
+            "description": "global color lavender of weight 800"
           },
           "900": {
-            "value": "#29253C",
+            "value": "#5c516b",
             "type": "color",
-            "description": "global color viola of weight 900"
+            "description": "global color lavender of weight 900"
           }
         },
         "gold": {
@@ -694,104 +694,104 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.ocean blue.50}",
+            "value": "{global.colors.lime.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.ocean blue.100}",
+            "value": "{global.colors.lime.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.ocean blue.200}",
+            "value": "{global.colors.lime.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.ocean blue.300}",
+            "value": "{global.colors.lime.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.ocean blue.400}",
+            "value": "{global.colors.lime.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.ocean blue.500}",
+            "value": "{global.colors.lime.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.ocean blue.600}",
+            "value": "{global.colors.lime.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.ocean blue.700}",
+            "value": "{global.colors.lime.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.ocean blue.800}",
+            "value": "{global.colors.lime.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.ocean blue.900}",
+            "value": "{global.colors.lime.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
         },
         "accent": {
           "50": {
-            "value": "{global.colors.tawny.50}",
+            "value": "{global.colors.sand.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.tawny.100}",
+            "value": "{global.colors.sand.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.tawny.200}",
+            "value": "{global.colors.sand.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.tawny.300}",
+            "value": "{global.colors.sand.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.tawny.400}",
+            "value": "{global.colors.sand.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.tawny.500}",
+            "value": "{global.colors.sand.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.tawny.600}",
+            "value": "{global.colors.sand.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.tawny.700}",
+            "value": "{global.colors.sand.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.tawny.800}",
+            "value": "{global.colors.sand.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.tawny.900}",
+            "value": "{global.colors.sand.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
@@ -972,8 +972,8 @@
           "h1": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
-              "fontSize": "{global.typography.fontSize.xxxl}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
+              "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
               "lineHeight": "{global.typography.lineHeight.xxl}"
@@ -984,7 +984,7 @@
           "h2": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
@@ -996,9 +996,9 @@
           "h3": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.ml}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}",
               "lineHeight": "{global.typography.lineHeight.ml}"
             },
             "type": "typography",
@@ -1007,9 +1007,9 @@
           "h4": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.md}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "letterSpacing": "{global.typography.letterSpacing.sm}",
               "lineHeight": "{global.typography.lineHeight.md}"
             },
             "type": "typography",
@@ -1018,10 +1018,10 @@
           "h5": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.sm}",
               "lineHeight": "{global.typography.lineHeight.sm}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "letterSpacing": "0"
             },
             "type": "typography",
             "description": "heading 5"
@@ -1029,9 +1029,9 @@
           "h6": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.xs}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}",
+              "letterSpacing": "0",
               "lineHeight": "{global.typography.lineHeight.xs}"
             },
             "type": "typography",
@@ -1047,9 +1047,9 @@
             "regular": {
               "value": {
                 "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.semiBold}",
-                "fontSize": "{global.typography.fontSize.xxs}",
-                "letterSpacing": "{global.typography.letterSpacing.md}",
+                "fontWeight": "{global.typography.fontWeight.medium}",
+                "fontSize": "{global.typography.fontSize.xxxs}",
+                "letterSpacing": "{global.typography.letterSpacing.sm}",
                 "textCase": "{global.typography.textCase.none}"
               },
               "type": "typography",
@@ -1062,7 +1062,7 @@
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "letterSpacing": "0",
                 "lineHeight": "{global.typography.lineHeight.sm}"
               },
               "type": "typography",
@@ -1073,7 +1073,7 @@
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.md}+2",
-                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "letterSpacing": "0",
                 "lineHeight": "{global.typography.lineHeight.md}"
               },
               "type": "typography",
@@ -1086,9 +1086,9 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.default}",
-              "fontSize": "{global.typography.fontSize.xs}",
-              "lineHeight": "{global.typography.lineHeight.sm}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "letterSpacing": "0"
             },
             "type": "typography",
             "description": "default for paragraphs that are going over multiple lines"
@@ -1097,9 +1097,9 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.semiBold}",
-              "fontSize": "{global.typography.fontSize.xs}",
-              "lineHeight": "{global.typography.lineHeight.sm}",
-              "letterSpacing": "{global.typography.letterSpacing.xs}"
+              "fontSize": "{global.typography.fontSize.xxs}",
+              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "letterSpacing": "0"
             },
             "type": "typography",
             "description": "emphasis for part of a body paragraph or single line paragraph texts"
@@ -1108,8 +1108,8 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.default}",
-              "fontSize": "{global.typography.fontSize.xxs}",
-              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "fontSize": "{global.typography.fontSize.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1119,8 +1119,8 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.semiBold}",
-              "fontSize": "{global.typography.fontSize.xxs}",
-              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "fontSize": "{global.typography.fontSize.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.xxxs}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1130,8 +1130,8 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.default}",
-              "fontSize": "{global.typography.fontSize.xxxs}",
-              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "fontSize": "{global.typography.fontSize.xxxs}*3/4",
+              "lineHeight": "{global.typography.lineHeight.xxxs}*3/4",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1141,8 +1141,8 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.semiBold}",
-              "fontSize": "{global.typography.fontSize.xxxs}",
-              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "fontSize": "{global.typography.fontSize.xxxs}*3/4",
+              "lineHeight": "{global.typography.lineHeight.xxxs}*3/4",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1494,6 +1494,21 @@
               "value": "{alias.color-roles.neutral.800}",
               "type": "color",
               "description": "heavy neutral border color"
+            },
+            "invertedSubtle": {
+              "value": "{alias.color-roles.neutral.800}",
+              "type": "color",
+              "description": "subtle neutral border color"
+            },
+            "invertedMedium": {
+              "value": "{alias.color-roles.neutral.700}",
+              "type": "color",
+              "description": "medium neutral border color"
+            },
+            "invertedHeavy": {
+              "value": "{alias.color-roles.neutral.600}",
+              "type": "color",
+              "description": "heavy neutral border color"
             }
           },
           "interaction": {
@@ -1511,6 +1526,21 @@
               "value": "{alias.color-roles.brand.500}",
               "type": "color",
               "description": "heavy interaction border color"
+            },
+            "invertedSubtle": {
+              "value": "{alias.color-roles.brand.800}",
+              "type": "color",
+              "description": "subtle interaction border color"
+            },
+            "invertedMedium": {
+              "value": "{alias.color-roles.brand.700}",
+              "type": "color",
+              "description": "medium interaction border color"
+            },
+            "invertedHeavy": {
+              "value": "{alias.color-roles.brand.600}",
+              "type": "color",
+              "description": "heavy interaction border color"
             }
           },
           "information": {
@@ -1526,6 +1556,21 @@
             },
             "heavy": {
               "value": "{alias.color-roles.accent.500}",
+              "type": "color",
+              "description": "heavy information border color"
+            },
+            "invertedSubtle": {
+              "value": "{alias.color-roles.accent.800}",
+              "type": "color",
+              "description": "subtle information border color"
+            },
+            "invertedMedium": {
+              "value": "{alias.color-roles.accent.700}",
+              "type": "color",
+              "description": "medium information border color"
+            },
+            "invertedHeavy": {
+              "value": "{alias.color-roles.accent.600}",
               "type": "color",
               "description": "heavy information border color"
             }
@@ -1636,7 +1681,7 @@
                 "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
                 "type": "color",
                 "description": "default color for elements on primary buttons"
               },
@@ -1646,7 +1691,7 @@
                 "description": "hover color for primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
                 "type": "color",
                 "description": "default color for elements on hovered primary buttons"
               },
@@ -1656,7 +1701,7 @@
                 "description": "on click color for primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.100}",
+                "value": "{alias.colors-light.neutral.onBackground.default}",
                 "type": "color",
                 "description": "color for elements on top of on click primary buttons"
               }
@@ -1668,12 +1713,12 @@
                 "description": "default color for items on outlined style primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "background color for hovered outlined style primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style primary buttons"
               },
@@ -1683,7 +1728,7 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
               },
@@ -1724,7 +1769,7 @@
           "invertPrimary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.colors-light.neutral.onBackground.default}",
                 "type": "color",
                 "description": "invert color for primary buttons"
               },
@@ -1734,7 +1779,7 @@
                 "description": "invert color for elements on inverted primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.brand.100}",
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
                 "type": "color",
                 "description": "invert hover color for primary buttons"
               },
@@ -1744,19 +1789,19 @@
                 "description": "invert color for elements on hovered primary buttons"
               },
               "onClick": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.600}",
                 "type": "color",
                 "description": "invert on click color for primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "invert color for elements on top of inverted on click primary buttons"
               }
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
@@ -1766,7 +1811,7 @@
                 "description": "background color for hovered outlined style primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.brand.200}",
+                "value": "{alias.color-roles.brand.400}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style primary buttons"
               },
@@ -1776,13 +1821,13 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
               },
               "defaultBorder": {
                 "value": {
-                  "color": "{alias.borders.borderColor.interaction.subtle}",
+                  "color": "{alias.borders.borderColor.interaction.invertedSubtle}",
                   "width": "{alias.borders.borderWeight.thin}"
                 },
                 "type": "border",
@@ -2034,12 +2079,12 @@
         "btnSizes": {
           "iconOnly": {
             "largeSize": {
-              "value": "{global.dimensions.13}",
+              "value": "{global.dimensions.11}",
               "type": "sizing",
               "description": "large size for buttons with only icons"
             },
             "defaultSize": {
-              "value": "{global.dimensions.10}",
+              "value": "{global.dimensions.8}",
               "type": "sizing",
               "description": "default size for buttons with only icons"
             }
@@ -2048,36 +2093,36 @@
         "btnTypes": {
           "default": {
             "largeSize": {
-              "value": "{alias.spacings.sm} {alias.spacings.lg}",
+              "value": "{alias.spacings.xs} {alias.spacings.lg}",
               "type": "spacing",
               "description": "paddings for buttons with only icon"
             },
             "defaultSize": {
-              "value": "{global.dimensions.4} {alias.spacings.md}",
+              "value": "{global.dimensions.3} {alias.spacings.sm}",
               "type": "spacing",
               "description": "defalut paddings for buttons with only icon"
             }
           },
           "iconLeft": {
             "largeSize": {
-              "value": "{alias.spacings.sm} {alias.spacings.lg} {alias.spacings.sm} {alias.spacings.ml}",
+              "value": "{alias.spacings.xs} {alias.spacings.ml} {alias.spacings.xs} {alias.spacings.md}",
               "type": "spacing",
               "description": "paddings for buttons with left icon"
             },
             "defaultSize": {
-              "value": "{global.dimensions.4} {alias.spacings.md} {global.dimensions.4} {alias.spacings.xs}",
+              "value": "{global.dimensions.3} {alias.spacings.sm} {global.dimensions.3} {alias.spacings.xxs}",
               "type": "spacing",
               "description": "default paddings for buttons with left icon"
             }
           },
           "iconRight": {
             "largeSize": {
-              "value": "{alias.spacings.sm} {alias.spacings.ml} {alias.spacings.sm} {alias.spacings.lg}",
+              "value": "{alias.spacings.xs} {alias.spacings.md} {alias.spacings.xs} {alias.spacings.ml}",
               "type": "spacing",
               "description": "paddings for buttons with right icon"
             },
             "defaultSize": {
-              "value": "{global.dimensions.4} {alias.spacings.xs} {global.dimensions.4} {alias.spacings.md}",
+              "value": "{global.dimensions.3} {alias.spacings.xxs} {global.dimensions.3} {alias.spacings.sm}",
               "type": "spacing",
               "description": "default paddings for buttons with right icon"
             }
@@ -2111,10 +2156,10 @@
         "btnFonts": {
           "default": {
             "value": {
-              "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.medium}",
+              "fontFamily": "{global.typography.fontFamilies.heading}",
+              "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.xs}",
-              "letterSpacing": "{global.typography.letterSpacing.lg}",
+              "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
             },
             "type": "typography",
@@ -2122,8 +2167,8 @@
           },
           "alternate": {
             "value": {
-              "fontFamily": "{global.typography.fontFamilies.heading}",
-              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontFamily": "{global.typography.fontFamilies.body}",
+              "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "{global.typography.letterSpacing.md}",
               "textCase": "{global.typography.textCase.none}"
@@ -2142,8 +2187,8 @@
           "regular": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
-              "fontSize": "{global.typography.fontSize.xs}",
+              "fontWeight": "{global.typography.fontWeight.default}-100",
+              "fontSize": "{global.typography.fontSize.xxs}",
               "textDecoration": "{global.typography.textDecoration.none}"
             },
             "type": "typography",
@@ -2152,8 +2197,8 @@
           "underlined": {
             "value": {
               "fontFamily": "{global.typography.fontFamilies.body}",
-              "fontWeight": "{global.typography.fontWeight.semiBold}",
-              "fontSize": "{global.typography.fontSize.xs}",
+              "fontWeight": "{global.typography.fontWeight.default}",
+              "fontSize": "{global.typography.fontSize.xxs}",
               "textDecoration": "{global.typography.textDecoration.underline}"
             },
             "type": "typography",
@@ -2638,26 +2683,6 @@
         "global.dimensions.15": "d81e9637be2fe0f88aadfa0fc9e4617586d878b8",
         "global.dimensions.16": "b0a957a80d0c48ab21e74fb51bd26b4a3ca6ea92",
         "global.dimensions.17": "cfd49f592b208581b20c8a64e6a3e18b0c595955",
-        "global.colors.ocean blue.50": "4c4bccab6fc51b088d2732d6eca284773f88d4e4",
-        "global.colors.ocean blue.100": "44a9401fb20714d3811c96ae8dbf1fac192d7112",
-        "global.colors.ocean blue.200": "53efd2e5d2879539536895eb69424323eebabb46",
-        "global.colors.ocean blue.300": "dd446b153e957eec72058121193c0bfb5946d285",
-        "global.colors.ocean blue.400": "39033c303cbeabb487a6f810e34caaf164ed7469",
-        "global.colors.ocean blue.500": "89a2b95d24d1abc5382c01c56cd45ddbcd6dfabd",
-        "global.colors.ocean blue.600": "b4ab598b5bb904b840dd182d6f9fbf651895a25c",
-        "global.colors.ocean blue.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
-        "global.colors.ocean blue.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
-        "global.colors.ocean blue.900": "fd20e25151193942b92bba3e90de39972bb11610",
-        "global.colors.violet.50": "2ab238c7bb167c9711384d7ae17aa4931479e111",
-        "global.colors.violet.100": "82c1a0f361251215b7a8f29a59cbd0172b3430ac",
-        "global.colors.violet.200": "4457151391af7f905a70c702cff2d91216b6e023",
-        "global.colors.violet.300": "cbfd46198c5e3c40dd78ad3cb565c3df87638626",
-        "global.colors.violet.400": "d2839d6f2895e8c9e8c46b8b0c9c86253905f6b7",
-        "global.colors.violet.500": "525f00f438a8ebbf4116c5f59edc0de0b1e9c517",
-        "global.colors.violet.600": "99b2b406941018fc228c8bc57eef7359f954372f",
-        "global.colors.violet.700": "fd76d8675fd728a7418b409e641142e19d28ed61",
-        "global.colors.violet.800": "a6faa2049a92dc9f1e6c4c16647964a18de30d81",
-        "global.colors.violet.900": "a5a38d08502a567229bbaa2c74d40a4ad4e91dd6",
         "global.colors.gold.50": "3fffd34fb60e799fb8451193ead4c6dd71261b7a",
         "global.colors.gold.100": "50a55ba395901dd7fe2efaac0d6aeda64b61ae06",
         "global.colors.gold.200": "0a628ec715c01080a3a1f9fb25ea5db174fc96b2",
@@ -2698,16 +2723,36 @@
         "global.colors.grayscale.700": "6e274c1491339e736024c4538e2d39e44f088b63",
         "global.colors.grayscale.800": "78ffd70c29a752ccbb8117dd476e0bbe8f3c74e2",
         "global.colors.grayscale.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c",
-        "global.colors.tawny.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
-        "global.colors.tawny.100": "a6b7080ec454702b387757469a5b9734857237a5",
-        "global.colors.tawny.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
-        "global.colors.tawny.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
-        "global.colors.tawny.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
-        "global.colors.tawny.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
-        "global.colors.tawny.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
-        "global.colors.tawny.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
-        "global.colors.tawny.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
-        "global.colors.tawny.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2"
+        "global.colors.sand.50": "7364e864a83906d47e89ada0e0283d77667b2e50",
+        "global.colors.sand.100": "a6b7080ec454702b387757469a5b9734857237a5",
+        "global.colors.sand.200": "a647d29ed86f45e1d887a13c79b1c55e47c4f16a",
+        "global.colors.sand.300": "2c216a7b4799fa2d59ec12cc90bc0d87d5636f1f",
+        "global.colors.sand.400": "2c374ce3beb9dca7b194308a2350fd9659599c98",
+        "global.colors.sand.500": "588fd4d5b9ce3e5d53ba70a0f69875c00125ec33",
+        "global.colors.sand.600": "277be2fd177d7ae38b46893316b98fb8a13ae4c0",
+        "global.colors.sand.700": "2cb6e36bc799409ac8fc334ec2606c8b5d645db1",
+        "global.colors.sand.800": "1d785d5cfe1f730e92666aa2497c94cac1d9365e",
+        "global.colors.sand.900": "f0727cacd2ceb8e14cfd43eaefa5cd66c3049ba2",
+        "global.colors.lavender.50": "2ab238c7bb167c9711384d7ae17aa4931479e111",
+        "global.colors.lavender.100": "82c1a0f361251215b7a8f29a59cbd0172b3430ac",
+        "global.colors.lavender.200": "4457151391af7f905a70c702cff2d91216b6e023",
+        "global.colors.lavender.300": "cbfd46198c5e3c40dd78ad3cb565c3df87638626",
+        "global.colors.lavender.400": "d2839d6f2895e8c9e8c46b8b0c9c86253905f6b7",
+        "global.colors.lavender.500": "525f00f438a8ebbf4116c5f59edc0de0b1e9c517",
+        "global.colors.lavender.600": "99b2b406941018fc228c8bc57eef7359f954372f",
+        "global.colors.lavender.700": "fd76d8675fd728a7418b409e641142e19d28ed61",
+        "global.colors.lavender.800": "a6faa2049a92dc9f1e6c4c16647964a18de30d81",
+        "global.colors.lavender.900": "a5a38d08502a567229bbaa2c74d40a4ad4e91dd6",
+        "global.colors.lime.50": "4c4bccab6fc51b088d2732d6eca284773f88d4e4",
+        "global.colors.lime.100": "44a9401fb20714d3811c96ae8dbf1fac192d7112",
+        "global.colors.lime.200": "53efd2e5d2879539536895eb69424323eebabb46",
+        "global.colors.lime.300": "dd446b153e957eec72058121193c0bfb5946d285",
+        "global.colors.lime.400": "39033c303cbeabb487a6f810e34caaf164ed7469",
+        "global.colors.lime.500": "89a2b95d24d1abc5382c01c56cd45ddbcd6dfabd",
+        "global.colors.lime.600": "b4ab598b5bb904b840dd182d6f9fbf651895a25c",
+        "global.colors.lime.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
+        "global.colors.lime.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
+        "global.colors.lime.900": "fd20e25151193942b92bba3e90de39972bb11610"
       },
       "group": "Global"
     },
