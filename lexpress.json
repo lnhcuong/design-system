@@ -1669,7 +1669,7 @@
       }
     }
   },
-  "elements/buttons/btnColors/primary": {
+  "elements/buttons/btnColors/filled": {
     "elements": {
       "buttons": {
         "btnColors": {
@@ -1681,7 +1681,7 @@
                 "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "default color for elements on primary buttons"
               },
@@ -1691,7 +1691,7 @@
                 "description": "hover color for primary buttons"
               },
               "onHover": {
-                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "default color for elements on hovered primary buttons"
               },
@@ -1701,24 +1701,24 @@
                 "description": "on click color for primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.colors-light.neutral.onBackground.default}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "color for elements on top of on click primary buttons"
               }
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.400}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.100}",
                 "type": "color",
                 "description": "background color for hovered outlined style primary buttons"
               },
               "onHover": {
-                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
+                "value": "{alias.color-roles.brand.900}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style primary buttons"
               },
@@ -1728,21 +1728,120 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.900}",
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
+              }
+            }
+          },
+          "secondary": {
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "default color for primary buttons"
               },
+              "onDefault": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for elements on primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.700}",
+                "type": "color",
+                "description": "hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for elements on hovered primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.600}",
+                "type": "color",
+                "description": "on click color for primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.accent.900}",
+                "type": "color",
+                "description": "color for elements on top of on click primary buttons"
+              }
+            },
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.accent.400}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.100}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.accent.900}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              }
+            }
+          }
+        },
+        "outlines": {
+          "defaultBorder": {
+            "value": {
+              "color": "",
+              "width": "{alias.borders.borderWeight.regular}"
+            },
+            "type": "border",
+            "description": "default border color for outlined style of primary button"
+          },
+          "hoverBorder": {
+            "value": {
+              "color": "",
+              "width": "{alias.borders.borderWeight.regular}"
+            },
+            "type": "border",
+            "description": "border for hovered outlined style of primary button"
+          },
+          "onClickBorder": {
+            "value": {
+              "color": "",
+              "width": "{alias.borders.borderWeight.regular}"
+            },
+            "type": "border",
+            "description": "border for on click outlined style of primary button"
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/neutral": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "primary": {
+            "outlined": {
               "defaultBorder": {
                 "value": {
-                  "color": "{alias.borders.borderColor.interaction.heavy}",
-                  "width": "{alias.borders.borderWeight.thin}"
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
                 },
                 "type": "border",
                 "description": "default border color for outlined style of primary button"
               },
               "hoverBorder": {
                 "value": {
-                  "color": "{alias.borders.borderColor.interaction.medium}",
+                  "color": "",
                   "width": "{alias.borders.borderWeight.regular}"
                 },
                 "type": "border",
@@ -1750,68 +1849,60 @@
               },
               "onClickBorder": {
                 "value": {
-                  "color": "{alias.borders.borderColor.interaction.heavy}",
-                  "width": "{alias.borders.borderWeight.thin}"
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
                 },
                 "type": "border",
                 "description": "border for on click outlined style of primary button"
               }
             }
-          }
-        }
-      }
-    }
-  },
-  "elements/buttons/btnColors/invertPrimary": {
-    "elements": {
-      "buttons": {
-        "btnColors": {
-          "invertPrimary": {
+          },
+          "neutralPrimary": {
             "filled": {
               "default": {
-                "value": "{alias.colors-light.neutral.onBackground.default}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
-                "description": "invert color for primary buttons"
+                "description": "default color for primary buttons"
               },
               "onDefault": {
                 "value": "{alias.color-roles.brand.500}",
                 "type": "color",
-                "description": "invert color for elements on inverted primary buttons"
+                "description": "default color for elements on primary buttons"
               },
               "hover": {
-                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
-                "type": "color",
-                "description": "invert hover color for primary buttons"
-              },
-              "onHover": {
                 "value": "{alias.color-roles.brand.500}",
                 "type": "color",
-                "description": "invert color for elements on hovered primary buttons"
+                "description": "hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for elements on hovered primary buttons"
               },
               "onClick": {
-                "value": "{alias.color-roles.brand.600}",
+                "value": "{alias.color-roles.brand.700}",
                 "type": "color",
-                "description": "invert on click color for primary buttons"
+                "description": "on click color for primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.900}",
+                "value": "{alias.color-roles.neutral.700}",
                 "type": "color",
-                "description": "invert color for elements on top of inverted on click primary buttons"
+                "description": "color for elements on top of on click primary buttons"
               }
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.brand.900}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "background color for hovered outlined style primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.brand.400}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style primary buttons"
               },
@@ -1821,22 +1912,152 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              }
+            }
+          },
+          "neutralSecondary": {
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for secondary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "default color for elements on secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "hover color for secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for elements on hovered secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.700}",
+                "type": "color",
+                "description": "on click color for secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.neutral.700}",
+                "type": "color",
+                "description": "color for elements on top of on click secondary buttons"
+              }
+            },
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for items on outlined style secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "background color for hovered outlined style secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style secondary buttons"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/invertFilled": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "invertPrimary": {
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.brand.800}",
+                "type": "color",
+                "description": "invert color for primary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.neutral.100}",
+                "type": "color",
+                "description": "invert color for elements on inverted primary buttons"
+              },
+              "hover": {
                 "value": "{alias.color-roles.brand.900}",
+                "type": "color",
+                "description": "invert hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.neutral.300}",
+                "type": "color",
+                "description": "invert color for elements on hovered primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.900}",
+                "type": "color",
+                "description": "invert on click color for primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.400}",
+                "type": "color",
+                "description": "invert color for elements on top of inverted on click primary buttons"
+              }
+            },
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.brand.800}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.neutral.800}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.700}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.900}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.400}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
               },
               "defaultBorder": {
                 "value": {
-                  "color": "{alias.borders.borderColor.interaction.invertedSubtle}",
-                  "width": "{alias.borders.borderWeight.thin}"
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
                 },
                 "type": "border",
                 "description": "default border color for outlined style of primary button"
               },
               "hoverBorder": {
                 "value": {
-                  "color": "{alias.borders.borderColor.interaction.heavy}",
-                  "width": "{alias.borders.borderWeight.extra-thin}"
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
                 },
                 "type": "border",
                 "description": "border for hovered outlined style of primary button"
@@ -1850,97 +2071,65 @@
                 "description": "border for on click outlined style of primary button"
               }
             }
-          }
-        }
-      }
-    }
-  },
-  "elements/buttons/btnColors/secondary": {
-    "elements": {
-      "buttons": {
-        "btnColors": {
-          "secondary": {
+          },
+          "invertSecondary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.800}",
                 "type": "color",
-                "description": "default color for secondary buttons"
+                "description": "invert color for secondary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.neutral.100}",
                 "type": "color",
-                "description": "default color for elements on secondary buttons"
+                "description": "invert color for elements on inverted secondary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.accent.700}",
+                "value": "{alias.color-roles.accent.900}",
                 "type": "color",
-                "description": "hover color for secondary buttons"
+                "description": "invert hover color for secondary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.neutral.300}",
                 "type": "color",
-                "description": "default color for elements on hovered secondary buttons"
+                "description": "invert color for elements on hovered secondary buttons"
               },
               "onClick": {
-                "value": "{alias.color-roles.accent.600}",
+                "value": "{alias.color-roles.accent.900}",
                 "type": "color",
-                "description": "on click color for secondary buttons"
+                "description": "invert on click color for secondary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.accent.100}",
+                "value": "{alias.color-roles.accent.400}",
                 "type": "color",
-                "description": "color for elements on top of on click secondary buttons"
+                "description": "invert color for elements on top of inverted on click secondary buttons"
               }
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.800}",
                 "type": "color",
                 "description": "default color for items on outlined style secondary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.neutral.800}",
                 "type": "color",
                 "description": "background color for hovered outlined style secondary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.700}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style secondary buttons"
               },
               "onClick": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.900}",
                 "type": "color",
                 "description": "background color for clicked outlined style secondary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.accent.400}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style secondary buttons"
-              },
-              "defaultBorder": {
-                "value": {
-                  "color": "{alias.borders.borderColor.information.heavy}",
-                  "width": "{alias.borders.borderWeight.thin}"
-                },
-                "type": "border",
-                "description": "default border color for outlined style of secondary button"
-              },
-              "hoverBorder": {
-                "value": {
-                  "color": "{alias.borders.borderColor.information.medium}",
-                  "width": "{alias.borders.borderWeight.regular}"
-                },
-                "type": "border",
-                "description": "border for hovered outlined style of secondary button"
-              },
-              "onClickBorder": {
-                "value": {
-                  "color": "{alias.borders.borderColor.information.heavy}",
-                  "width": "{alias.borders.borderWeight.thin}"
-                },
-                "type": "border",
-                "description": "border for on click outlined style of secondary button"
               }
             }
           }
@@ -1948,92 +2137,157 @@
       }
     }
   },
-  "elements/buttons/btnColors/invertSecondary": {
+  "elements/buttons/btnColors/invertNeutral": {
     "elements": {
       "buttons": {
         "btnColors": {
-          "invertSecondary": {
+          "primary": {
+            "outlined": {
+              "defaultBorder": {
+                "value": {
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of primary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of primary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of primary button"
+              }
+            }
+          },
+          "invertNeutralPrimary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.neutral.100}",
                 "type": "color",
-                "description": "invert color for secondary buttons"
+                "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
-                "description": "invert color for elements on inverted secondary buttons"
+                "description": "default color for elements on primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.accent.100}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
-                "description": "invert hover color for secondary buttons"
+                "description": "hover color for primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
-                "description": "invert color for elements on hovered secondary buttons"
+                "description": "default color for elements on hovered primary buttons"
               },
               "onClick": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.brand.700}",
                 "type": "color",
-                "description": "invert on click color for secondary buttons"
+                "description": "on click color for primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.neutral.700}",
                 "type": "color",
-                "description": "invert color for elements on top of inverted on click secondary buttons"
+                "description": "color for elements on top of on click primary buttons"
               }
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.neutral.100}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.neutral.100}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.600}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.600}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              }
+            }
+          },
+          "invertNeutralSecondary": {
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.neutral.100}",
+                "type": "color",
+                "description": "default color for secondary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.accent.900}",
+                "type": "color",
+                "description": "default color for elements on secondary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.accent.500}",
+                "type": "color",
+                "description": "hover color for secondary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.neutral.900}",
+                "type": "color",
+                "description": "default color for elements on hovered secondary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.accent.700}",
+                "type": "color",
+                "description": "on click color for secondary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.neutral.700}",
+                "type": "color",
+                "description": "color for elements on top of on click secondary buttons"
+              }
+            },
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.neutral.100}",
                 "type": "color",
                 "description": "default color for items on outlined style secondary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.accent.900}",
+                "value": "{alias.color-roles.neutral.100}",
                 "type": "color",
                 "description": "background color for hovered outlined style secondary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.accent.200}",
+                "value": "{alias.color-roles.accent.600}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style secondary buttons"
               },
               "onClick": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.600}",
                 "type": "color",
                 "description": "background color for clicked outlined style secondary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.colors-light.neutral.onBackground.neutralEmphasis}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style secondary buttons"
-              },
-              "defaultBorder": {
-                "value": {
-                  "color": "{alias.borders.borderColor.information.subtle}",
-                  "width": "{alias.borders.borderWeight.thin}"
-                },
-                "type": "border",
-                "description": "default border color for outlined style of secondary button"
-              },
-              "hoverBorder": {
-                "value": {
-                  "color": "{alias.borders.borderColor.information.heavy}",
-                  "width": "{alias.borders.borderWeight.extra-thin}"
-                },
-                "type": "border",
-                "description": "border for hovered outlined style of secondary button"
-              },
-              "onClickBorder": {
-                "value": {
-                  "color": "{alias.borders.borderColor.information.subtle}",
-                  "width": "{alias.borders.borderWeight.thin}"
-                },
-                "type": "border",
-                "description": "border for on click outlined style of secondary button"
               }
             }
           }
@@ -2058,8 +2312,8 @@
             },
             "defaultBorder": {
               "value": {
-                "color": "{alias.borders.borderColor.neutral.subtle}",
-                "width": "{alias.borders.borderWeight.thin}"
+                "color": "",
+                "width": "{alias.borders.borderWeight.regular}"
               },
               "type": "border",
               "description": "default border color for outlined style disabled buttons"
@@ -2067,6 +2321,18 @@
             "opacity": {
               "value": ".5",
               "type": "opacity"
+            }
+          },
+          "invertDisabled": {
+            "default": {
+              "value": "{alias.colors-light.neutral.background.invertedElevation01}",
+              "type": "color",
+              "description": "background color for disabled buttons"
+            },
+            "onDisabled": {
+              "value": "{alias.colors-light.neutral.background.invertedElevation02}",
+              "type": "color",
+              "description": "color for elements on disabled buttons"
             }
           }
         }
@@ -2661,7 +2927,11 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled"
+        "global/typography": "enabled",
+        "elements/buttons/btnColors/filled": "disabled",
+        "elements/buttons/btnColors/neutral": "disabled",
+        "elements/buttons/btnColors/invertFilled": "disabled",
+        "elements/buttons/btnColors/invertNeutral": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2901,7 +3171,11 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled"
+        "alias/spacings": "enabled",
+        "elements/buttons/btnColors/filled": "disabled",
+        "elements/buttons/btnColors/neutral": "disabled",
+        "elements/buttons/btnColors/invertFilled": "disabled",
+        "elements/buttons/btnColors/invertNeutral": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -3128,16 +3402,16 @@
       },
       "selectedTokenSets": {
         "elements/buttons/btnSizes": "enabled",
-        "elements/buttons/btnColors/primary": "enabled",
         "elements/buttons/btnColors/disabled": "enabled",
-        "elements/buttons/btnColors/invertPrimary": "enabled",
-        "elements/buttons/btnColors/secondary": "enabled",
-        "elements/buttons/btnColors/invertSecondary": "enabled",
         "elements/hyperlinks/navigational": "enabled",
         "elements/buttons/btnFonts": "enabled",
         "elements/hyperlinks/links": "enabled",
         "elements/labels": "enabled",
-        "elements/fields/inputFields": "enabled"
+        "elements/fields/inputFields": "enabled",
+        "elements/buttons/btnColors/filled": "enabled",
+        "elements/buttons/btnColors/neutral": "disabled",
+        "elements/buttons/btnColors/invertFilled": "enabled",
+        "elements/buttons/btnColors/invertNeutral": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
@@ -3231,10 +3505,10 @@
       "alias/colors-light",
       "alias/borders",
       "alias/spacings",
-      "elements/buttons/btnColors/primary",
-      "elements/buttons/btnColors/invertPrimary",
-      "elements/buttons/btnColors/secondary",
-      "elements/buttons/btnColors/invertSecondary",
+      "elements/buttons/btnColors/filled",
+      "elements/buttons/btnColors/neutral",
+      "elements/buttons/btnColors/invertFilled",
+      "elements/buttons/btnColors/invertNeutral",
       "elements/buttons/btnColors/disabled",
       "elements/buttons/btnSizes",
       "elements/buttons/btnFonts",
