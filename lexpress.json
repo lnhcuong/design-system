@@ -2927,11 +2927,7 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled",
-        "elements/buttons/btnColors/filled": "disabled",
-        "elements/buttons/btnColors/neutral": "disabled",
-        "elements/buttons/btnColors/invertFilled": "disabled",
-        "elements/buttons/btnColors/invertNeutral": "disabled"
+        "global/typography": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -3171,11 +3167,7 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled",
-        "elements/buttons/btnColors/filled": "disabled",
-        "elements/buttons/btnColors/neutral": "disabled",
-        "elements/buttons/btnColors/invertFilled": "disabled",
-        "elements/buttons/btnColors/invertNeutral": "disabled"
+        "alias/spacings": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -3409,9 +3401,7 @@
         "elements/labels": "enabled",
         "elements/fields/inputFields": "enabled",
         "elements/buttons/btnColors/filled": "enabled",
-        "elements/buttons/btnColors/neutral": "disabled",
-        "elements/buttons/btnColors/invertFilled": "enabled",
-        "elements/buttons/btnColors/invertNeutral": "disabled"
+        "elements/buttons/btnColors/invertFilled": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
