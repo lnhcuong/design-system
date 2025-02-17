@@ -976,7 +976,7 @@
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
-              "lineHeight": "{global.typography.lineHeight.xxl}"
+              "lineHeight": "110%"
             },
             "type": "typography",
             "description": "Heading 1, main title, display font for highest possible emphasis"
@@ -988,7 +988,7 @@
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
-              "lineHeight": "{global.typography.lineHeight.xl}"
+              "lineHeight": "110%"
             },
             "type": "typography",
             "description": "Heading 2, display font for high emphasis headlines"
@@ -999,7 +999,7 @@
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.ml}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
-              "lineHeight": "{global.typography.lineHeight.ml}"
+              "lineHeight": "110%"
             },
             "type": "typography",
             "description": "heading 3"
@@ -1010,7 +1010,7 @@
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.md}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
-              "lineHeight": "{global.typography.lineHeight.md}"
+              "lineHeight": "110%"
             },
             "type": "typography",
             "description": "heading 4"
@@ -1020,7 +1020,7 @@
               "fontFamily": "{global.typography.fontFamilies.heading}",
               "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.sm}",
-              "lineHeight": "{global.typography.lineHeight.sm}",
+              "lineHeight": "110%",
               "letterSpacing": "0"
             },
             "type": "typography",
@@ -1032,7 +1032,7 @@
               "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "0",
-              "lineHeight": "{global.typography.lineHeight.xs}"
+              "lineHeight": "110%"
             },
             "type": "typography",
             "description": "heading 6"
@@ -1391,15 +1391,15 @@
               "type": "color",
               "description": "high emphasis with brand color for text elements"
             },
-            "invertedEmphasis": {
-              "value": "{alias.color-roles.neutral.50}",
-              "type": "color",
-              "description": "inverted high emphasis with neutral color for text elements"
-            },
             "default": {
               "value": "{alias.color-roles.neutral.700}",
               "type": "color",
               "description": "default text color"
+            },
+            "invertedEmphasis": {
+              "value": "{alias.color-roles.neutral.50}",
+              "type": "color",
+              "description": "inverted high emphasis with neutral color for text elements"
             },
             "subtle": {
               "value": "{alias.color-roles.neutral.500}",
