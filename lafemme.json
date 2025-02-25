@@ -973,10 +973,10 @@
             "value": {
               "fontFamily": "{global.typography.fontFamilies.heading}",
               "fontWeight": "{global.typography.fontWeight.medium}",
-              "fontSize": "{global.typography.fontSize.xxxl}",
+              "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
-              "lineHeight": "{global.typography.lineHeight.xxl}"
+              "lineHeight": "110%"
             },
             "type": "typography",
             "description": "Heading 1, main title, display font for highest possible emphasis"
@@ -1062,7 +1062,7 @@
                 "fontFamily": "{global.typography.fontFamilies.body}",
                 "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "letterSpacing": "{global.typography.letterSpacing.sm}",
                 "lineHeight": "{global.typography.lineHeight.sm}"
               },
               "type": "typography",
