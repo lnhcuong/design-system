@@ -694,104 +694,104 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.mossy.50}",
+            "value": "{global.colors.sandy.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.mossy.100}",
+            "value": "{global.colors.sandy.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.mossy.200}",
+            "value": "{global.colors.sandy.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.mossy.300}",
+            "value": "{global.colors.sandy.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.mossy.400}",
+            "value": "{global.colors.sandy.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.mossy.500}",
+            "value": "{global.colors.sandy.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.mossy.600}",
+            "value": "{global.colors.sandy.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.mossy.700}",
+            "value": "{global.colors.sandy.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.mossy.800}",
+            "value": "{global.colors.sandy.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.mossy.900}",
+            "value": "{global.colors.sandy.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
         },
         "accent": {
           "50": {
-            "value": "{global.colors.sandy.50}",
+            "value": "{global.colors.beige.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.sandy.100}",
+            "value": "{global.colors.beige.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.sandy.200}",
+            "value": "{global.colors.beige.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.sandy.300}",
+            "value": "{global.colors.beige.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.sandy.400}",
+            "value": "{global.colors.beige.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.sandy.500}",
+            "value": "{global.colors.beige.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.sandy.600}",
+            "value": "{global.colors.beige.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.sandy.700}",
+            "value": "{global.colors.beige.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.sandy.800}",
+            "value": "{global.colors.beige.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.sandy.900}",
+            "value": "{global.colors.beige.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
