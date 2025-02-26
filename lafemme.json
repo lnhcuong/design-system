@@ -1822,7 +1822,7 @@
                 "description": "default color for secondary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.accent.50}",
+                "value": "{alias.color-roles.accent.900}",
                 "type": "color",
                 "description": "default color for elements on secondary buttons"
               },
@@ -1915,7 +1915,7 @@
                 "description": "invert color for secondary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.700}",
                 "type": "color",
                 "description": "invert color for elements on inverted secondary buttons"
               },
