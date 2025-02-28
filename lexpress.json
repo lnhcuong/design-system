@@ -593,52 +593,52 @@
         },
         "lineHeight": {
           "xxxs": {
-            "value": "20",
+            "value": "70%",
             "type": "lineHeights",
             "description": "extra extra extra small line height unit"
           },
           "xxs": {
-            "value": "22",
+            "value": "80%",
             "type": "lineHeights",
             "description": "extra extra small line height unit"
           },
           "xs": {
-            "value": "24",
+            "value": "90%",
             "type": "lineHeights",
             "description": "extra small line height unit"
           },
           "sm": {
-            "value": "26",
+            "value": "100%",
             "type": "lineHeights",
             "description": "small line height unit"
           },
           "md": {
-            "value": "32",
+            "value": "110%",
             "type": "lineHeights",
             "description": "medium line height unit"
           },
           "ml": {
-            "value": "40",
+            "value": "120%",
             "type": "lineHeights",
             "description": "medium large line height unit"
           },
           "lg": {
-            "value": "48",
+            "value": "130%",
             "type": "lineHeights",
             "description": "large line height unit"
           },
           "xl": {
-            "value": "56",
+            "value": "140%",
             "type": "lineHeights",
             "description": "extra large line height unit"
           },
           "xxl": {
-            "value": "100",
+            "value": "150%",
             "type": "lineHeights",
             "description": "extra extra large line height unit"
           },
           "xxxl": {
-            "value": "120",
+            "value": "200%",
             "type": "lineHeights",
             "description": "extra extra extra large line height unit"
           }
@@ -976,7 +976,7 @@
               "fontSize": "{global.typography.fontSize.xxl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
-              "lineHeight": "{global.typography.lineHeight.xxl}"
+              "lineHeight": "{global.typography.lineHeight.sm}"
             },
             "type": "typography",
             "description": "Heading 1, main title, display font for highest possible emphasis"
@@ -988,7 +988,7 @@
               "fontSize": "{global.typography.fontSize.xl}",
               "letterSpacing": "{global.typography.letterSpacing.xs}",
               "textCase": "{global.typography.textCase.none}",
-              "lineHeight": "{global.typography.lineHeight.xl}"
+              "lineHeight": "{global.typography.lineHeight.sm}"
             },
             "type": "typography",
             "description": "Heading 2, display font for high emphasis headlines"
@@ -999,7 +999,7 @@
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.ml}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
-              "lineHeight": "{global.typography.lineHeight.ml}"
+              "lineHeight": "{global.typography.lineHeight.sm}"
             },
             "type": "typography",
             "description": "heading 3"
@@ -1010,7 +1010,7 @@
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.md}",
               "letterSpacing": "{global.typography.letterSpacing.sm}",
-              "lineHeight": "{global.typography.lineHeight.md}"
+              "lineHeight": "{global.typography.lineHeight.sm}"
             },
             "type": "typography",
             "description": "heading 4"
@@ -1032,7 +1032,7 @@
               "fontWeight": "{global.typography.fontWeight.bold}",
               "fontSize": "{global.typography.fontSize.xs}",
               "letterSpacing": "0",
-              "lineHeight": "{global.typography.lineHeight.xs}"
+              "lineHeight": "{global.typography.lineHeight.sm}"
             },
             "type": "typography",
             "description": "heading 6"
@@ -1063,7 +1063,7 @@
                 "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.sm}",
                 "letterSpacing": "0",
-                "lineHeight": "{global.typography.lineHeight.sm}"
+                "lineHeight": "{global.typography.lineHeight.ml}"
               },
               "type": "typography",
               "description": "regular style for subtitles, multiple-line subtitles"
@@ -1074,7 +1074,7 @@
                 "fontWeight": "{global.typography.fontWeight.default}",
                 "fontSize": "{global.typography.fontSize.md}+2",
                 "letterSpacing": "0",
-                "lineHeight": "{global.typography.lineHeight.md}"
+                "lineHeight": "{global.typography.lineHeight.ml}"
               },
               "type": "typography",
               "description": "single-line subtitles"
@@ -1087,7 +1087,7 @@
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xxs}",
-              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "lineHeight": "{global.typography.lineHeight.ml}",
               "letterSpacing": "0"
             },
             "type": "typography",
@@ -1098,7 +1098,7 @@
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxs}",
-              "lineHeight": "{global.typography.lineHeight.xxs}",
+              "lineHeight": "{global.typography.lineHeight.ml}",
               "letterSpacing": "0"
             },
             "type": "typography",
@@ -1109,7 +1109,7 @@
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xxxs}",
-              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.ml}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1120,7 +1120,7 @@
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxxs}",
-              "lineHeight": "{global.typography.lineHeight.xxxs}",
+              "lineHeight": "{global.typography.lineHeight.ml}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1131,7 +1131,7 @@
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.default}",
               "fontSize": "{global.typography.fontSize.xxxs}*3/4",
-              "lineHeight": "{global.typography.lineHeight.xxxs}*3/4",
+              "lineHeight": "{global.typography.lineHeight.ml}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
@@ -1142,7 +1142,7 @@
               "fontFamily": "{global.typography.fontFamilies.body}",
               "fontWeight": "{global.typography.fontWeight.semiBold}",
               "fontSize": "{global.typography.fontSize.xxxs}*3/4",
-              "lineHeight": "{global.typography.lineHeight.xxxs}*3/4",
+              "lineHeight": "{global.typography.lineHeight.ml}",
               "letterSpacing": "{global.typography.letterSpacing.sm}"
             },
             "type": "typography",
