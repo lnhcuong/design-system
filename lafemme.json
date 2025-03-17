@@ -1043,6 +1043,30 @@
           "type": "textDecoration"
         },
         "functional": {
+          "subtitle": {
+            "short": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.md}+2",
+                "letterSpacing": "{global.typography.letterSpacing.xs}",
+                "lineHeight": "{global.typography.lineHeight.md}"
+              },
+              "type": "typography",
+              "description": "single-line subtitles"
+            },
+            "regular": {
+              "value": {
+                "fontFamily": "{global.typography.fontFamilies.body}",
+                "fontWeight": "{global.typography.fontWeight.default}",
+                "fontSize": "{global.typography.fontSize.sm}",
+                "letterSpacing": "{global.typography.letterSpacing.sm}",
+                "lineHeight": "{global.typography.lineHeight.sm}"
+              },
+              "type": "typography",
+              "description": "regular style for subtitles, multiple-line subtitles"
+            }
+          },
           "pre-title": {
             "regular": {
               "value": {
@@ -1054,30 +1078,6 @@
               },
               "type": "typography",
               "description": "texts preceding the title"
-            }
-          },
-          "subtitle": {
-            "regular": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.sm}",
-                "letterSpacing": "{global.typography.letterSpacing.sm}",
-                "lineHeight": "{global.typography.lineHeight.sm}"
-              },
-              "type": "typography",
-              "description": "regular style for subtitles, multiple-line subtitles"
-            },
-            "short": {
-              "value": {
-                "fontFamily": "{global.typography.fontFamilies.body}",
-                "fontWeight": "{global.typography.fontWeight.default}",
-                "fontSize": "{global.typography.fontSize.md}+2",
-                "letterSpacing": "{global.typography.letterSpacing.xs}",
-                "lineHeight": "{global.typography.lineHeight.md}"
-              },
-              "type": "typography",
-              "description": "single-line subtitles"
             }
           }
         },
@@ -1601,15 +1601,15 @@
           "type": "spacing",
           "description": "medium large spacing"
         },
-        "lg": {
-          "value": "{global.dimensions.10}",
-          "type": "spacing",
-          "description": "large spacing"
-        },
         "xl": {
           "value": "{global.dimensions.12}",
           "type": "spacing",
           "description": "extra large spacing"
+        },
+        "lg": {
+          "value": "{global.dimensions.10}",
+          "type": "spacing",
+          "description": "large spacing"
         },
         "xxl": {
           "value": "{global.dimensions.15}",
