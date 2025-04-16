@@ -375,6 +375,135 @@
             "type": "color",
             "description": "global color neutral of weight 1000"
           }
+        },
+        "opaque": {
+          "light": {
+            "10": {
+              "value": "rgba(255,255,255,0.01)",
+              "type": "color",
+              "description": "global neutral white opaque value of 10"
+            },
+            "20": {
+              "value": "rgba(255,255,255,0.02)",
+              "type": "color",
+              "description": "global neutral white opaque value of 20"
+            },
+            "30": {
+              "value": "rgba(255,255,255,0.03)",
+              "type": "color",
+              "description": "global neutral white opaque value of 30"
+            },
+            "40": {
+              "value": "rgba(255,255,255,0.04)",
+              "type": "color",
+              "description": "global neutral white opaque value of 40"
+            },
+            "50": {
+              "value": "rgba(255,255,255,0.05)",
+              "type": "color",
+              "description": "global neutral white opaque value of 50"
+            },
+            "75": {
+              "value": "rgba(255,255,255,0.075)",
+              "type": "color",
+              "description": "global neutral white opaque value of 75"
+            },
+            "100": {
+              "value": "rgba(255,255,255,0.1)",
+              "type": "color",
+              "description": "global neutral white opaque value of 100"
+            },
+            "150": {
+              "value": "rgba(255,255,255,0.15)",
+              "type": "color",
+              "description": "global neutral white opaque value of 150"
+            },
+            "200": {
+              "value": "rgba(255,255,255,0.2)",
+              "type": "color",
+              "description": "global neutral white opaque value of 200"
+            },
+            "250": {
+              "value": "rgba(255,255,255,0.25)",
+              "type": "color",
+              "description": "global neutral white opaque value of 250"
+            },
+            "300": {
+              "value": "rgba(255,255,255,0.3)",
+              "type": "color",
+              "description": "global neutral white opaque value of 300"
+            },
+            "350": {
+              "value": "rgba(255,255,255,0.35)",
+              "type": "color",
+              "description": "global neutral white opaque value of 350"
+            },
+            "400": {
+              "value": "rgba(255,255,255,0.4)",
+              "type": "color",
+              "description": "global neutral white opaque value of 400"
+            },
+            "450": {
+              "value": "rgba(255,255,255,0.45)",
+              "type": "color",
+              "description": "global neutral white opaque value of 450"
+            },
+            "500": {
+              "value": "rgba(255,255,255,0.5)",
+              "type": "color",
+              "description": "global neutral white opaque value of 500"
+            },
+            "550": {
+              "value": "rgba(255,255,255,0.55)",
+              "type": "color",
+              "description": "global neutral white opaque value of 550"
+            },
+            "600": {
+              "value": "rgba(255,255,255,0.6)",
+              "type": "color",
+              "description": "global neutral white opaque value of 600"
+            },
+            "650": {
+              "value": "rgba(255,255,255,0.65)",
+              "type": "color",
+              "description": "global neutral white opaque value of 650"
+            },
+            "700": {
+              "value": "rgba(255,255,255,0.7)",
+              "type": "color",
+              "description": "global neutral white opaque value of 700"
+            },
+            "750": {
+              "value": "rgba(255,255,255,0.75)",
+              "type": "color",
+              "description": "global neutral white opaque value of 750"
+            },
+            "800": {
+              "value": "rgba(255,255,255,0.8)",
+              "type": "color",
+              "description": "global neutral white opaque value of 800"
+            },
+            "850": {
+              "value": "rgba(255,255,255,0.85)",
+              "type": "color",
+              "description": "global neutral white opaque value of 850"
+            },
+            "900": {
+              "value": "rgba(255,255,255,0.9)",
+              "type": "color",
+              "description": "global neutral white opaque value of 900"
+            },
+            "950": {
+              "value": "rgba(255,255,255,0.95)",
+              "type": "color",
+              "description": "global neutral white opaque value of 950"
+            },
+            "1000": {
+              "value": "#fff",
+              "type": "color",
+              "description": "global neutral white opaque value of 1000"
+            }
+          }
         }
       }
     }
@@ -1810,6 +1939,200 @@
       }
     }
   },
+  "elements/buttons/btnColors/neutralPrimary": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "primary": {
+            "outlined": {
+              "defaultBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of primary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.medium}",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of primary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of primary button"
+              }
+            }
+          },
+          "invertNeutralPrimary": {
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.neutral.50}",
+                "type": "color",
+                "description": "default color for primary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "default color for elements on primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "default color for elements on hovered primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.600}",
+                "type": "color",
+                "description": "on click color for primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.100}",
+                "type": "color",
+                "description": "color for elements on top of on click primary buttons"
+              }
+            },
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.neutral.50}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.neutral.50}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.neutral.50}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "elements/buttons/btnColors/invertNeutralPrimary": {
+    "elements": {
+      "buttons": {
+        "btnColors": {
+          "primary": {
+            "outlined": {
+              "defaultBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "default border color for outlined style of primary button"
+              },
+              "hoverBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.medium}",
+                  "width": "{alias.borders.borderWeight.regular}"
+                },
+                "type": "border",
+                "description": "border for hovered outlined style of primary button"
+              },
+              "onClickBorder": {
+                "value": {
+                  "color": "{alias.borders.borderColor.interaction.heavy}",
+                  "width": "{alias.borders.borderWeight.thin}"
+                },
+                "type": "border",
+                "description": "border for on click outlined style of primary button"
+              }
+            }
+          },
+          "neutralPrimary": {
+            "filled": {
+              "default": {
+                "value": "{alias.color-roles.neutral.1000}",
+                "type": "color",
+                "description": "default color for primary buttons"
+              },
+              "onDefault": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "default color for elements on primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "hover color for primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "default color for elements on hovered primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.600}",
+                "type": "color",
+                "description": "on click color for primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.100}",
+                "type": "color",
+                "description": "color for elements on top of on click primary buttons"
+              }
+            },
+            "outlined": {
+              "onDefault": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
+              "hover": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "background color for hovered outlined style primary buttons"
+              },
+              "onHover": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "color for elements on hovered outlined style primary buttons"
+              },
+              "onClick": {
+                "value": "{alias.color-roles.brand.500}",
+                "type": "color",
+                "description": "background color for clicked outlined style primary buttons"
+              },
+              "onOnClick": {
+                "value": "{alias.color-roles.brand.50}",
+                "type": "color",
+                "description": "color for elements on clicked outlined style primary buttons"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "elements/buttons/btnColors/secondary": {
     "elements": {
       "buttons": {
@@ -2616,7 +2939,9 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled"
+        "global/typography": "enabled",
+        "elements/buttons/btnColors/neutralPrimary": "disabled",
+        "elements/buttons/btnColors/invertNeutralPrimary": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -2856,7 +3181,9 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled"
+        "alias/spacings": "enabled",
+        "elements/buttons/btnColors/neutralPrimary": "disabled",
+        "elements/buttons/btnColors/invertNeutralPrimary": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -3092,7 +3419,9 @@
         "elements/buttons/btnFonts": "enabled",
         "elements/hyperlinks/links": "enabled",
         "elements/labels": "enabled",
-        "elements/fields/inputFields": "enabled"
+        "elements/fields/inputFields": "enabled",
+        "elements/buttons/btnColors/neutralPrimary": "disabled",
+        "elements/buttons/btnColors/invertNeutralPrimary": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
@@ -3188,6 +3517,8 @@
       "alias/spacings",
       "elements/buttons/btnColors/primary",
       "elements/buttons/btnColors/invertPrimary",
+      "elements/buttons/btnColors/neutralPrimary",
+      "elements/buttons/btnColors/invertNeutralPrimary",
       "elements/buttons/btnColors/secondary",
       "elements/buttons/btnColors/invertSecondary",
       "elements/buttons/btnColors/disabled",
