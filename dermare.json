@@ -2545,7 +2545,7 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{alias.borders.borderRadius.lg}",
+            "value": "{alias.borders.borderRadius.md}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           }
@@ -3076,9 +3076,7 @@
       "selectedTokenSets": {
         "global/colors": "enabled",
         "global/dimensions": "enabled",
-        "global/typography": "enabled",
-        "elements/buttons/btnColors/neutralPrimary": "disabled",
-        "elements/buttons/btnColors/invertNeutralPrimary": "disabled"
+        "global/typography": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2663",
       "$figmaModeId": "6201:15",
@@ -3318,9 +3316,7 @@
         "alias/fonts": "enabled",
         "alias/colors-light": "enabled",
         "alias/borders": "enabled",
-        "alias/spacings": "enabled",
-        "elements/buttons/btnColors/neutralPrimary": "disabled",
-        "elements/buttons/btnColors/invertNeutralPrimary": "disabled"
+        "alias/spacings": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6201:2749",
       "$figmaModeId": "6201:16",
@@ -3556,9 +3552,7 @@
         "elements/buttons/btnFonts": "enabled",
         "elements/hyperlinks/links": "enabled",
         "elements/labels": "enabled",
-        "elements/fields/inputFields": "enabled",
-        "elements/buttons/btnColors/neutralPrimary": "disabled",
-        "elements/buttons/btnColors/invertNeutralPrimary": "disabled"
+        "elements/fields/inputFields": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:6205:2741",
       "$figmaModeId": "6205:0",
