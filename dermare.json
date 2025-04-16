@@ -503,6 +503,133 @@
               "type": "color",
               "description": "global neutral white opaque value of 1000"
             }
+          },
+          "dark": {
+            "10": {
+              "value": "rgba(0,0,0,0.01)",
+              "type": "color",
+              "description": "global neutral white opaque value of 10"
+            },
+            "20": {
+              "value": "rgba(0,0,0,0.02)",
+              "type": "color",
+              "description": "global neutral white opaque value of 20"
+            },
+            "30": {
+              "value": "rgba(0,0,0,0.03)",
+              "type": "color",
+              "description": "global neutral white opaque value of 30"
+            },
+            "40": {
+              "value": "rgba(0,0,0,0.04)",
+              "type": "color",
+              "description": "global neutral white opaque value of 40"
+            },
+            "50": {
+              "value": "rgba(0,0,0,0.05)",
+              "type": "color",
+              "description": "global neutral white opaque value of 50"
+            },
+            "75": {
+              "value": "rgba(0,0,0,0.08)",
+              "type": "color",
+              "description": "global neutral white opaque value of 75"
+            },
+            "100": {
+              "value": "rgba(0,0,0,0.1)",
+              "type": "color",
+              "description": "global neutral white opaque value of 100"
+            },
+            "150": {
+              "value": "rgba(0,0,0,0.15)",
+              "type": "color",
+              "description": "global neutral white opaque value of 150"
+            },
+            "200": {
+              "value": "rgba(0,0,0,0.2)",
+              "type": "color",
+              "description": "global neutral white opaque value of 200"
+            },
+            "250": {
+              "value": "rgba(0,0,0,0.25)",
+              "type": "color",
+              "description": "global neutral white opaque value of 250"
+            },
+            "300": {
+              "value": "rgba(0,0,0,0.3)",
+              "type": "color",
+              "description": "global neutral white opaque value of 300"
+            },
+            "350": {
+              "value": "rgba(0,0,0,0.35)",
+              "type": "color",
+              "description": "global neutral white opaque value of 350"
+            },
+            "400": {
+              "value": "rgba(0,0,0,0.4)",
+              "type": "color",
+              "description": "global neutral white opaque value of 400"
+            },
+            "450": {
+              "value": "rgba(0,0,0,0.45)",
+              "type": "color",
+              "description": "global neutral white opaque value of 450"
+            },
+            "500": {
+              "value": "rgba(0,0,0,0.5)",
+              "type": "color",
+              "description": "global neutral white opaque value of 500"
+            },
+            "550": {
+              "value": "rgba(0,0,0,0.55)",
+              "type": "color",
+              "description": "global neutral white opaque value of 550"
+            },
+            "600": {
+              "value": "rgba(0,0,0,0.6)",
+              "type": "color",
+              "description": "global neutral white opaque value of 600"
+            },
+            "650": {
+              "value": "rgba(0,0,0,0.65)",
+              "type": "color",
+              "description": "global neutral white opaque value of 650"
+            },
+            "700": {
+              "value": "rgba(0,0,0,0.7)",
+              "type": "color",
+              "description": "global neutral white opaque value of 700"
+            },
+            "750": {
+              "value": "rgba(0,0,0,0.75)",
+              "type": "color",
+              "description": "global neutral white opaque value of 750"
+            },
+            "800": {
+              "value": "rgba(0,0,0,0.8)",
+              "type": "color",
+              "description": "global neutral white opaque value of 800"
+            },
+            "850": {
+              "value": "rgba(0,0,0,0.85)",
+              "type": "color",
+              "description": "global neutral white opaque value of 850"
+            },
+            "900": {
+              "value": "rgba(0,0,0,0.9)",
+              "type": "color",
+              "description": "global neutral white opaque value of 900"
+            },
+            "950": {
+              "value": "rgba(0,0,0,0.95)",
+              "type": "color",
+              "description": "global neutral white opaque value of 950"
+            },
+            "1000": {
+              "value": "#000",
+              "type": "color",
+              "description": "global neutral white opaque value of 1000"
+            }
           }
         }
       }
@@ -1858,7 +1985,7 @@
                 "description": "invert color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.400}",
                 "type": "color",
                 "description": "invert color for elements on inverted primary buttons"
               },
@@ -1885,7 +2012,7 @@
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
@@ -1971,15 +2098,15 @@
               }
             }
           },
-          "invertNeutralPrimary": {
+          "neutralPrimary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.neutral.50}",
+                "value": "{alias.color-roles.neutral.1000}",
                 "type": "color",
                 "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.brand.50}",
                 "type": "color",
                 "description": "default color for elements on primary buttons"
               },
@@ -2005,18 +2132,23 @@
               }
             },
             "outlined": {
+              "default": {
+                "value": "{global.colors.opaque.dark.100}",
+                "type": "color",
+                "description": "default color for items on outlined style primary buttons"
+              },
               "onDefault": {
-                "value": "{alias.color-roles.neutral.50}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.neutral.50}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "background color for hovered outlined style primary buttons"
               },
               "onHover": {
-                "value": "{alias.color-roles.neutral.50}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "color for elements on hovered outlined style primary buttons"
               },
@@ -2026,7 +2158,7 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
               }
@@ -2068,15 +2200,15 @@
               }
             }
           },
-          "neutralPrimary": {
+          "invertNeutralPrimary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.neutral.1000}",
+                "value": "{alias.color-roles.neutral.50}",
                 "type": "color",
                 "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.brand.500}",
                 "type": "color",
                 "description": "default color for elements on primary buttons"
               },
@@ -2102,13 +2234,18 @@
               }
             },
             "outlined": {
+              "default": {
+                "value": "{global.colors.opaque.light.100}",
+                "type": "color",
+                "description": "default fill color for items on outlined style primary buttons"
+              },
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.neutral.50}",
                 "type": "color",
                 "description": "default color for items on outlined style primary buttons"
               },
               "hover": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.neutral.50}",
                 "type": "color",
                 "description": "background color for hovered outlined style primary buttons"
               },
@@ -2123,7 +2260,7 @@
                 "description": "background color for clicked outlined style primary buttons"
               },
               "onOnClick": {
-                "value": "{alias.color-roles.brand.50}",
+                "value": "{alias.color-roles.neutral.50}",
                 "type": "color",
                 "description": "color for elements on clicked outlined style primary buttons"
               }
@@ -3478,17 +3615,6 @@
         "elements.buttons.btnColors.secondary.outlined.onHover": "bfb148d8fd8ee486bfba581eb7ab8876be049d72",
         "elements.buttons.btnColors.secondary.outlined.onClick": "d8fab647057838229315d30b7c9e3207e9ae537d",
         "elements.buttons.btnColors.secondary.outlined.onOnClick": "b1b53c421bb3c3ebcfc238bba85a25a7d755d13b",
-        "elements.buttons.btnColors.invertPrimary.filled.default": "268ffb4e01d2f859f14db053fb1f03ea806f6cfb",
-        "elements.buttons.btnColors.invertPrimary.filled.onDefault": "4161cb874904c58c2b6dadcc6d4214931e9f3237",
-        "elements.buttons.btnColors.invertPrimary.filled.hover": "cb05ca4eb60e73d2f01683156a1698e145f81ac7",
-        "elements.buttons.btnColors.invertPrimary.filled.onHover": "5601546d42f8af2b7fe83b159e1d50cdfbe3ec6c",
-        "elements.buttons.btnColors.invertPrimary.filled.onClick": "4a8ae56aff59cc9bb0bcd5d24ddfafef7fb76a3d",
-        "elements.buttons.btnColors.invertPrimary.filled.onOnClick": "b2d88cc20b98e3b1f7b4e395b636024cd8b776af",
-        "elements.buttons.btnColors.invertPrimary.outlined.onDefault": "4c7e999e02613e273f5e45a8bbb78b90d4d79de4",
-        "elements.buttons.btnColors.invertPrimary.outlined.hover": "0910964e87061bb1a3ccf76ab2f8b1b083fe63f8",
-        "elements.buttons.btnColors.invertPrimary.outlined.onHover": "f852c7722a805640900cebe920e1b1c4aeea3aaa",
-        "elements.buttons.btnColors.invertPrimary.outlined.onClick": "1d78066a185ea8246c65d406f75b25d623731164",
-        "elements.buttons.btnColors.invertPrimary.outlined.onOnClick": "a49b307ccbd95b9fb27fdc6f778b2015dbdf0faa",
         "elements.buttons.btnColors.primary.filled.default": "d15696107ad372ebc2f65c58b0de777773977dcb",
         "elements.buttons.btnColors.primary.filled.onDefault": "82d1c70d7f16b4f05ae19c1a00f9219177f0921a",
         "elements.buttons.btnColors.primary.filled.hover": "5b66fac982b0ddd36f1ec921a3d641a130933038",
@@ -3500,7 +3626,18 @@
         "elements.buttons.btnColors.primary.outlined.onHover": "828b168f7cd9047e2387b54e4a5c9bb8e869eb61",
         "elements.buttons.btnColors.primary.outlined.onClick": "83f6c1f028d4620507f99dfd4d4d0044a35e72d4",
         "elements.buttons.btnColors.primary.outlined.onOnClick": "f229443f637b8ed7a50fcee016b92d1c19cec5fa",
-        "elements.fields.inputFields.inputFieldColors.labelText": "9bfb88980fe09f7ba96585d2f54365932dc9a2f8"
+        "elements.fields.inputFields.inputFieldColors.labelText": "9bfb88980fe09f7ba96585d2f54365932dc9a2f8",
+        "elements.buttons.btnColors.invertPrimary.filled.default": "268ffb4e01d2f859f14db053fb1f03ea806f6cfb",
+        "elements.buttons.btnColors.invertPrimary.filled.onDefault": "4161cb874904c58c2b6dadcc6d4214931e9f3237",
+        "elements.buttons.btnColors.invertPrimary.filled.hover": "cb05ca4eb60e73d2f01683156a1698e145f81ac7",
+        "elements.buttons.btnColors.invertPrimary.filled.onHover": "5601546d42f8af2b7fe83b159e1d50cdfbe3ec6c",
+        "elements.buttons.btnColors.invertPrimary.filled.onClick": "4a8ae56aff59cc9bb0bcd5d24ddfafef7fb76a3d",
+        "elements.buttons.btnColors.invertPrimary.filled.onOnClick": "b2d88cc20b98e3b1f7b4e395b636024cd8b776af",
+        "elements.buttons.btnColors.invertPrimary.outlined.onDefault": "4c7e999e02613e273f5e45a8bbb78b90d4d79de4",
+        "elements.buttons.btnColors.invertPrimary.outlined.hover": "0910964e87061bb1a3ccf76ab2f8b1b083fe63f8",
+        "elements.buttons.btnColors.invertPrimary.outlined.onHover": "f852c7722a805640900cebe920e1b1c4aeea3aaa",
+        "elements.buttons.btnColors.invertPrimary.outlined.onClick": "1d78066a185ea8246c65d406f75b25d623731164",
+        "elements.buttons.btnColors.invertPrimary.outlined.onOnClick": "a49b307ccbd95b9fb27fdc6f778b2015dbdf0faa"
       },
       "group": "Elements"
     }
