@@ -2208,7 +2208,7 @@
                 "description": "default color for primary buttons"
               },
               "onDefault": {
-                "value": "{alias.color-roles.brand.500}",
+                "value": "{alias.color-roles.neutral.900}",
                 "type": "color",
                 "description": "default color for elements on primary buttons"
               },
