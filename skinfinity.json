@@ -2,54 +2,54 @@
   "global/colors": {
     "global": {
       "colors": {
-        "blue": {
+        "purple": {
           "50": {
-            "value": "#EFF6FD",
+            "value": "#f5ecf4",
             "type": "color",
             "description": "global color mossy of weight 50"
           },
           "100": {
-            "value": "#DEECFA",
+            "value": "#dec3de",
             "type": "color",
             "description": "global color mossy of weight 100"
           },
           "200": {
-            "value": "#BDD9F5",
+            "value": "#cfa6ce",
             "type": "color",
             "description": "global color mossy of weight 200"
           },
           "300": {
-            "value": "#9DC6F0",
+            "value": "#b97db7",
             "type": "color",
             "description": "global color mossy of weight 300"
           },
           "400": {
-            "value": "#7CB3EB",
+            "value": "#ab64a9",
             "type": "color",
             "description": "global color mossy of weight 400"
           },
           "500": {
-            "value": "#5BA0E6",
+            "value": "#963d94",
             "type": "color",
             "description": "global color mossy of weight 500"
           },
           "600": {
-            "value": "#4983BC",
+            "value": "#893887",
             "type": "color",
             "description": "global color mossy of weight 600"
           },
           "700": {
-            "value": "#386593",
+            "value": "#6b2b69",
             "type": "color",
             "description": "global color mossy of weight 700"
           },
           "800": {
-            "value": "#264869",
+            "value": "#532251",
             "type": "color",
             "description": "global color mossy of weight 800"
           },
           "900": {
-            "value": "#152A40",
+            "value": "#3f1a3e",
             "type": "color",
             "description": "global color mossy of weight 900"
           }
@@ -731,7 +731,7 @@
       "typography": {
         "fontFamilies": {
           "heading": {
-            "value": "Figtree",
+            "value": "Funnel Display",
             "type": "fontFamilies",
             "description": "Font family for display fonts"
           },
@@ -950,104 +950,104 @@
       "color-roles": {
         "brand": {
           "50": {
-            "value": "{global.colors.blue.50}",
+            "value": "{global.colors.purple.50}",
             "type": "color",
             "description": "lightest shade of brand color"
           },
           "100": {
-            "value": "{global.colors.blue.100}",
+            "value": "{global.colors.purple.100}",
             "type": "color",
             "description": "lighter shade of brand color"
           },
           "200": {
-            "value": "{global.colors.blue.200}",
+            "value": "{global.colors.purple.200}",
             "type": "color",
             "description": "light shade of brand color"
           },
           "300": {
-            "value": "{global.colors.blue.300}",
+            "value": "{global.colors.purple.300}",
             "type": "color",
             "description": "standard shade of brand color"
           },
           "400": {
-            "value": "{global.colors.blue.400}",
+            "value": "{global.colors.purple.400}",
             "type": "color",
             "description": "more emphasis standard shade of brand color"
           },
           "500": {
-            "value": "{global.colors.blue.500}",
+            "value": "{global.colors.purple.500}",
             "type": "color",
             "description": "even more emphasis standard shade of brand color"
           },
           "600": {
-            "value": "{global.colors.blue.600}",
+            "value": "{global.colors.purple.600}",
             "type": "color",
             "description": "dark shade of brand color"
           },
           "700": {
-            "value": "{global.colors.blue.700}",
+            "value": "{global.colors.purple.700}",
             "type": "color",
             "description": "darker shade of brand color"
           },
           "800": {
-            "value": "{global.colors.blue.800}",
+            "value": "{global.colors.purple.800}",
             "type": "color",
             "description": "even darker shade of brand color"
           },
           "900": {
-            "value": "{global.colors.blue.900}",
+            "value": "{global.colors.purple.900}",
             "type": "color",
             "description": "darkest shade of brand color"
           }
         },
         "accent": {
           "50": {
-            "value": "{global.colors.beige.50}",
+            "value": "{global.colors.gold.50}",
             "type": "color",
             "description": "lightest shade of secondary color"
           },
           "100": {
-            "value": "{global.colors.beige.100}",
+            "value": "{global.colors.gold.100}",
             "type": "color",
             "description": "lighter shade of secondary color"
           },
           "200": {
-            "value": "{global.colors.beige.200}",
+            "value": "{global.colors.gold.200}",
             "type": "color",
             "description": "light shade of secondary color"
           },
           "300": {
-            "value": "{global.colors.beige.300}",
+            "value": "{global.colors.gold.300}",
             "type": "color",
             "description": "standard shade of secondary color"
           },
           "400": {
-            "value": "{global.colors.beige.400}",
+            "value": "{global.colors.gold.400}",
             "type": "color",
             "description": "more emphasis standard shade of secondary color"
           },
           "500": {
-            "value": "{global.colors.beige.500}",
+            "value": "{global.colors.gold.500}",
             "type": "color",
             "description": "even more emphasis standard shade of secondary color"
           },
           "600": {
-            "value": "{global.colors.beige.600}",
+            "value": "{global.colors.gold.600}",
             "type": "color",
             "description": "dark shade of secondary color"
           },
           "700": {
-            "value": "{global.colors.beige.700}",
+            "value": "{global.colors.gold.700}",
             "type": "color",
             "description": "darker shade of secondary color"
           },
           "800": {
-            "value": "{global.colors.beige.800}",
+            "value": "{global.colors.gold.800}",
             "type": "color",
             "description": "even darker shade of secondary color"
           },
           "900": {
-            "value": "{global.colors.beige.900}",
+            "value": "{global.colors.gold.900}",
             "type": "color",
             "description": "darkest shade of secondary color"
           }
@@ -2277,7 +2277,7 @@
           "secondary": {
             "filled": {
               "default": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.400}",
                 "type": "color",
                 "description": "default color for secondary buttons"
               },
@@ -2309,7 +2309,7 @@
             },
             "outlined": {
               "onDefault": {
-                "value": "{alias.color-roles.accent.500}",
+                "value": "{alias.color-roles.accent.400}",
                 "type": "color",
                 "description": "default color for items on outlined style secondary buttons"
               },
@@ -3148,16 +3148,6 @@
         "global.colors.beige.700": "fd76d8675fd728a7418b409e641142e19d28ed61",
         "global.colors.beige.800": "a6faa2049a92dc9f1e6c4c16647964a18de30d81",
         "global.colors.beige.900": "a5a38d08502a567229bbaa2c74d40a4ad4e91dd6",
-        "global.colors.blue.50": "4c4bccab6fc51b088d2732d6eca284773f88d4e4",
-        "global.colors.blue.100": "44a9401fb20714d3811c96ae8dbf1fac192d7112",
-        "global.colors.blue.200": "53efd2e5d2879539536895eb69424323eebabb46",
-        "global.colors.blue.300": "dd446b153e957eec72058121193c0bfb5946d285",
-        "global.colors.blue.400": "39033c303cbeabb487a6f810e34caaf164ed7469",
-        "global.colors.blue.500": "89a2b95d24d1abc5382c01c56cd45ddbcd6dfabd",
-        "global.colors.blue.600": "b4ab598b5bb904b840dd182d6f9fbf651895a25c",
-        "global.colors.blue.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
-        "global.colors.blue.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
-        "global.colors.blue.900": "fd20e25151193942b92bba3e90de39972bb11610",
         "global.colors.neutral.50": "077d5ca1e835ba35f3650ea73df22a0601a43116",
         "global.colors.neutral.100": "398c0a0b385823b839ab607f9ea009154c7b164f",
         "global.colors.neutral.200": "33d6456bd489df6f516234ed985a7a13f049e158",
@@ -3167,7 +3157,17 @@
         "global.colors.neutral.600": "e14cc729fcfbc86c5da1fb7ac922f3edd5eda9d4",
         "global.colors.neutral.700": "6e274c1491339e736024c4538e2d39e44f088b63",
         "global.colors.neutral.800": "78ffd70c29a752ccbb8117dd476e0bbe8f3c74e2",
-        "global.colors.neutral.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c"
+        "global.colors.neutral.900": "fa2d1a0b33a10a39dcc271c63ceba7772e730d1c",
+        "global.colors.purple.50": "4c4bccab6fc51b088d2732d6eca284773f88d4e4",
+        "global.colors.purple.100": "44a9401fb20714d3811c96ae8dbf1fac192d7112",
+        "global.colors.purple.200": "53efd2e5d2879539536895eb69424323eebabb46",
+        "global.colors.purple.300": "dd446b153e957eec72058121193c0bfb5946d285",
+        "global.colors.purple.400": "39033c303cbeabb487a6f810e34caaf164ed7469",
+        "global.colors.purple.500": "89a2b95d24d1abc5382c01c56cd45ddbcd6dfabd",
+        "global.colors.purple.600": "b4ab598b5bb904b840dd182d6f9fbf651895a25c",
+        "global.colors.purple.700": "e1b82761c9eb94f9f6a5293099a2599fa8848134",
+        "global.colors.purple.800": "b3706aa080c5ee7c8c0aeb00ccaca3b78dba7a0a",
+        "global.colors.purple.900": "fd20e25151193942b92bba3e90de39972bb11610"
       },
       "group": "Global"
     },
