@@ -2545,7 +2545,7 @@
         },
         "bttnBorders": {
           "largeSize": {
-            "value": "{alias.borders.borderRadius.md}",
+            "value": "{alias.borders.borderRadius.lg}",
             "type": "borderRadius",
             "description": "radius for large buttons"
           }
